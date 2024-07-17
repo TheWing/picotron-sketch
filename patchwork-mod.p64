@@ -1,0 +1,158 @@
+picotron cartridge // www.picotron.net
+version 2
+
+:: .info.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA0LTMwIDE5OjA5OjMzIixtb2RpZmllZD0iMjAyNC0w
+Ny0xNyAxMjoxMDoxNCIscnVudGltZT03LHN0b3JlZD0iMjAyMy0zNC0wNiAyMjozNDo1MCIsd29y
+a3NwYWNlcz17e2xvY2F0aW9uPSJtYWluLmx1YSM2NSIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2Nh
+dGlvbj0iZ2Z4LzAuZ2Z4Iix3b3Jrc3BhY2VfaW5kZXg9Mn0se2xvY2F0aW9uPSJtYXAvMC5tYXAi
+LHdvcmtzcGFjZV9pbmRleD0zfSx7bG9jYXRpb249InNmeC8wLnNmeCIsd29ya3NwYWNlX2luZGV4
+PTR9fV1dbHo0AAQAAAADAAAAMG5pbA==
+:: gfx/
+:: gfx/.info.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDIzLTEyLTA2IDAxOjEyOjM2Iixtb2RpZmllZD0iMjAyNC0w
+Ny0xNyAxMjoxMDoxNCIsc3RvcmVkPSIyMDIzLTEyLTA2IDAxOjEyOjM2Il1dbHo0AAQAAAADAAAA
+MG5pbA==
+:: gfx/0.gfx
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDIzLTEwLTA2IDAxOjE2OjIwIixtb2RpZmllZD0iMjAyNC0w
+Ny0xNyAxMTozNDo0NiIscmV2aXNpb249MjI0XV1sejQAbQAAAAUxAADzFHtbMF09e2JtcD1weHUA
+QyAQEATw8CxmbGFncz0wLHBhbl94CADPeT0wLHpvb209OH0sMQD-------------------------
+---------------------------------------nUG09OH19
+:: map/
+:: map/.info.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDIzLTEyLTA2IDAxOjEyOjM2Iixtb2RpZmllZD0iMjAyNC0w
+Ny0xNyAxMjoxMDoxNCIsc3RvcmVkPSIyMDIzLTEyLTA2IDAxOjEyOjM2Il1dbHo0AAQAAAADAAAA
+MG5pbA==
+:: map/0.map
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDIzLTEwLTA2IDAxOjE2OjIwIixtb2RpZmllZD0iMjAyNC0w
+Ny0xNyAxMTozNDo0NiIscmV2aXNpb249MjI0XV1sejQAVAAAAEQQAADwCHt7Ym1wPXVzZXJkYXRh
+KCJpMTYiLDMyAwAvIjABAP--------------------uhIikscGFuX3g9MAgA0nk9MCx0aWxlX2g9
+MTYKAGB3PTE2fX0=
+:: sfx/
+:: sfx/.info.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDIzLTEyLTA2IDAxOjEyOjM2Iixtb2RpZmllZD0iMjAyNC0w
+Ny0xNyAxMjoxMDoxNCIsc3RvcmVkPSIyMDIzLTEyLTA2IDAxOjEyOjM2Il1dbHo0AAQAAAADAAAA
+MG5pbA==
+:: sfx/0.sfx
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDIzLTEwLTA2IDAxOjE2OjIwIixtb2RpZmllZD0iMjAyNC0w
+Ny0xNyAxMTozNDo0NiIscmV2aXNpb249MjE2XV1sejQAcAAAAO4HAADfcHh1AAMoAAAEAATw-wEA
+7P8n8QEQBg8gEAEgASAB8AACEAIOEAEgDyEgATAPQPDDDygP--DGD-gKD-8PgA-3Dw0B8AkBEAYO
+MAD-OR--AQDcz-gPQAAPEED--7DwcAsA--_jH-8BAP_ZUP----8g
+:: main.lua
+--[[pod_format="raw",created="2023-10-06 01:16:20",modified="2024-07-17 11:34:46",revision=318]]
+
+p = {
+23130,20767,32125,-18403,-1633,20927,-19009,-20193,-24352,
+25793,1,-20033,2561,-20129,6943,-2625,31455,3855,21845
+}
+rs={}
+rk={}
+
+for i=1,13 do
+	rs[i] = {rnd(50),rnd(1.5),rnd(p),rnd(50),rnd(1.5),rnd(p)}
+	rk[i] = {0,0,0,0,0,0}
+end
+
+function lerp(a,b,t)
+	return a+(b-a)*t
+end
+
+function update_rand(tt,s)
+	srand(tt)
+	for ii=1,13 do
+		local rrs=rs[ii]
+		local rrk=rk[ii]
+		rrs = {rnd(500),rnd(1500),rnd(p),rnd(500),rnd(1500),rnd(p)}
+		for i=1,6 do
+			rrk[i]=lerp(rrk[i],rrs[i],s)
+		end
+	end
+end
+
+function draw_back()
+	back = userdata("u8", 480, 270)
+	set_draw_target(back)
+	cls(theme"desktop0")
+	for i=0, 12 do
+		local rr=rk[i+1]
+		local x = -240 + i * 80 + rr[1]/10-- rnd(50)
+		local dx = 1+rr[2]/1000
+		
+		color(theme"desktop0" + theme"desktop1"*256)
+		
+		fillp(rr[3])
+		for y=0,269 do
+			line(x,y,480,y)
+			x += dx
+		end
+		
+		local x = -240 + i * 80 + rr[4]/10
+		local dx = 1+rr[5]/1000
+		
+		fillp(rr[6])
+		for y=269,0,-1 do
+			line(x,y,480,y)
+			x += dx
+		end
+		
+	end
+	
+end
+function _init()
+	draw_back(t())
+end
+
+function _update()
+
+	update_rand(t(),0.7)
+end
+
+function _draw()
+
+	hash_pod = pod{
+		theme"desktop0",
+		theme"desktop1",
+		theme"desktop_pattern",		
+		theme"desktop_pattern_spacing"
+	}
+	
+	-- regenerate when settings change
+--	if (hash_pod ~= last_hash_pod) then
+		draw_back()
+	--end
+	
+	
+	last_hash_pod = hash_pod
+	
+
+	blit(back)
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:: [eoc]
