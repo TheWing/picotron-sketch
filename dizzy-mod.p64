@@ -1,0 +1,218 @@
+picotron cartridge // www.picotron.net
+version 2
+
+:: .info.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDIzLTEwLTIyIDA5OjI5OjE3Iixtb2RpZmllZD0iMjAyNC0w
+Ny0xNyAxODoyMTowOSIscnVudGltZT03LHdvcmtzcGFjZXM9e3tsb2NhdGlvbj0ibWFpbi5sdWEj
+NjUiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249ImFzZGYubHVhIix3b3Jrc3BhY2VfaW5k
+ZXg9Mn0se2xvY2F0aW9uPSJhc2RmMi5sdWEiLHdvcmtzcGFjZV9pbmRleD0zfX1dXWx6NAAEAAAA
+AwAAADBuaWw=
+:: _meta/
+:: _meta/.info.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDIzLTEwLTIyIDA5OjI4OjMyIixtb2RpZmllZD0iMjAyNC0w
+Ny0xNyAxODoyMTowOSJdXWx6NAAEAAAAAwAAADBuaWw=
+:: _meta/workspaces.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDIzLTI4LTIyIDA5OjI4OjMyIixtb2RpZmllZD0iMjAyMy0y
+Mi0zMCAyMzoyMjowNyIscmV2aXNpb249NDk1OV1dbHo0AC0AAAArAAAA8Bx7e2Nwcm9qX2ZpbGU9
+Im1haW4ubHVhIix3b3Jrc3BhY2VfaW5kZXg9MX19
+:: gfx/
+:: gfx/.info.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA3LTE3IDE3OjI2OjUwIixtb2RpZmllZD0iMjAyNC0w
+Ny0xNyAxODoyMTowOSJdXWx6NAAEAAAAAwAAADBuaWw=
+:: map/
+:: map/.info.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA3LTE3IDE3OjI3OjEyIixtb2RpZmllZD0iMjAyNC0w
+Ny0xNyAxODoyMTowOSJdXWx6NAAEAAAAAwAAADBuaWw=
+:: sfx/
+:: sfx/.info.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA3LTE3IDA5OjM0OjQwIixtb2RpZmllZD0iMjAyNC0w
+Ny0xNyAxODoyMTowOSJdXWx6NAAEAAAAAwAAADBuaWw=
+:: asdf.lua
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA3LTE3IDE3OjI2OjUwIixtb2RpZmllZD0iMjAyNC0w
+Ny0xNyAxODoyMDozNSIscmV2aXNpb249MTU2XV1sejQAbQAAAAUxAADzFHtbMF09e2JtcD1weHUA
+QyAQEATw8CxmbGFncz0wLHBhbl94CADPeT0wLHpvb209OH0sMQD-------------------------
+---------------------------------------nUG09OH19
+:: asdf2.lua
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA3LTE3IDE3OjI3OjM4Iixtb2RpZmllZD0iMjAyNC0w
+Ny0xNyAxODoyMDozNSIscmV2aXNpb249MTUzXV1sejQAWgAAAEsQAADwCHt7Ym1wPXVzZXJkYXRh
+KCJpMTYiLDMyAwAvIjABAP--------------------uhIikscGFuX3g9MAgA0nk9MCx0aWxlX2g9
+MTYKABB3CgCAem9vbT0xfX0=
+:: main.lua
+--[[pod_format="raw",created="2023-10-22 09:29:33",modified="2024-07-17 18:20:35",revision=3301]]
+-- dizzy by zep
+rr={0  ,29 ,126,0  ,171,95 ,194,255,255,255,255,0  ,41 ,131,255,255,41 ,17 ,66 ,18 ,116,73 ,162,243,190,255,168,0  ,6  ,117,255,255}
+gg={0  ,43 ,37 ,135,82 ,87 ,195,141,0  ,163,236,228,173,118,119,204,24 ,29 ,33 ,83 ,47 ,51 ,136,239,18 ,108,231,181,90 ,70 ,110,157}
+bb={0  ,83 ,83 ,81 ,54 ,79 ,199,232,77 ,0  ,39 ,54 ,255,156,168,170,20 ,53 ,54 ,89 ,41 ,59 ,121,125,80 ,36 ,46 ,67 ,181,101,89 ,129}
+
+for i=31,64,15 do
+	for ii=1,32 do
+		local aa,rr,gg,bb=
+		256,--aa
+		rr[ii]//2,--rr
+		gg[ii]//2,--gg
+		bb[ii]//2 --bb
+		local argb=bb//1|gg//1<<8|rr//1<<16|aa//1<<24
+		pal(i+ii-1,argb,2)
+		end
+end
+
+function identity_matrix()
+	local m = userdata("f64",3,4)
+	set(m, 0, 0,
+		1, 0, 0, 
+		0, 1, 0, 
+		0, 0, 1, 
+		0, 0, 0
+	)
+	return m
+end
+
+
+-- rotate point x,y around origin by angle a
+function rot2d(x,y,a)
+	return cos(a)*x - sin(a)*y, cos(a)*y + sin(a)*x
+end
+
+-- create a transformation matrix that rotates around a given axis by angle
+-- axis is a string: "x", "y", "z"
+function rotation_matrix(axis, angle)
+	
+	-- component offsets depend on which axis to rotate around
+	local dat = {x={3,6}, y={0,6}, z={0,3}}
+	local c0,c1 = dat[axis][1], dat[axis][2]
+	
+	local m = identity_matrix()
+	
+	-- rotate the component vectors (each one is a column from rows 0..2)
+	for column=0,2 do
+		m[column + c0], m[column + c1] = rot2d(m[column + c0], m[column + c1], angle)
+	end
+	return m
+end
+
+function update_points()
+	local ti=t()*0.1
+	local tt=ti
+	for i=1,3000 do
+				--local y = cos(x/19) + sin(z/32) - cos(z/35)*sin(x/47)*4 + 3
+				-- x, y, z, colour
+				-- note: we can store the colour here, because matmul3d
+				-- only cares about the first 3 values of each row!
+				tt=ti+((i+tt)%3000)*0.01+i*sin(t()*0.001+i)*0.01
+				p[i] = vec(
+					cos(i/(220.4+sin(tt)*0.5))*(140.7+sin(tt)*10),
+					cos(i/(264-sin(tt)*0.5))*(30.2-cos(tt)*10),
+					cos(i/(285+cos(tt)*0.5))*(31.2+cos(tt)*10),
+					6+(i)%3*2,
+					cos(i/80)*200+110) 
+	end
+end
+
+function _init()
+
+	-- make points
+	p={} n = 55
+	for i=1,3000 do
+				--local y = cos(x/19) + sin(z/32) - cos(z/35)*sin(x/47)*4 + 3
+				-- x, y, z, colour
+				-- note: we can store the colour here, because matmul3d
+				-- only cares about the first 3 values of each row!
+				p[#p+1] = vec(
+					cos(i/220.4)*140.7,
+					cos(i/264)*30.2,
+					cos(i/285)*31.2,
+					8+(i)%16,
+					cos(i/80)*200+110) 
+	end
+	
+	-- create a userdata the same size, used for z-sorting
+	order = userdata("f64", 2, #p)
+	for i=0,#p-1 do
+		set(order, 0, i, i+1) -- starting score
+		set(order, 1, i, i+1) -- index
+	end
+	
+end	
+
+f=0
+
+function _draw()
+	--cls()
+	local pk=0
+	f=f+7
+	for x=0,480,4 do
+		for y=0,270,4 do
+			pk=peek(0x10000+x+(y+(f//4)%4)*480+f%4)
+			if pk>0 and pk<30 then 
+				poke(0x10000+x+(y+(f//4)%4)*480+f%4,pk+31)
+			else
+				poke(0x10000+x+(y+(f//4)%4)*480+f%4,0)
+			end
+		end
+	end
+	
+	local ww = 240.0
+	
+	-- create 3 matrices that modify the orientation and position of
+	-- the landscape (in this demo, there is no concept of a camera)
+	update_points()	
+
+	spin_around = rotation_matrix("x",t()/(cos(t()/10)*2+250))        
+	tilt        = rotation_matrix("x",0.02)          -- 0 to stay flat
+	shift_z     = identity_matrix() shift_z[11] = 80 -- try 20 for close up
+	
+	-- matmul3d() is used to multiply 3x4 matrices
+	-- here the 3 transformations will be applied from left to right
+	
+	m = spin_around:matmul3d(tilt)
+	m = m:matmul3d(rotation_matrix("y",t()/230))
+	m = m:matmul3d(rotation_matrix("z",t()/300))
+	m = m:matmul3d(shift_z)
+	
+	-- (this gives the same result as applying each matrix separately in the
+	-- inner loop: v = v:matmul3d(spinaround) v = matmul3d(tilt) etc)
+	
+	-------- sort ---------
+
+	-- (using camera z values from last frame!)
+	
+	order:sort()
+	
+	-------- draw ---------
+	
+	local v = vec(0,0,0) -- reused for every transformed point
+	
+	for i=0,#order-1,2 do
+		local v0 = p[order[i+1]] -- grab from the sorted list
+
+		-- apply the 3 transformations using a single matrix
+		-- (m means spin around, tilt, and then shift along z)
+		-- write the output to v instead of creating a new userdata 
+		-- ( faster than e.g. v = matmul3d(m, v0) )
+		v0:matmul3d(m, v)
+		
+		local sz = v.z
+		
+		order[i] = -sz -- set the score for sorting next frame (draw furthest first)
+
+		if (sz > 0.05) then
+			-- in front of viewplane; draw it
+			local ww_div_sz = ww / sz		
+			local sx = 240.0 + v.x * ww_div_sz
+			local sy = 135 + v.y * ww_div_sz
+			--pset(sx,sy,v0.u)
+			circfill(sx, sy, v0[4]/sz, v0[3])
+		end
+	end
+	
+--[[
+	local str=string.format("points: %d  cpu: %3.3f (%dfps)",
+		#p, stat(1), stat(7))
+	print(str, 11, 11, 0)
+	print(str, 10, 10, 6)
+]]
+	
+end
+
+
+:: [eoc]
