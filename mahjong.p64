@@ -1,42 +1,32 @@
 picotron cartridge // www.picotron.net
 version 2
 
-:: .info.pod
-b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA3LTIzIDAzOjI5OjQzIixtb2RpZmllZD0iMjAyNC0w
-Ny0yNCAxOTo1NTozMCIscnVudGltZT03LHdvcmtzcGFjZXM9e3tsb2NhdGlvbj0ibWFpbi5sdWEj
-MTE3Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJ0aWxlcy5sdWEjMzAiLHdvcmtzcGFj
-ZV9pbmRleD0xfSx7bG9jYXRpb249InBsYXllcnMubHVhIzE1Iix3b3Jrc3BhY2VfaW5kZXg9MX0s
-e2xvY2F0aW9uPSJldmFsLmx1YSMxMDgiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249InV0
-aWwubHVhIzUiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249ImJvYXJkLmx1YSMxIix3b3Jr
-c3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJnZngvMC5nZngiLHdvcmtzcGFjZV9pbmRleD0yfSx7
-bG9jYXRpb249Im1hcC8wLm1hcCIsd29ya3NwYWNlX2luZGV4PTN9LHtsb2NhdGlvbj0ic2Z4LzAu
-c2Z4Iix3b3Jrc3BhY2VfaW5kZXg9NH19XV1sejQABAAAAAMAAAAwbmls
 :: gfx/
 :: gfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA3LTIyIDIwOjUwOjU4Iixtb2RpZmllZD0iMjAyNC0w
-Ny0yNCAxOTo1NTozMCJdXWx6NAAEAAAAAwAAADBuaWw=
+Ny0yNCAyMDoyODowNCJdXWx6NAAEAAAAAwAAADBuaWw=
 :: gfx/0.gfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA3LTIyIDIwOjUwOjU5Iixtb2RpZmllZD0iMjAyNC0w
-Ny0yNCAxOTo1NDo1NiIscmV2aXNpb249MjU3OV1dbHo0ALcAAAAXMQAA8xV7WzBdPXtibXA9cHh1
+Ny0yNCAyMDoyODowNCIscmV2aXNpb249MjY5NV1dbHo0ALcAAAAXMQAA8xV7WzBdPXtibXA9cHh1
 AEMgEBgE8P9xLGZsYWdzPTAscGFuX3gIANd5PTAsem9vbT0xMH0sMwAQGDMALP8yNAAzLjI1NwBC
 LTAuNToAGTc5AF8QEATw8GsACx84MQDwXyAE8P-xMgALHzVjAB4PiQH-NgHcAgM1AADyAg9pAB0P
 MQD-----------------------------------------------------------_sUG09OH19
 :: map/
 :: map/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA3LTIyIDIwOjUwOjU4Iixtb2RpZmllZD0iMjAyNC0w
-Ny0yNCAxOTo1NTozMCJdXWx6NAAEAAAAAwAAADBuaWw=
+Ny0yNCAyMDoyODowNCJdXWx6NAAEAAAAAwAAADBuaWw=
 :: map/0.map
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA3LTIyIDIwOjUwOjU5Iixtb2RpZmllZD0iMjAyNC0w
-Ny0yNCAxOTo1NDo1NiIscmV2aXNpb249MjU2MF1dbHo0AFsAAABLEAAA8Ah7e2JtcD11c2VyZGF0
-YSgiaTE2IiwzMgMALyIwAQD--------------------7oSIpLHBhbl94PTAIANJ5PTAsdGlsZV9o
-PTI0CgDQdz0xNix6b29tPTF9fQ==
+Ny0yNCAyMDoyODowNCIscmV2aXNpb249MjY3Nl1dbHo0AGkAAABYEAAA8Ah7e2JtcD11c2VyZGF0
+YSgiaTE2IiwzMgMALyIwAQD--------------------78QgiKSxoaWRkZW49ZmFsc2UscGFuX3g9
+MAgA0nk9MCx0aWxlX2g9MjQKANB3PTE2LHpvb209MX19
 :: sfx/
 :: sfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA3LTIyIDIwOjUwOjU4Iixtb2RpZmllZD0iMjAyNC0w
-Ny0yNCAxOTo1NTozMCJdXWx6NAAEAAAAAwAAADBuaWw=
+Ny0yNCAyMDoyODowNCJdXWx6NAAEAAAAAwAAADBuaWw=
 :: sfx/0.sfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA3LTIyIDIwOjUwOjU5Iixtb2RpZmllZD0iMjAyNC0w
-Ny0yNCAxOTo1NDo1NiIscmV2aXNpb249MjU1NV1dbHo0AMsBAAA9FQAA-ytweHUAAygAAAQABA9A
+Ny0yNCAyMDoyODowNCIscmV2aXNpb249MjY3MV1dbHo0AMsBAAA9FQAA-ytweHUAAygAAAQABA9A
 EAIOAAGgASACoA4ADxAADfDKAQIIBAUGBwEP_JAIBAoIBA8NDw4PDwIP_PD-AQDr-SbSARAGDyAQ
 ASABIAHwAAIQAgwQASAPISABMA7www8oD--wxg-4Cg--D4AP9w8NAfAJARAGDC8A8AIPDhABMA9u
 kA8RAiAMUAEPfw8A-wr-oAggD3IgD4ggD0LwAwkgDxMgC-BvAfDHUQAQECBAAAFPAN8PDVABBBAB
@@ -46,7 +36,7 @@ ME8aI08fI08cEwUvIQ8ePxlPGhMHPx8-HkURAPEHRCNEI0QT1BPUE4RMI0wjTBPcE9wTjD4ABEYA
 DAgAkA4wPy0jDyo-LwUA8AIrLygPLSMJYwkjDyofLxMbExIA-xQJcz8DI0YjhiMGYwYjJhMWE3Zz
 PCNMI4wjDGMMIywTHBN8c1oAAgMIAB8NCAD---------------8KUPOw8P85
 :: board.lua
---[[pod_format="raw",created="2024-07-24 18:54:09",modified="2024-07-24 19:54:56",revision=96]]
+--[[pod_format="raw",created="2024-07-24 18:54:09",modified="2024-07-24 20:28:04",revision=213]]
 function draw_hand(s,m)
 	for i=1,#hand1 do
 		if turn%4==0 or i<14 then 
@@ -568,7 +558,7 @@ function hon(x,y,w,h,num)
 	end
 end
 :: eval.lua
---[[pod_format="raw",created="2024-07-23 04:18:20",modified="2024-07-24 19:54:56",revision=389]]
+--[[pod_format="raw",created="2024-07-23 04:18:20",modified="2024-07-24 20:28:04",revision=505]]
 SEAT={1,0,0,0}
 	-- E N W S
 
@@ -802,7 +792,7 @@ Thirteen Terminals   : 160
 Seven Pairs          :  30
 ]]--
 :: main.lua
---[[pod_format="raw",created="2024-07-22 20:50:59",modified="2024-07-24 19:54:56",revision=3986]]
+--[[pod_format="raw",created="2024-07-22 20:50:59",modified="2024-07-24 20:28:04",revision=4147]]
 include("tiles.lua")
 include("players.lua")
 include("eval.lua")
@@ -815,6 +805,7 @@ H=270
 SELECT=10
 SPEED=4
 
+exhausted=0
 m={}
 
 t={}
@@ -833,12 +824,14 @@ pond1={}
 pond2={}
 pond3={}
 pond4={}
+evalhand={}
 turn=0
 pon=false
 chi=false
 kan=false
 ron=false
 temp_tile={}
+last_tile=0
 
 local function shuffle(t)
     local s = {}
@@ -879,6 +872,7 @@ function _init()
 		table.remove(t,1)
 	end
 	table.insert(hand1,wall[1])
+	last_tile=#hand1
 	table.remove(wall,1)
 end	
 sel=13
@@ -889,153 +883,174 @@ last=0
 function _update()
 	cls(19)
 	wait=max(0,wait-1)
-	draw_other_hands()
+	draw_other_hands(exhausted==1)
 	
 	m=update_mouse()
 	if wsel!=sel then 
 		sfx(move,-1,rnd(8)//1,1) 
 		wsel=sel
 	end
-	if btnp(2) then move=1 end
-	if btnp(3) then move=0 end
-	if btnp(0) then 
-		if move==1 then
-			if sel==0 then 
-				hand1[sel+1],hand1[14]=hand1[14],hand1[sel+1]
-			else
-				hand1[sel+1],hand1[sel]=hand1[sel],hand1[sel+1]
-			end
-		end
-		sel=sel-1 
-	end
-	if btnp(1) then
-		if move==1 then
-			if sel==13 then	
-				hand1[1],hand1[sel+1]=hand1[sel+1],hand1[1]
-			else
-				hand1[sel+2],hand1[sel+1]=hand1[sel+1],hand1[sel+2]
-			end
-		end
-		sel=sel+1 
-	end
-	sel=sel%#hand1
-	if turn%4!=0 then 
-		score=evaluate({hand1[1],hand1[2],hand1[3],hand1[4],hand1[5],hand1[6],hand1[7],hand1[8],hand1[9],hand1[10],hand1[11],hand1[12],hand1[13]})
-	else
-		score=evaluate(hand1)
-	end
-	pins=score[1]
-	bams=score[2]
-	mans=score[3]
-	dras=score[13]
-	wins=score[12]
 	draw_ponds()
 	draw_opens()
 	draw_hand(sel+1,move)
-	if (chi and not pon) and btnp(4) then 
-		table.insert(wall,hand1[14])
-		table.remove(hand1,14)
-		table.insert(open1,pond4[#pond4])
-		table.remove(pond4,#pond4)
-		turn=turn+1
+	if #wall>14 then 
+		exhausted=0
+	else
+		exhausted=1
 	end
-	if (pon and not chi) and btnp(4) then 
-		table.insert(wall,hand1[14])
-		table.remove(hand1,14)
-		if last==1 then 
-			ty=pond2[#pond2][1]
-			nu=pond2[#pond2][2]
-			pond2[#pond2][9]=1
-			table.insert(open1,pond2[#pond2])
-			table.remove(pond2,#pond2)
+	if exhausted==0 then
+		if btnp(2) then move=1 end
+		if btnp(3) then move=0 end
+		if btnp(0) then 
+			if move==1 then
+				if sel==0 then 
+					hand1[sel+1],hand1[14]=hand1[14],hand1[sel+1]
+				else
+					hand1[sel+1],hand1[sel]=hand1[sel],hand1[sel+1]
+				end
+			end
+			sel=sel-1 
 		end
-		if last==2 then 
-			ty=pond3[#pond3][1]
-			nu=pond3[#pond3][2]
-			pond3[#pond3][9]=1
-			table.insert(open1,pond3[#pond3])
-			table.remove(pond3,#pond3)
+		if btnp(1) then
+			if move==1 then
+				if sel==13 then	
+					hand1[1],hand1[sel+1]=hand1[sel+1],hand1[1]
+				else
+					hand1[sel+2],hand1[sel+1]=hand1[sel+1],hand1[sel+2]
+				end
+			end
+			sel=sel+1 
 		end
-		if last==3 then 
-			ty=pond4[#pond4][1]
-			nu=pond4[#pond4][2]
-			pond4[#pond4][9]=1
-			table.insert(open1,pond4[#pond4])
-			table.remove(pond4,#pond4)
-		end
-		for i=1,#hand1 do
-			temp_tile=hand1[i]
-			if temp_tile!=nil then 
-				if temp_tile[1]==ty and temp_tile[2]==nu then
-					hand1[i][9]=0
-					table.insert(open1,hand1[i])
-					table.remove(hand1,i)
-				end	
+		sel=sel%#hand1
+		evalhand={}
+		if turn%4!=0 then 
+			for i=1,#hand1-1 do
+				table.insert(evalhand,hand1[i])
+			end
+		else
+			for i=1,#hand1 do
+				table.insert(evalhand,hand1[i])
 			end
 		end
-		turn=turn+1
+		for i=1,#open1 do
+			table.insert(evalhand,open1[i])
+		end
+		score=evaluate(evalhand)
+		pins=score[1]
+		bams=score[2]
+		mans=score[3]
+		dras=score[13]
+		wins=score[12]
+		if (chi and not pon) and btnp(4) then 
+			last_tile=#hand1
+			table.insert(wall,hand1[last_tile])
+			table.remove(hand1,last_tile)
+			table.insert(open1,pond4[#pond4])
+			table.remove(pond4,#pond4)
+			turn=turn+1
+		end
+		if (pon and not chi) and btnp(4) then 
+			last_tile=#hand1
+			table.insert(wall,hand1[last_tile])
+			table.remove(hand1,last_tile)
+			if last==1 then 
+				ty=pond2[#pond2][1]
+				nu=pond2[#pond2][2]
+				pond2[#pond2][9]=1
+				table.insert(open1,pond2[#pond2])
+				table.remove(pond2,#pond2)
+			end
+			if last==2 then 
+				ty=pond3[#pond3][1]
+				nu=pond3[#pond3][2]
+				pond3[#pond3][9]=1
+				table.insert(open1,pond3[#pond3])
+				table.remove(pond3,#pond3)
+			end
+			if last==3 then 
+				ty=pond4[#pond4][1]
+				nu=pond4[#pond4][2]
+				pond4[#pond4][9]=1
+				table.insert(open1,pond4[#pond4])
+				table.remove(pond4,#pond4)
+			end
+			for i=1,#hand1 do
+				temp_tile=hand1[i]
+				if temp_tile!=nil then 
+					if temp_tile[1]==ty and temp_tile[2]==nu then
+						hand1[i][9]=0
+						table.insert(open1,hand1[i])
+						table.remove(hand1,i)
+					end	
+				end
+			end
+			turn=turn+1
+		end
+		if (chi or pon) and btnp(5) then
+			turn=turn+1
+			wait=0
+		end
+		if (btnp(4) or turn%4!=0) and (not chi and not pon) and wait==0 then 
+			sfx(2,-1,rnd(8)//1,1) 
+			if turn%4==0 then 
+				table.insert(pond1,hand1[sel+1])
+				table.remove(hand1,sel+1)
+				-- the whole round???
+				--[[
+				play_p2()
+				play_p3()
+				play_p4()
+				--]]
+				table.insert(hand1,wall[1])
+				lasttile=#hand1
+				table.remove(wall,1)
+				wait=SPEED
+			end
+			if turn%4==1 then
+				play_p2()
+				wait=SPEED
+			end
+			if turn%4==2 then
+				play_p3()
+				wait=SPEED
+			end
+			if turn%4==3 then
+				play_p4()
+				wait=SPEED
+			end
+			last=turn%4
+			if last==1 then
+				d_type=pond2[#pond2][1]
+				d_num=pond2[#pond2][2]
+			elseif last==2 then
+				d_type=pond3[#pond3][1]
+				d_num=pond3[#pond3][2]
+			elseif last==3 then
+				d_type=pond4[#pond4][1]
+				d_num=pond4[#pond4][2]
+			end
+			if last>0 then
+				pon=check_pon(d_type,d_num,pins,mans,bams,wins,dras)
+			end
+			if last==3 then
+				chi=check_chi(d_type,d_num,pins,mans,bams,wins,dras)
+			end
+			if not chi and not pon then 
+				turn=(turn+1)
+			end
+		end
+		if (chi and not pon) then print("CHI?",W/2,H/2,7) end
+		if (pon and not chi) then print("PON?",W/2,H/2-8,7) end
+		
+		if (chi or pon) and turn%4==0 then 
+			chi=false
+			pon=false
+			wait=0
+		end
+		debug_score(score)
+	else
+		--game over
 	end
-	if (chi or pon) and btnp(5) then
-		turn=turn+1
-		wait=0
-	end
-	if (btnp(4) or turn%4!=0) and (not chi and not pon) and wait==0 then 
-		sfx(2,-1,rnd(8)//1,1) 
-		if turn%4==0 then 
-			table.insert(pond1,hand1[sel+1])
-			table.remove(hand1,sel+1)
-			-- the whole round???
-			--[[
-			play_p2()
-			play_p3()
-			play_p4()
-			--]]
-			table.insert(hand1,wall[1])
-			table.remove(wall,1)
-			wait=SPEED
-		end
-		if turn%4==1 then
-			play_p2()
-			wait=SPEED
-		end
-		if turn%4==2 then
-			play_p3()
-			wait=SPEED
-		end
-		if turn%4==3 then
-			play_p4()
-			wait=SPEED
-		end
-		last=turn%4
-		if last==1 then
-			d_type=pond2[#pond2][1]
-			d_num=pond2[#pond2][2]
-		elseif last==2 then
-			d_type=pond3[#pond3][1]
-			d_num=pond3[#pond3][2]
-		elseif last==3 then
-			d_type=pond4[#pond4][1]
-			d_num=pond4[#pond4][2]
-		end
-		if last>0 then
-			pon=check_pon(d_type,d_num,pins,mans,bams,wins,dras)
-		end
-		if last==3 then
-			chi=check_chi(d_type,d_num,pins,mans,bams,wins,dras)
-		end
-		if not chi and not pon then 
-			turn=(turn+1)
-		end
-	end
-	if (chi and not pon) then print("CHI?",W/2,H/2,7) end
-	if (pon and not chi) then print("PON?",W/2,H/2-8,7) end
-	
-	if (chi or pon) and turn%4==0 then 
-		chi=false
-		pon=false
-		wait=0
-	end
-	debug_score(score)
 	--line(0,0,W,H,7)
 	--line(W,0,0,H,7)
 	--debug_tiles(16,16,20+sin(time()*0.2)*8)
@@ -1168,10 +1183,10 @@ function debug_score(score)
 	print("su "..score[9],1,70,7)
 	print("pa "..score[10],1,80,7)
 	
-	print("turn "..turn,W-48,0,7)
+	print("wall "..#wall.." turn "..turn,W-88,0,7)
 end
 :: players.lua
---[[pod_format="raw",created="2024-07-23 03:58:46",modified="2024-07-24 19:54:56",revision=365]]
+--[[pod_format="raw",created="2024-07-23 03:58:46",modified="2024-07-24 20:28:04",revision=481]]
 function play_p2()
 	placeholder_player(hand2,pond2)
 end
@@ -1188,7 +1203,7 @@ function placeholder_player(hand,pond)
 	table.remove(wall,1)
 end
 :: tiles.lua
---[[pod_format="raw",created="2024-07-23 01:05:22",modified="2024-07-24 19:54:56",revision=1428]]
+--[[pod_format="raw",created="2024-07-23 01:05:22",modified="2024-07-24 20:28:04",revision=1545]]
 GREEN=3
 RED=24
 BLUE=16
@@ -1651,10 +1666,20 @@ function hon(x,y,w,h,num)
 	end
 end
 :: util.lua
---[[pod_format="raw",created="2024-07-24 10:58:30",modified="2024-07-24 19:54:56",revision=137]]
+--[[pod_format="raw",created="2024-07-24 10:58:30",modified="2024-07-24 20:28:04",revision=253]]
 function update_mouse()
 	local	mx,my,mb=mouse()
 	local mlb,mrb,mmb=mb&1>0,mb&2>0,mb&4>0
 	return {mx,my,mlb,mrb,mmb}
 end
+:: .info.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA3LTIzIDAzOjI5OjQzIixtb2RpZmllZD0iMjAyNC0w
+Ny0yNCAyMDoyODowNCIscnVudGltZT04LHdvcmtzcGFjZXM9e3tsb2NhdGlvbj0ibWFpbi5sdWEj
+MjU3Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJ0aWxlcy5sdWEjMzAiLHdvcmtzcGFj
+ZV9pbmRleD0xfSx7bG9jYXRpb249InBsYXllcnMubHVhIzE1Iix3b3Jrc3BhY2VfaW5kZXg9MX0s
+e2xvY2F0aW9uPSJldmFsLmx1YSMxMDgiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249InV0
+aWwubHVhIzUiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249ImJvYXJkLmx1YSMxIix3b3Jr
+c3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJnZngvMC5nZngiLHdvcmtzcGFjZV9pbmRleD0yfSx7
+bG9jYXRpb249Im1hcC8wLm1hcCIsd29ya3NwYWNlX2luZGV4PTN9LHtsb2NhdGlvbj0ic2Z4LzAu
+c2Z4Iix3b3Jrc3BhY2VfaW5kZXg9NH19XV1sejQABAAAAAMAAAAwbmls
 :: [eoc]
