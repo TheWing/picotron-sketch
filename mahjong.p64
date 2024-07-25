@@ -4,29 +4,29 @@ version 2
 :: gfx/
 :: gfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA3LTIyIDIwOjUwOjU4Iixtb2RpZmllZD0iMjAyNC0w
-Ny0yNCAyMDoyODowNCJdXWx6NAAEAAAAAwAAADBuaWw=
+Ny0yNSAwMDo1Mzo1OCJdXWx6NAAEAAAAAwAAADBuaWw=
 :: gfx/0.gfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA3LTIyIDIwOjUwOjU5Iixtb2RpZmllZD0iMjAyNC0w
-Ny0yNCAyMDoyODowNCIscmV2aXNpb249MjY5NV1dbHo0ALcAAAAXMQAA8xV7WzBdPXtibXA9cHh1
+Ny0yNSAwMDo1Mzo1OCIscmV2aXNpb249Mjk3MV1dbHo0ALcAAAAXMQAA8xV7WzBdPXtibXA9cHh1
 AEMgEBgE8P9xLGZsYWdzPTAscGFuX3gIANd5PTAsem9vbT0xMH0sMwAQGDMALP8yNAAzLjI1NwBC
 LTAuNToAGTc5AF8QEATw8GsACx84MQDwXyAE8P-xMgALHzVjAB4PiQH-NgHcAgM1AADyAg9pAB0P
 MQD-----------------------------------------------------------_sUG09OH19
 :: map/
 :: map/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA3LTIyIDIwOjUwOjU4Iixtb2RpZmllZD0iMjAyNC0w
-Ny0yNCAyMDoyODowNCJdXWx6NAAEAAAAAwAAADBuaWw=
+Ny0yNSAwMDo1Mzo1OCJdXWx6NAAEAAAAAwAAADBuaWw=
 :: map/0.map
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA3LTIyIDIwOjUwOjU5Iixtb2RpZmllZD0iMjAyNC0w
-Ny0yNCAyMDoyODowNCIscmV2aXNpb249MjY3Nl1dbHo0AGkAAABYEAAA8Ah7e2JtcD11c2VyZGF0
+Ny0yNSAwMDo1Mzo1OCIscmV2aXNpb249Mjk1Ml1dbHo0AGkAAABYEAAA8Ah7e2JtcD11c2VyZGF0
 YSgiaTE2IiwzMgMALyIwAQD--------------------78QgiKSxoaWRkZW49ZmFsc2UscGFuX3g9
 MAgA0nk9MCx0aWxlX2g9MjQKANB3PTE2LHpvb209MX19
 :: sfx/
 :: sfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA3LTIyIDIwOjUwOjU4Iixtb2RpZmllZD0iMjAyNC0w
-Ny0yNCAyMDoyODowNCJdXWx6NAAEAAAAAwAAADBuaWw=
+Ny0yNSAwMDo1Mzo1OCJdXWx6NAAEAAAAAwAAADBuaWw=
 :: sfx/0.sfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA3LTIyIDIwOjUwOjU5Iixtb2RpZmllZD0iMjAyNC0w
-Ny0yNCAyMDoyODowNCIscmV2aXNpb249MjY3MV1dbHo0AMsBAAA9FQAA-ytweHUAAygAAAQABA9A
+Ny0yNSAwMDo1Mzo1OCIscmV2aXNpb249Mjk0N11dbHo0AMsBAAA9FQAA-ytweHUAAygAAAQABA9A
 EAIOAAGgASACoA4ADxAADfDKAQIIBAUGBwEP_JAIBAoIBA8NDw4PDwIP_PD-AQDr-SbSARAGDyAQ
 ASABIAHwAAIQAgwQASAPISABMA7www8oD--wxg-4Cg--D4AP9w8NAfAJARAGDC8A8AIPDhABMA9u
 kA8RAiAMUAEPfw8A-wr-oAggD3IgD4ggD0LwAwkgDxMgC-BvAfDHUQAQECBAAAFPAN8PDVABBBAB
@@ -36,7 +36,7 @@ ME8aI08fI08cEwUvIQ8ePxlPGhMHPx8-HkURAPEHRCNEI0QT1BPUE4RMI0wjTBPcE9wTjD4ABEYA
 DAgAkA4wPy0jDyo-LwUA8AIrLygPLSMJYwkjDyofLxMbExIA-xQJcz8DI0YjhiMGYwYjJhMWE3Zz
 PCNMI4wjDGMMIywTHBN8c1oAAgMIAB8NCAD---------------8KUPOw8P85
 :: board.lua
---[[pod_format="raw",created="2024-07-24 18:54:09",modified="2024-07-24 20:28:04",revision=213]]
+--[[pod_format="raw",created="2024-07-24 18:54:09",modified="2024-07-25 00:53:58",revision=494]]
 function draw_hand(s,m)
 	for i=1,#hand1 do
 		if turn%4==0 or i<14 then 
@@ -173,7 +173,7 @@ function draw_ponds()
 		h=w*1.5
 		y=H/5*1.7+((ii)%6)*(w+2)
 		x=W/3*1.1-(ii)//6*(h+3)
-		tile(til[1],til[2],x,y,w,h,col,3)	
+		tile(til[1],til[2],x,y,w,h,col,4)	
 	
 	end	
 end
@@ -558,7 +558,7 @@ function hon(x,y,w,h,num)
 	end
 end
 :: eval.lua
---[[pod_format="raw",created="2024-07-23 04:18:20",modified="2024-07-24 20:28:04",revision=505]]
+--[[pod_format="raw",created="2024-07-23 04:18:20",modified="2024-07-25 00:53:58",revision=782]]
 SEAT={1,0,0,0}
 	-- E N W S
 
@@ -792,7 +792,7 @@ Thirteen Terminals   : 160
 Seven Pairs          :  30
 ]]--
 :: main.lua
---[[pod_format="raw",created="2024-07-22 20:50:59",modified="2024-07-24 20:28:04",revision=4147]]
+--[[pod_format="raw",created="2024-07-22 20:50:59",modified="2024-07-25 00:53:58",revision=4446]]
 include("tiles.lua")
 include("players.lua")
 include("eval.lua")
@@ -1053,7 +1053,7 @@ function _update()
 	end
 	--line(0,0,W,H,7)
 	--line(W,0,0,H,7)
-	--debug_tiles(16,16,20+sin(time()*0.2)*8)
+	--debug_tiles(16,16,16)--+sin(time()*0.2)*8)
 end
 
 
@@ -1126,7 +1126,7 @@ function debug_tiles(x,y,s)
 	local w,h=s,s*1.5
 	for i=1,5 do
 		for ii=1,9 do
-			tile(i,ii,x+(w+2)*(ii-1),y+(h+8)*(i-1),w,h,ORANGE,1)
+			tile(i,ii,x+(w+10)*(ii-1),y+(h+6)*(i-1),w,h,ORANGE,1)
 		end
 	end
 end
@@ -1186,7 +1186,7 @@ function debug_score(score)
 	print("wall "..#wall.." turn "..turn,W-88,0,7)
 end
 :: players.lua
---[[pod_format="raw",created="2024-07-23 03:58:46",modified="2024-07-24 20:28:04",revision=481]]
+--[[pod_format="raw",created="2024-07-23 03:58:46",modified="2024-07-25 00:53:58",revision=758]]
 function play_p2()
 	placeholder_player(hand2,pond2)
 end
@@ -1203,7 +1203,7 @@ function placeholder_player(hand,pond)
 	table.remove(wall,1)
 end
 :: tiles.lua
---[[pod_format="raw",created="2024-07-23 01:05:22",modified="2024-07-24 20:28:04",revision=1545]]
+--[[pod_format="raw",created="2024-07-23 01:05:22",modified="2024-07-25 00:53:58",revision=2082]]
 GREEN=3
 RED=24
 BLUE=16
@@ -1249,17 +1249,28 @@ function tile(type,num,x,y,w,h,col,show)
 			pill(x,y+h/8*2,h,w,RADIUS,col)
 			pill(x,y+h/8,h,w,RADIUS,GRAY)
 			pill(x,y,h,w,RADIUS,WHITE)
+		elseif show==4 then
+			y=y-h/8*2
+			pill(x,y+h/8*2,h,w,RADIUS,col)
+			pill(x,y+h/8,h,w,RADIUS,GRAY)
+			pill(x,y,h,w,RADIUS,WHITE)
+		end
+		rot=0
+		if show==3 then 
+			rot=1
+		elseif show==4 then
+			rot=3 
 		end
 		if type==PIN then 
-			pin(x,y,w,h,num)
+			pin(x,y,w,h,num,rot)
 		elseif type==BAM then 
-			bam(x,y,w,h,num)
+			bam(x,y,w,h,num,rot)
 		elseif type==MAN then 
-			man(x,y,w,h,num)
+			man(x,y,w,h,num,rot)
 		elseif type==WIN then
-			hon(x,y,w,h,num)
+			hon(x,y,w,h,num,rot)
 		elseif type==DRA then
-			hon(x,y,w,h,num+4)
+			hon(x,y,w,h,num+4,rot)
 		end
 	else
 		if show==0 then
@@ -1308,99 +1319,204 @@ function pill(x,y,w,h,d,col)
 	end
 end
 
+function rline(x1,y1,ox1,oy1,ox2,oy2,col,rot)
+	local x,y,xx,yy=x1+ox1,y1+oy1,x1+ox2,y1+oy2
+	rot=rot or 0
+	if rot==1 then 
+		x,y=x1+oy1,y1-ox1
+		xx,yy=x1+oy2,y1-ox2
+	elseif rot==3 then 
+		x,y=x1-oy1,y1+ox1
+		xx,yy=x1-oy2,y1+ox2
+	end
+	line(x,y,xx,yy,col)
+end
+
+function rpset(xx,yy,ox,oy,col,rot)
+	local x,y=xx+ox,yy+oy
+	rot=rot or 0
+	if rot==1 then 
+		x,y=xx+oy,yy-ox
+	elseif rot==3 then 
+		x,y=xx-oy,yy+ox
+	end
+	pset(x,y,col)
+end
+
+function rcircfill(xx,yy,ox,oy,r,col,rot)
+	local x,y=xx+ox,yy+oy
+	rot=rot or 0
+	if rot==1 then 
+		x,y=xx+oy,yy-ox
+	elseif rot==3 then 
+		x,y=xx-oy,yy+ox
+	end
+	circfill(x,y,r,col)
+end
+function rcirc(xx,yy,ox,oy,r,col,rot)
+	local x,y=xx+ox,yy+oy
+	rot=rot or 0
+	if rot==1 then 
+		x,y=xx+oy,yy-ox
+	elseif rot==3 then 
+		x,y=xx-oy,yy+ox
+	end
+	circ(x,y,r,col)
+end
+function rrect(x1,y1,ox1,oy1,ox2,oy2,col,rot)
+	local x,y,xx,yy=x1+ox1,y1+oy1,x1+ox2,y1+oy2
+	rot=rot or 0
+	if rot==1 then 
+		x,y=x1+oy1,y1-ox1
+		xx,yy=x1+oy2,y1-ox2
+	elseif rot==3 then 
+		x,y=x1-oy1,y1+ox1
+		xx,yy=x1-oy2,y1+ox2
+	end
+	rect(x,y,xx,yy,col)
+end	
+function rrectfill(x1,y1,ox1,oy1,ox2,oy2,col,rot)
+	local x,y,xx,yy=x1+ox1,y1+oy1,x1+ox2,y1+oy2
+	rot=rot or 0
+	if rot==1 then 
+		x,y=x1+oy1,y1-ox1
+		xx,yy=x1+oy2,y1-ox2
+	elseif rot==3 then 
+		x,y=x1-oy1,y1+ox1
+		xx,yy=x1-oy2,y1+ox2
+	end
+	rectfill(x,y,xx,yy,col)
+end	
+
 ------- PINS -------
-function pin_o(x,y,s,col)
+function pin_o(xx,yy,ox,oy,s,col,rot)
+	local x,y=xx+ox,yy+oy
+	rot=rot or 0
+	if rot==1 then 
+		x,y=xx+oy,yy-ox
+	elseif rot==3 then 
+		x,y=xx-oy,yy+ox
+	end
 	circfill(x,y,s,col)
 	circfill(x,y,s*0.8,RED)
 	circfill(x,y,s*0.4,WHITE)
 end
-function pin_c(x,y,s,col)
+function pin_c(xx,yy,ox,oy,s,col,rot)
+	local x,y=xx+ox,yy+oy
+	rot=rot or 0
+	if rot==1 then 
+		x,y=xx+oy,yy-ox
+	elseif rot==3 then 
+		x,y=xx-oy,yy+ox
+	end
 	circfill(x,y,s,col)
 end
 
-function pin(x,y,w,h,num)
+function pin(x,y,w,h,num,rot)
 	if num>0 and num<10 then
 		--pill(x,y,w,h,RADIUS,WHITE) --base
 	end
+	if rot%2==0 then 
+		x,y=x+w/2,y+h/2
+	else
+		x,y=x+h/2,y+w/2
+	end
 	if num==1 then
-		pin_o(x+w/2,y+h/2,w/2.2,GREEN)
+		pin_o(x,y,0,0,w/2.2,GREEN,rot)
 	elseif num==2 then 
-		pin_c(x+w/2,y+h/3-h/24,w/4,BLUE)
-		pin_c(x+w/2,y+h/3*2+h/24,w/4,GREEN)
-	elseif num==3 then 
-		pin_c(x+w/4,y+h/4,w/5,BLUE)
-		pin_c(x+w/2,y+h/2,w/5,RED)
-		pin_c(x+w/4*3,y+h/4*3,w/5,GREEN)
+		pin_c(x,y,0,-h/3+h/12,w/4,BLUE,rot)
+		pin_c(x,y,0,h/3-h/12,w/4,GREEN,rot)
+	elseif num==3 then
+		pin_c(x,y,-w/4,-h/4,w/5,BLUE,rot)
+		pin_c(x,y,0,0,w/5,RED,rot)
+		pin_c(x,y,w/4,h/4,w/5,GREEN,rot)
 	elseif num==4 then 
-		pin_c(x+w/4,y+h/4,w/5,GREEN)
-		pin_c(x+w/4*3,y+h/4*3,w/5,GREEN)
-		pin_c(x+w/4*3,y+h/4,w/5,BLUE)
-		pin_c(x+w/4,y+h/4*3,w/5,BLUE)
+		pin_c(x,y,-w/4,-h/4,w/5,GREEN,rot)
+		pin_c(x,y,w/4,h/4,w/5,GREEN,rot)
+		pin_c(x,y,w/4,-h/4,w/5,BLUE,rot)
+		pin_c(x,y,-w/4,h/4,w/5,BLUE,rot)
 	elseif num==5 then 
-		pin_c(x+w/4,y+h/4,w/5,GREEN)
-		pin_c(x+w/4*3,y+h/4*3,w/5,GREEN)
-		pin_c(x+w/4*3,y+h/4,w/5,BLUE)
-		pin_c(x+w/4,y+h/4*3,w/5,BLUE)
-		pin_c(x+w/2,y+h/2,w/5,RED)
+		pin_c(x,y,-w/4,-h/4,w/5,GREEN,rot)
+		pin_c(x,y,w/4,h/4,w/5,GREEN,rot)
+		pin_c(x,y,w/4,-h/4,w/5,BLUE,rot)
+		pin_c(x,y,-w/4,h/4,w/5,BLUE,rot)
+		pin_c(x,y,0,0,w/5,RED,rot)
 	elseif num==6 then
-		pin_c(x+w/4+w/16,y+h/6*3+h/24,w/6,RED)
-		pin_c(x+w/4+w/16,y+h/6*5-h/24,w/6,RED)
-		pin_c(x+w/4*3-w/16,y+h/6*3+h/24,w/6,RED)
-		pin_c(x+w/4*3-w/16,y+h/6*5-h/24,w/6,RED)
-		pin_c(x+w/4+w/16,y+h/6*2-h/12,w/6,GREEN)
-		pin_c(x+w/4*3-w/16,y+h/6*2-h/12,w/6,GREEN)
+		pin_c(x,y,-w/4+w/16,h/24,w/6,RED,rot)
+		pin_c(x,y,-w/4+w/16,h/6*2-h/24,w/6,RED,rot)
+		pin_c(x,y,w/4-w/16,h/24,w/6,RED,rot)
+		pin_c(x,y,w/4-w/16,h/6*2-h/24,w/6,RED,rot)
+		pin_c(x,y,-w/4+w/16,-h/6*1-h/12,w/6,GREEN,rot)
+		pin_c(x,y,w/4-w/16,-h/6*1-h/12,w/6,GREEN,rot)
 	elseif num==7 then
-		pin_c(x+w/4+w/16,y+h/6*3+h/24,w/7,RED)
-		pin_c(x+w/4+w/16,y+h/6*5-h/24,w/7,RED)
-		pin_c(x+w/4*3-w/16,y+h/6*3+h/24,w/7,RED)
-		pin_c(x+w/4*3-w/16,y+h/6*5-h/24,w/7,RED)
-		pin_c(x+w/4-w/16,y+h/6*1+h/24,w/7,GREEN)
-		pin_c(x+w/2,y+h/6*2-h/12,w/7,GREEN)
-		pin_c(x+w/4*3+w/16,y+h/6*2-h/24,w/7,GREEN)
+		pin_c(x,y,-w/4+w/16,h/24,w/6,RED,rot)
+		pin_c(x,y,-w/4+w/16,h/6*2-h/24,w/6,RED,rot)
+		pin_c(x,y,w/4-w/16,h/24,w/6,RED,rot)
+		pin_c(x,y,w/4-w/16,h/6*2-h/24,w/6,RED,rot)
+		pin_c(x,y,-w/4-w/16,-h/6*2+h/24,w/7,GREEN,rot)
+		pin_c(x,y,0,-h/6-h/12,w/7,GREEN,rot)
+		pin_c(x,y,w/4+w/16,-h/6-h/24,w/7,GREEN,rot)
 	elseif num==8 then
-		pin_c(x+w/3,y+h/9*2,w/8,BLUE)
-		pin_c(x+w/3,y+h/9*4,w/8,BLUE)
-		pin_c(x+w/3,y+h/9*6-h/24,w/8,BLUE)
-		pin_c(x+w/3,y+h/9*8-h/24,w/8,BLUE)
-		pin_c(x+w/3*2+w/16,y+h/9*2,w/8,BLUE)
-		pin_c(x+w/3*2+w/16,y+h/9*4,w/8,BLUE)
-		pin_c(x+w/3*2+w/16,y+h/9*6-h/24,w/8,BLUE)
-		pin_c(x+w/3*2+w/16,y+h/9*8-h/24,w/8,BLUE)
+		pin_c(x,y,-w/6,h/9*2-h/2,w/8,BLUE,rot)
+		pin_c(x,y,-w/6,h/9*4-h/2,w/8,BLUE,rot)
+		pin_c(x,y,-w/6,h/9*6-h/24-h/2,w/8,BLUE,rot)
+		pin_c(x,y,-w/6,h/9*8-h/24-h/2,w/8,BLUE,rot)
+		pin_c(x,y,w/6+w/16,h/9*2-h/2,w/8,BLUE,rot)
+		pin_c(x,y,w/6+w/16,h/9*4-h/2,w/8,BLUE,rot)
+		pin_c(x,y,w/6+w/16,h/9*6-h/24-h/2,w/8,BLUE,rot)
+		pin_c(x,y,w/6+w/16,h/9*8-h/24-h/2,w/8,BLUE,rot)
 	elseif num==9 then
-		pin_c(x+w/6+w/16,y+h/6*1.5,w/6,BLUE)
-		pin_c(x+w/6*3,y+h/6*1.5,w/6,BLUE)
-		pin_c(x+w/6*5,y+h/6*1.5,w/6,BLUE)
-		pin_c(x+w/6+w/16,y+h/6*3,w/6,RED)
-		pin_c(x+w/6*3,y+h/6*3,w/6,RED)
-		pin_c(x+w/6*5,y+h/6*3,w/6,RED)
-		pin_c(x+w/6+w/16,y+h/6*4.5,w/6,GREEN)
-		pin_c(x+w/6*3,y+h/6*4.5,w/6,GREEN)
-		pin_c(x+w/6*5,y+h/6*4.5,w/6,GREEN)
+		pin_c(x,y,w/6+w/16-w/2,h/6*1.5-h/2,w/6,BLUE,rot)
+		pin_c(x,y,0,h/6*1.5-h/2,w/6,BLUE,rot)
+		pin_c(x,y,w/6*5-w/16-w/2,h/6*1.5-h/2,w/6,BLUE,rot)
+		pin_c(x,y,w/6+w/16-w/2,0,w/6,RED,rot)
+		pin_c(x,y,0,0,w/6,RED,rot)
+		pin_c(x,y,w/6*5-w/16-w/2,0,w/6,RED,rot)
+		pin_c(x,y,w/6+w/16-w/2,h/6*4.5-h/2,w/6,GREEN,rot)
+		pin_c(x,y,0,h/6*4.5-h/2,w/6,GREEN,rot)
+		pin_c(x,y,w/6*5-w/16-w/2,h/6*4.5-h/2,w/6,GREEN,rot)
 	end
 end
+--sideways pin
 
 ------- BAMBOO -------
 
-function bam_o(x,y,w,h)
+function bam_o(xx,yy,ox,oy,w,h,rot)
+	local x,y=xx+ox,yy+oy
+	rot=rot or 0
+	if rot==1 then 
+		x,y=xx+oy,yy+ox
+	elseif rot==3 then 
+		x,y=xx+oy,yy+ox
+	end
 	local i=0
 	--bird??
-	line(x-w,y,x+w+1,y,GREEN)
-	line(x-w,y+2,x+w+1,y+2,GREEN)
-	pset(x-w,y+1,GREEN)
-	pset(x+w+1,y+1,GREEN)
+	rline(x,y,-w,0,w+1,0,GREEN,rot)
+	rline(x,y,-w,2,w+1,2,GREEN,rot)
+	rpset(x,y,-w,1,GREEN,rot)
+	rpset(x,y,w+1,1,GREEN,rot)
 	for i=0,6,2 do
-		line(x+w/20*i-w/4,y,x-w/8+w/8*i,y+h/1.5+h/20*(6-i),BLUE)
-		line(x+w/12*i-w/3,y,x+w/6+w/12*i,y-h/3,GREEN)
-		line(x+w/10*i,y-h/1.8,x+w/6+w/12*i,y-h/3,GREEN)
-		line(x+w/10*i,y-h/1.8,x+w/4,y-h/1.1,RED)
-		line(x,y-w/10*i,x-w/1.2,y-w/5*i,BLUE)
+		rline(x,y,w/20*i-w/4,0,-w/8+w/8*i,h/1.5+h/20*(6-i),BLUE,rot)
+		rline(x,y,w/12*i-w/3,0,w/6+w/12*i,-h/3,GREEN,rot)
+		rline(x,y,w/10*i,-h/1.8,w/6+w/12*i,-h/3,GREEN,rot)
+		rline(x,y,w/10*i,-h/1.8,w/4,-h/1.1,RED,rot)
+		rline(x,y,0,-w/10*i,-w/1.2,-w/5*i,BLUE,rot)
 	end
-	circfill(x+w/3,y-h/2,(w/h)*w/1.4,WHITE)
-	circ(x+w/3,y-h/2,(w/h)*w/1.4,RED)
-	pset(x+w/3,y-h/2,RED)
+	rcircfill(x,y,w/3,-h/2,(w/h)*w/1.4,WHITE,rot)
+	rcirc(x,y,w/3,-h/2,(w/h)*w/1.4,RED,rot)
+	rpset(x,y,w/3,-h/2,RED,rot)
 end
 
-function bam_c(x,y,w,h,a,col)
+function bam_c(xx,yy,ox,oy,w,h,a,col,rot)
+	local x,y=xx+ox,yy+oy
+	rot=rot or 0
+	if rot==1 then 
+		x,y=xx+oy,yy+ox
+		w,h=h,w
+	elseif rot==3 then 
+		x,y=xx+oy,yy+ox
+		w,h=h,w
+	end
 	local ma,mi=max(w,h),min(w,h)
 	ma=ma*0.8
 	mi=mi*0.8
@@ -1433,240 +1549,261 @@ function bam_c(x,y,w,h,a,col)
 	end
 end
 
-function bam(x,y,w,h,num)
+function bam(x,y,w,h,num,rot)
 	if num>0 and num<10 then
 		--pill(x,y,w,h,RADIUS,WHITE) --base
 	end
 	if num==1 then
-		bam_o(x+w/2,y+h/2,w/2.5,h/2)
+		bam_o(x,y,w/2,h/2,w/2.5,h/2,rot)
 	elseif num==2 then
-		bam_c(x+w/2,y+h/4  ,w/15,h/6,0,BLUE)
-		bam_c(x+w/2,y+h/4*3,w/15,h/6,0,GREEN)
+		bam_c(x,y,w/2,h/4  ,w/15,h/6,0,BLUE,rot)
+		bam_c(x,y,w/2,h/4*3,w/15,h/6,0,GREEN,rot)
 	elseif num==3 then
-		bam_c(x+w/2     ,y+h/4  ,w/15,h/6,0,BLUE)
-		bam_c(x+w/4+w/16,y+h/4*3,w/15,h/6,0,GREEN)
-		bam_c(x+w/4*3   ,y+h/4*3,w/15,h/6,0,GREEN)
+		bam_c(x,y,w/2     ,h/4  ,w/15,h/6,0,BLUE,rot)
+		bam_c(x,y,w/4+w/16,h/4*3,w/15,h/6,0,GREEN,rot)
+		bam_c(x,y,w/4*3   ,h/4*3,w/15,h/6,0,GREEN,rot)
 	elseif num==4 then
-		bam_c(x+w/4+w/16,y+h/4  ,w/15,h/6,0,GREEN)
-		bam_c(x+w/4*3   ,y+h/4  ,w/15,h/6,0,BLUE)
-		bam_c(x+w/4+w/16,y+h/4*3,w/15,h/6,0,BLUE)
-		bam_c(x+w/4*3   ,y+h/4*3,w/15,h/6,0,GREEN)
+		bam_c(x,y,w/4+w/16,h/4  ,w/15,h/6,0,GREEN,rot)
+		bam_c(x,y,w/4*3   ,h/4  ,w/15,h/6,0,BLUE,rot)
+		bam_c(x,y,w/4+w/16,h/4*3,w/15,h/6,0,BLUE,rot)
+		bam_c(x,y,w/4*3   ,h/4*3,w/15,h/6,0,GREEN,rot)
 	elseif num==5 then
-		bam_c(x+w/4  ,y+h/4  ,w/15,h/6,0,GREEN)
-		bam_c(x+w/4*3,y+h/4  ,w/15,h/6,0,BLUE)
-		bam_c(x+w/4  ,y+h/4*3,w/15,h/6,0,BLUE)
-		bam_c(x+w/4*3,y+h/4*3,w/15,h/6,0,GREEN)
-		bam_c(x+w/2  ,y+h/2  ,w/15,h/6,0,RED)
+		bam_c(x,y,w/4  ,h/4  ,w/15,h/6,0,GREEN,rot)
+		bam_c(x,y,w/4*3,h/4  ,w/15,h/6,0,BLUE,rot)
+		bam_c(x,y,w/4  ,h/4*3,w/15,h/6,0,BLUE,rot)
+		bam_c(x,y,w/4*3,h/4*3,w/15,h/6,0,GREEN,rot)
+		bam_c(x,y,w/2  ,h/2  ,w/15,h/6,0,RED,rot)
 	elseif num==6 then
-		bam_c(x+w/5+w/15    ,y+h/4   ,w/15,h/6,0,BLUE)
-		bam_c(x+w/5*2.5+w/20,y+h/4   ,w/15,h/6,0,BLUE)
-		bam_c(x+w/5*4       ,y+h/4   ,w/15,h/6,0,BLUE)
-		bam_c(x+w/5+w/15    ,y+h/4*3,w/15,h/6,0,GREEN)
-		bam_c(x+w/5*2.5+w/20,y+h/4*3,w/15,h/6,0,GREEN)
-		bam_c(x+w/5*4       ,y+h/4*3,w/15,h/6,0,GREEN)
+		bam_c(x,y,w/5+w/15    ,h/4   ,w/15,h/6,0,BLUE,rot)
+		bam_c(x,y,w/5*2.5+w/20,h/4   ,w/15,h/6,0,BLUE,rot)
+		bam_c(x,y,w/5*4       ,h/4   ,w/15,h/6,0,BLUE,rot)
+		bam_c(x,y,w/5+w/15    ,h/4*3,w/15,h/6,0,GREEN,rot)
+		bam_c(x,y,w/5*2.5+w/20,h/4*3,w/15,h/6,0,GREEN,rot)
+		bam_c(x,y,w/5*4       ,h/4*3,w/15,h/6,0,GREEN,rot)
 	elseif num==7 then
-		bam_c(x+w/5*2.5+w/20,y+h/6  ,w/15,h/8,0,RED)
-		bam_c(x+w/5+w/15    ,y+h/6*3,w/15,h/8,0,GREEN)
-		bam_c(x+w/5*2.5+w/20,y+h/6*3,w/15,h/8,0,BLUE)
-		bam_c(x+w/5*4       ,y+h/6*3,w/15,h/8,0,GREEN)
-		bam_c(x+w/5+w/15    ,y+h/6*5,w/15,h/8,0,GREEN)
-		bam_c(x+w/5*2.5+w/20,y+h/6*5,w/15,h/8,0,BLUE)
-		bam_c(x+w/5*4       ,y+h/6*5,w/15,h/8,0,GREEN)
+		bam_c(x,y,w/5*2.5+w/20,h/6  ,w/15,h/8,0,RED,rot)
+		bam_c(x,y,w/5+w/15    ,h/6*3,w/15,h/8,0,GREEN,rot)
+		bam_c(x,y,w/5*2.5+w/20,h/6*3,w/15,h/8,0,BLUE,rot)
+		bam_c(x,y,w/5*4       ,h/6*3,w/15,h/8,0,GREEN,rot)
+		bam_c(x,y,w/5+w/15    ,h/6*5,w/15,h/8,0,GREEN,rot)
+		bam_c(x,y,w/5*2.5+w/20,h/6*5,w/15,h/8,0,BLUE,rot)
+		bam_c(x,y,w/5*4       ,h/6*5,w/15,h/8,0,GREEN,rot)
 	elseif num==8 then
-		bam_c(x+w/4+w/12  ,y+h/4+h/28  ,w/15,h/6,1,BLUE)
-		bam_c(x+w/4*3-w/12,y+h/4+h/28  ,w/15,h/6,2,BLUE)
-		bam_c(x+w/4+w/12  ,y+h/4*3-h/28,w/15,h/6,2,GREEN)
-		bam_c(x+w/4*3-w/12,y+h/4*3-h/28,w/15,h/6,1,GREEN)
-		bam_c(x+w/4       ,y+h/4+h/28  ,w/15,h/6,0,BLUE)
-		bam_c(x+w/4*3+w/16,y+h/4+h/28  ,w/15,h/6,0,BLUE)
-		bam_c(x+w/4       ,y+h/4*3-h/28,w/15,h/6,0,GREEN)
-		bam_c(x+w/4*3+w/16,y+h/4*3-h/28,w/15,h/6,0,GREEN)
+		bam_c(x,y,w/4+w/12  ,h/4+h/28  ,w/15,h/6,1,BLUE,rot)
+		bam_c(x,y,w/4*3-w/12,h/4+h/28  ,w/15,h/6,2,BLUE,rot)
+		bam_c(x,y,w/4+w/12  ,h/4*3-h/28,w/15,h/6,2,GREEN,rot)
+		bam_c(x,y,w/4*3-w/12,h/4*3-h/28,w/15,h/6,1,GREEN,rot)
+		bam_c(x,y,w/4       ,h/4+h/28  ,w/15,h/6,0,BLUE,rot)
+		bam_c(x,y,w/4*3+w/16,h/4+h/28  ,w/15,h/6,0,BLUE,rot)
+		bam_c(x,y,w/4       ,h/4*3-h/28,w/15,h/6,0,GREEN,rot)
+		bam_c(x,y,w/4*3+w/16,h/4*3-h/28,w/15,h/6,0,GREEN,rot)
 	elseif num==9 then
-		bam_c(x+w/5+w/15    ,y+h/6,w/15,h/8,0,GREEN)
-		bam_c(x+w/5*2.5+w/20,y+h/6,w/15,h/8,0,RED)
-		bam_c(x+w/5*4       ,y+h/6,w/15,h/8,0,BLUE)
-		bam_c(x+w/5+w/15    ,y+h/6*3,w/15,h/8,0,GREEN)
-		bam_c(x+w/5*2.5+w/20,y+h/6*3,w/15,h/8,0,RED)
-		bam_c(x+w/5*4       ,y+h/6*3,w/15,h/8,0,BLUE)
-		bam_c(x+w/5+w/15    ,y+h/6*5,w/15,h/8,0,GREEN)
-		bam_c(x+w/5*2.5+w/20,y+h/6*5,w/15,h/8,0,RED)
-		bam_c(x+w/5*4       ,y+h/6*5,w/15,h/8,0,BLUE)
+		bam_c(x,y,w/5+w/15    ,h/6,w/15,h/8,0,GREEN,rot)
+		bam_c(x,y,w/5*2.5+w/20,h/6,w/15,h/8,0,RED,rot)
+		bam_c(x,y,w/5*4       ,h/6,w/15,h/8,0,BLUE,rot)
+		bam_c(x,y,w/5+w/15    ,h/6*3,w/15,h/8,0,GREEN,rot)
+		bam_c(x,y,w/5*2.5+w/20,h/6*3,w/15,h/8,0,RED,rot)
+		bam_c(x,y,w/5*4       ,h/6*3,w/15,h/8,0,BLUE,rot)
+		bam_c(x,y,w/5+w/15    ,h/6*5,w/15,h/8,0,GREEN,rot)
+		bam_c(x,y,w/5*2.5+w/20,h/6*5,w/15,h/8,0,RED,rot)
+		bam_c(x,y,w/5*4       ,h/6*5,w/15,h/8,0,BLUE,rot)
 	end
 end
+
+
 
 ------- MAN -------
 
-function man_b(x,y,w,h)
-	color(RED)
+function man_b(xx,yy,ox,oy,w,h,rot)
+	oy=oy-h/2
+	local x,y=xx+ox,yy+oy
+	rot=rot or 0
+	if rot==1 then 
+		x,y=xx+oy,yy+ox
+	end
+	if rot==3 then 
+		x,y=xx-oy,yy+ox
+	end
 	--character
-	--rect(x-w,y-h,x+w,y+h)
-	y=y-h/2
-	h=h/1
-	line(x-w/1.5,y-h/2,x-1,y-h/2)
-	line(x+w/1.5+1,y-h/2,x+1,y-h/2)
-	line(x-w/3,y-h/1.8,x-w/3,y-h/3)
-	line(x+w/3+1,y-h/1.8,x+w/3+1,y-h/3)
-	line(x,y-h/6,x,y+h/4*4)
-	line(x-w/1.8,y+h/4*3.5,x+w/1.8+1,y+h/4*3.5)
-	line(x-w/1.8,y+h/4*3.5,x-w/1.8,y+h/4*5.5)
-	line(x+w/1.8+1,y+h/4*3.5,x+w/1.8+1,y+h/4*5.5)
-	line(x+w/1.8-1,y+h/4*5.5,x+w/1.8+1,y+h/4*5.5)
-	line(x-w/3,y+h/4*5.5,x+w/3,y+h/4*4)
-	line(x+w/2,y+h/4*5.5,x+w/3,y+h/4*4)
-	rect(x-w/2,y-h/6,x+w/2,y+h/4)
-	rect(x-w/2,y+h/4,x+w/2,y+h/4*2)
+	--rrect(x,y,-w,-h,w,h,RED,rot)
+	rline(x,y,-w/1.5,-h/2,-1,-h/2,RED,rot)
+	rline(x,y,w/1.5+1,-h/2,1,-h/2,RED,rot)
+	rline(x,y,-w/3,-h/1.8,-w/3,-h/3,RED,rot)
+	rline(x,y,w/3+1,-h/1.8,w/3+1,-h/3,RED,rot)
+	rline(x,y,0,-h/6,0,h/4*4,RED,rot)
+	rline(x,y,-w/1.8,h/4*3.5,w/1.8+1,h/4*3.5,RED,rot)
+	rline(x,y,-w/1.8,h/4*3.5,-w/1.8,h/4*5.5,RED,rot)
+	rline(x,y,w/1.8+1,h/4*3.5,w/1.8+1,h/4*5.5,RED,rot)
+	rline(x,y,w/1.8-1,h/4*5.5,w/1.8+1,h/4*5.5,RED,rot)
+	rline(x,y,-w/3,h/4*5.5,w/3,h/4*4,RED,rot)
+	rline(x,y,w/2,h/4*5.5,w/3,h/4*4,RED,rot)
+	rrect(x,y,-w/2,-h/6,w/2,h/4,RED,rot)
+	rrect(x,y,-w/2,h/4,w/2,h/4*2,RED,rot)
 end
 
 
-function man(x,y,w,h,num)
+function man(x,y,w,h,num,rot)
+	if rot%2==0 then 
+		x=x+w/2
+		y=y+h/4
+		w=w/2
+		h=h/4
+	elseif rot==1 then 
+		x=x+h/4
+		y=y+w/2
+		w=w/2
+		h=h/4
+	elseif rot==3 then 
+		x=x-h/4+h
+		y=y+w/2
+		w=w/2
+		h=h/4
+	end
 	if num>0 and num<10 then
 		--pill(x,y,w,h,RADIUS,WHITE) --base
-		man_b(x+w/2,y+h/4*3,w/2,h/4)
-		color(BLUE)
+		man_b(x,y,0,h/1*2-1,w,h*0.8,rot)
 	end
-	x=x+w/2
-	y=y+h/4
-	w=w/2
-	h=h/4
 	if num==1 then
-		line(x-w/2,y,x+w/2,y)
-		line(x-w/2,y+1,x+w/2,y-1)
+		rline(x,y,-w/2,0,w/2,0,BLUE,rot)
+		rline(x,y,-w/2,1,w/2,-1,BLUE,rot)
 	elseif num==2 then
-		line(x-w/2,y+h/3,x+w/2,y+h/3)
-		line(x-w/2,y+1+h/3,x+w/2,y-1+h/3)
-		line(x-w/3,y-h/3,x+w/3,y-h/3)
-		line(x-w/3,y+1-h/3,x+w/3,y-1-h/3)
+		rline(x,y,-w/2,h/3,w/2,h/3,BLUE,rot)
+		rline(x,y,-w/2,1+h/3,w/2,-1+h/3,BLUE,rot)
+		rline(x,y,-w/3,-h/3,w/3,-h/3,BLUE,rot)
+		rline(x,y,-w/3,1-h/3,w/3,-1-h/3,BLUE,rot)
 	elseif num==3 then
-		line(x-w/2,y+h/2,x+w/2,y+h/2)
-		line(x-w/2,y+1+h/2,x+w/2,y-1+h/2)
-		line(x-w/3,y,x+w/3,y)
-		line(x-w/3,y+1,x+w/3,y-1)
-		line(x-w/4,y-h/2,x+w/3,y-h/2)
-		line(x-w/4,y+1-h/2,x+w/3,y-1-h/2)
+		rline(x,y,-w/2,h/2,w/2,h/2,BLUE,rot)
+		rline(x,y,-w/2,1+h/2,w/2,-1+h/2,BLUE,rot)
+		rline(x,y,-w/3,0,w/3,0,BLUE,rot)
+		rline(x,y,-w/3,1,w/3,-1,BLUE,rot)
+		rline(x,y,-w/4,-h/2,w/3,-h/2,BLUE,rot)
+		rline(x,y,-w/4,1-h/2,w/3,-1-h/2,BLUE,rot)
 	elseif num==4 then
-		rect(x-w/2,y-h/3,x+w/2,y+h/3)
-		line(x-w/5,y-h/3,x-w/8,y+h/3)
-		line(x+w/4,y-h/3,x+w/5,y+h/3)
-		line(x,y+h/3,x+w/2,y+h/3+1)
-		pset(x-w/2-1,y-h/3)
+		rrect(x,y,-w/2,-h/3,w/2,h/3,BLUE,rot)
+		rline(x,y,-w/5,-h/3,-w/8,h/3,BLUE,rot)
+		rline(x,y,w/4,-h/3,w/5,h/3,BLUE,rot)
+		rline(x,y,0,h/3,w/2,h/3+1,BLUE,rot)
+		rpset(x,y,-w/2-1,-h/3,BLUE,rot)
 	elseif num==5 then
-		line(x-w/2,y,x-w/8,y-h/2)
-		line(x-w/2,y,x-w/5,y-h/2)
-		line(x+w/3,y-h/2,x,y+h/3)
-		line(x+w/3,y-h/2,x+w/8,y-h/2)
-		line(x-w/3,y+h/3,x+w/2,y+h/3)
-		line(x-w/3,y+h/2,x-w/3,y)
-		line(x-w/8,y,x+w/2.5,y)
-		line(x+w/2.5,y,x+w/5,y+h/3)
+		rline(x,y,-w/2,0,-w/8,-h/2,BLUE,rot)
+		rline(x,y,-w/2,0,-w/5,-h/2,BLUE,rot)
+		rline(x,y,w/3,-h/2,0,h/3,BLUE,rot)
+		rline(x,y,w/3,-h/2,w/8,-h/2,BLUE,rot)
+		rline(x,y,-w/3,h/3,w/2,h/3,BLUE,rot)
+		rline(x,y,-w/3,h/2,-w/3,0,BLUE,rot)
+		rline(x,y,-w/8,0,w/2.5,0,BLUE,rot)
+		rline(x,y,w/2.5,0,w/5,h/3,BLUE,rot)
 	elseif num==6 then
-		line(x,y-h/2,x,y-h/4)
-		line(x-w/2,y-h/8,x+w/2,y-h/4)
-		line(x+w/4,y+h/8,x+w/2,y+h/4)
-		line(x-w/4,y+h/4,x-w/2,y+h/3)
+		rline(x,y,0,-h/2,0,-h/4,BLUE,rot)
+		rline(x,y,-w/2,-h/8,w/2,-h/4,BLUE,rot)
+		rline(x,y,w/4,h/8,w/2,h/4,BLUE,rot)
+		rline(x,y,-w/4,h/4,-w/2,h/3,BLUE,rot)
 	elseif num==7 then
-		line(x-w/8,y-h/2,x-w/8,y+h/3)
-		line(x-w/1.8,y+h/5,x,y-h/8)
-		line(x,y-h/8,x+w/2,y-h/8)
-		line(x+w/2.5,y+h/2,x-w/8,y+h/3)
+		rline(x,y,-w/8,-h/2,-w/8,h/3,BLUE,rot)
+		rline(x,y,-w/1.8,h/5,0,-h/8,BLUE,rot)
+		rline(x,y,0,-h/8,w/2,-h/8,BLUE,rot)
+		rline(x,y,w/2.5,h/2,-w/8,h/3,BLUE,rot)
 	elseif num==8 then
-		line(x-w/10,y-h/2,x+w/8,y+h/8)
-		line(x+w/1.5,y+h/2,x+w/8,y+h/8)
-		line(x-w/1.7,y+h/3,x-w/3,y-h/8)
+		rline(x,y,-w/10,-h/2,w/8,h/8,BLUE,rot)
+		rline(x,y,w/1.5,h/2,w/8,h/8,BLUE,rot)
+		rline(x,y,-w/1.7,h/3,-w/3,-h/8,BLUE,rot)
 	elseif num==9 then
-		line(x-w/2,y-h/8,x+w/4,y-h/8)
-		line(x+w/4,y-h/8,x,y+h/2)
-		line(x+w/2,y+h/2.5,x,y+h/2)
-		line(x-w/1.7,y+h/2,x,y-h/2)
+		rline(x,y,-w/2,-h/8,w/4,-h/8,BLUE,rot)
+		rline(x,y,w/4,-h/8,0,h/2,BLUE,rot)
+		rline(x,y,w/2,h/2.5,0,h/2,BLUE,rot)
+		rline(x,y,-w/1.7,h/2,0,-h/2,BLUE,rot)
 	end
 end
+
 
 ------- HONORS -------
 -- 1-4 winds
 -- 5-7 dragons
 
 
-function hon(x,y,w,h,num)
+function hon(x,y,w,h,num,rot)
 	if num>0 and num<8 then
 		--pill(x,y,w,h,RADIUS,WHITE) --base
 	end
 	if num<5 then
 		y=y+1
 	end
-	x=x+w/2
-	y=y+h/2
-	h=h/1.2
-	w=w/1.2
+	if rot%2==0 then 
+		x=x+w/2
+		y=y+h/2
+		w=w/1.2
+		h=h/1.2
+	else
+		x=x+h/2
+		y=y+w/2
+		w=w/1.2
+		h=h/1.2
+	end
 	if num==1 then 			-- East
-		color(BLUE)
-		line(x,y-h/2.5,x,y+h/3)
-		line(x-w/8,y+h/4,x,y+h/3)
-		line(x,y-h/20,x+w/3,y+h/5)
-		line(x,y-h/20,x-w/3,y+h/5)
-		rect(x-w/3,y-h/4,x+w/3+1,y-h/20)
-		line(x-w/8,y-h/8,x+w/8+1,y-h/8)
-		line(x-w/8,y-h/3,x+w/8+1,y-h/3)
+		rline(x,y,0,-h/2.5,0,h/3,BLUE,rot)
+		rline(x,y,-w/8,h/4,0,h/3,BLUE,rot)
+		rline(x,y,0,-h/20,w/3,h/5,BLUE,rot)
+		rline(x,y,0,-h/20,-w/3,h/5,BLUE,rot)
+		rrect(x,y,-w/3,-h/4,w/3+1,-h/20,BLUE,rot)
+		rline(x,y,-w/8,-h/8,w/8+1,-h/8,BLUE,rot)
+		rline(x,y,-w/8,-h/3,w/8+1,-h/3,BLUE,rot)
 	elseif num==2 then 		-- North
-		color(BLUE)
-		line(x,y-h/3,x-1,y-h/14)
-		line(x-w/8,y+h/4,x+w/8+1,y+h/5)
-		line(x,y+h/20,x+w/5,y-h/10)
-		line(x,y+h/20,x-w/5,y-h/10)
-		line(x,y+h/20,x,y+h/3)
-		line(x-w/8,y+h/8,x+w/8+1,y+h/8)
-		line(x-w/8,y-h/5,x+w/8+1,y-h/4)
-		line(x-w/3,y,x+w/3+1,y-h/20)
-		line(x-w/3,y,x-w/3,y+h/4)
-		line(x+w/3+1,y-h/20,x+w/3+1,y+h/3)
-		line(x+w/3-1,y+h/3,x+w/3+1,y+h/3)
+		rline(x,y,0,-h/3,-1,-h/14,BLUE,rot)
+		rline(x,y,-w/8,h/4,w/8+1,h/5,BLUE,rot)
+		rline(x,y,0,h/20,w/5,-h/10,BLUE,rot)
+		rline(x,y,0,h/20,-w/5,-h/10,BLUE,rot)
+		rline(x,y,0,h/20,0,h/3,BLUE,rot)
+		rline(x,y,-w/8,h/8,w/8+1,h/8,BLUE,rot)
+		rline(x,y,-w/8,-h/5,w/8+1,-h/4,BLUE,rot)
+		rline(x,y,-w/3,0,w/3+1,-h/20,BLUE,rot)
+		rline(x,y,-w/3,0,-w/3,h/4,BLUE,rot)
+		rline(x,y,w/3+1,-h/20,w/3+1,h/3,BLUE,rot)
+		rline(x,y,w/3-1,h/3,w/3+1,h/3,BLUE,rot)
 	elseif num==3 then 		-- West
-		color(BLUE)
-		line(x-w/6,y-h/4,x+w/6+1,y-h/3.5)
-		rect(x-w/3,y,x+w/3+1,y+h/3)
-		line(x-w/8,y-h/10,x-w/8,y+h/5)
-		line(x+w/8,y-h/10,x+w/8,y+h/6)
-		line(x+w/8,y+h/6,x+w/4,y+h/6)
+		rline(x,y,-w/6,-h/4,w/6+1,-h/3.5,BLUE,rot)
+		rrect(x,y,-w/3,0,w/3+1,h/3,BLUE,rot)
+		rline(x,y,-w/8,-h/10,-w/8,h/5,BLUE,rot)
+		rline(x,y,w/8,-h/10,w/8,h/6,BLUE,rot)
+		rline(x,y,w/8,h/6,w/4,h/6,BLUE,rot)
 	elseif num==4 then 		-- South
-		color(BLUE)
 		h=h*1.3
-		line(x-w/12,y-h/8,x-w/12,y+h/4)
-		line(x+w/4,y-h/4,x+w/4,y+h/4)
-		line(x+w/2,y+h/4,x+w/4,y+h/4)
-		line(x+w/4,y+h/6,x+w/2,y)
-		line(x-w/3,y-h/8,x-w/3,y)
-		line(x-w/2.5,y+h/4,x+w/4,y-h/8)
+		rline(x,y,-w/12,-h/8,-w/12,h/4,BLUE,rot)
+		rline(x,y,w/4,-h/4,w/4,h/4,BLUE,rot)
+		rline(x,y,w/2,h/4,w/4,h/4,BLUE,rot)
+		rline(x,y,w/4,h/6,w/2,0,BLUE,rot)
+		rline(x,y,-w/3,-h/8,-w/3,0,BLUE,rot)
+		rline(x,y,-w/2.5,h/4,w/4,-h/8,BLUE,rot)
 	elseif num==5 then		-- White dragon
 	elseif num==6 then 		-- Green dragon
-		color(GREEN)
 		w=w*1.1
-		x=x-1
-		line(x-w/3+1,y,x-w/10+1,y-h/3)
-		line(x+w/2,y,x+w/10,y-h/3)
-		line(x-w/10+1,y-h/3,x-w/4+1,y-h/3)
-		line(x+w/10,y-h/3,x+w/4,y-h/2.5)
-		line(x+w/12,y-h/8,x+w/2.5,y-h/3)
-		line(x-w/5+1,y-h/8,x-w/3+1,y-h/4)
-		line(x-w/10,y-h/20,x,y-h/20)
-		line(x-w/10,y+h/4,x,y-h/20)
-		line(x-w/10,y+h/4,x,y+h/5)
-		line(x-w/20,y+h/2.5,x,y+h/5)
-		line(x-w/20,y+h/2.5,x-w/4,y+h/3)
-		line(x-w/4,y+h/4,x+w/3,y+h/5)
-		line(x+w/8,y+h/2.5,x+w/3,y+h/5)
-		line(x+w/8,y+h/3,x+w/3,y+h/2.5)
-		line(x+w/6,y,x+w/6,y+h/10)
-		line(x+w/6*2,y,x+w/6*2,y+h/10)
-		line(x+w/6*2,y,x+w/6,y)
+		rline(x,y,-w/3+1-1,0,-w/10,-h/3,GREEN,rot)
+		rline(x,y,w/2-1,0,w/10-1,-h/3,GREEN,rot)
+		rline(x,y,-w/10,-h/3,-w/4,-h/3,GREEN,rot)
+		rline(x,y,w/10-1,-h/3,w/4-1,-h/2.5,GREEN,rot)
+		rline(x,y,w/12-1,-h/8,w/2.5-1,-h/3,GREEN,rot)
+		rline(x,y,-w/5,-h/8,-w/3,-h/4,GREEN,rot)
+		rline(x,y,-w/10-1,-h/20,-1,-h/20,GREEN,rot)
+		rline(x,y,-w/10-1,h/4,-1,-h/20,GREEN,rot)
+		rline(x,y,-w/10-1,h/4,-1,h/5,GREEN,rot)
+		rline(x,y,-w/20-1,h/2.5,-1,h/5,GREEN,rot)
+		rline(x,y,-w/20-1,h/2.5,-w/4-1,h/3,GREEN,rot)
+		rline(x,y,-w/4-1,h/4,w/3-1,h/5,GREEN,rot)
+		rline(x,y,w/8-1,h/2.5,w/3-1,h/5,GREEN,rot)
+		rline(x,y,w/8-1,h/3,w/3-1,h/2.5,GREEN,rot)
+		rline(x,y,w/6-1,0,w/6-1,h/10,GREEN,rot)
+		rline(x,y,w/6*2-1,0,w/6*2-1,h/10,GREEN,rot)
+		rline(x,y,w/6*2-1,0,w/6-1,0,GREEN,rot)
 	elseif num==7 then 		-- Red dragon
-		color(RED)
-		line(x-w/3,y-h/4,x+w/3+1,y-h/4)
-		line(x-w/4,y,x-w/3,y-h/4)
-		line(x+w/4,y,x+w/3+1,y-h/4)
-		line(x-w/4,y-1,x+w/4,y-1)
-		line(x,y-h/2,x,y+h/2.5)
+		rline(x,y,-w/3,-h/4,w/3+1,-h/4,RED,rot)
+		rline(x,y,-w/4,0,-w/3,-h/4,RED,rot)
+		rline(x,y,w/4,0,w/3+1,-h/4,RED,rot)
+		rline(x,y,-w/4,-1,w/4,-1,RED,rot)
+		rline(x,y,0,-h/2,0,h/2.5,RED,rot)
 	end
 end
+
 :: util.lua
---[[pod_format="raw",created="2024-07-24 10:58:30",modified="2024-07-24 20:28:04",revision=253]]
+--[[pod_format="raw",created="2024-07-24 10:58:30",modified="2024-07-25 00:53:58",revision=531]]
 function update_mouse()
 	local	mx,my,mb=mouse()
 	local mlb,mrb,mmb=mb&1>0,mb&2>0,mb&4>0
@@ -1674,12 +1811,12 @@ function update_mouse()
 end
 :: .info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA3LTIzIDAzOjI5OjQzIixtb2RpZmllZD0iMjAyNC0w
-Ny0yNCAyMDoyODowNCIscnVudGltZT04LHdvcmtzcGFjZXM9e3tsb2NhdGlvbj0ibWFpbi5sdWEj
-MjU3Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJ0aWxlcy5sdWEjMzAiLHdvcmtzcGFj
+Ny0yNSAwMDo1Mzo1OCIscnVudGltZT04LHdvcmtzcGFjZXM9e3tsb2NhdGlvbj0ibWFpbi5sdWEj
+Mjg2Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJ0aWxlcy5sdWEjMjkiLHdvcmtzcGFj
 ZV9pbmRleD0xfSx7bG9jYXRpb249InBsYXllcnMubHVhIzE1Iix3b3Jrc3BhY2VfaW5kZXg9MX0s
 e2xvY2F0aW9uPSJldmFsLmx1YSMxMDgiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249InV0
-aWwubHVhIzUiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249ImJvYXJkLmx1YSMxIix3b3Jr
-c3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJnZngvMC5nZngiLHdvcmtzcGFjZV9pbmRleD0yfSx7
-bG9jYXRpb249Im1hcC8wLm1hcCIsd29ya3NwYWNlX2luZGV4PTN9LHtsb2NhdGlvbj0ic2Z4LzAu
-c2Z4Iix3b3Jrc3BhY2VfaW5kZXg9NH19XV1sejQABAAAAAMAAAAwbmls
+aWwubHVhIzUiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249ImJvYXJkLmx1YSMxMzciLHdv
+cmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249ImdmeC8wLmdmeCIsd29ya3NwYWNlX2luZGV4PTJ9
+LHtsb2NhdGlvbj0ibWFwLzAubWFwIix3b3Jrc3BhY2VfaW5kZXg9M30se2xvY2F0aW9uPSJzZngv
+MC5zZngiLHdvcmtzcGFjZV9pbmRleD00fX1dXWx6NAAEAAAAAwAAADBuaWw=
 :: [eoc]
