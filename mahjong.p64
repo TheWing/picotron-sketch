@@ -4,29 +4,29 @@ version 2
 :: gfx/
 :: gfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA3LTIyIDIwOjUwOjU4Iixtb2RpZmllZD0iMjAyNC0w
-Ny0yNSAyMjo0NjoyMiJdXWx6NAAEAAAAAwAAADBuaWw=
+Ny0yNSAyMjo1MDowNSJdXWx6NAAEAAAAAwAAADBuaWw=
 :: gfx/0.gfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA3LTIyIDIwOjUwOjU5Iixtb2RpZmllZD0iMjAyNC0w
-Ny0yNSAyMjo0NjoyMiIscmV2aXNpb249Mjk3NF1dbHo0ALcAAAAXMQAA8xV7WzBdPXtibXA9cHh1
+Ny0yNSAyMjo1MDowNSIscmV2aXNpb249Mjk3N11dbHo0ALcAAAAXMQAA8xV7WzBdPXtibXA9cHh1
 AEMgEBgE8P9xLGZsYWdzPTAscGFuX3gIANd5PTAsem9vbT0xMH0sMwAQGDMALP8yNAAzLjI1NwBC
 LTAuNToAGTc5AF8QEATw8GsACx84MQDwXyAE8P-xMgALHzVjAB4PiQH-NgHcAgM1AADyAg9pAB0P
 MQD-----------------------------------------------------------_sUG09OH19
 :: map/
 :: map/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA3LTIyIDIwOjUwOjU4Iixtb2RpZmllZD0iMjAyNC0w
-Ny0yNSAyMjo0NjoyMiJdXWx6NAAEAAAAAwAAADBuaWw=
+Ny0yNSAyMjo1MDowNSJdXWx6NAAEAAAAAwAAADBuaWw=
 :: map/0.map
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA3LTIyIDIwOjUwOjU5Iixtb2RpZmllZD0iMjAyNC0w
-Ny0yNSAyMjo0NjoyMiIscmV2aXNpb249Mjk1NV1dbHo0AGkAAABYEAAA8Ah7e2JtcD11c2VyZGF0
+Ny0yNSAyMjo1MDowNSIscmV2aXNpb249Mjk1OF1dbHo0AGkAAABYEAAA8Ah7e2JtcD11c2VyZGF0
 YSgiaTE2IiwzMgMALyIwAQD--------------------78QgiKSxoaWRkZW49ZmFsc2UscGFuX3g9
 MAgA0nk9MCx0aWxlX2g9MjQKANB3PTE2LHpvb209MX19
 :: sfx/
 :: sfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA3LTIyIDIwOjUwOjU4Iixtb2RpZmllZD0iMjAyNC0w
-Ny0yNSAyMjo0NjoyMiJdXWx6NAAEAAAAAwAAADBuaWw=
+Ny0yNSAyMjo1MDowNSJdXWx6NAAEAAAAAwAAADBuaWw=
 :: sfx/0.sfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA3LTIyIDIwOjUwOjU5Iixtb2RpZmllZD0iMjAyNC0w
-Ny0yNSAyMjo0NjoyMiIscmV2aXNpb249Mjk1MF1dbHo0AMsBAAA9FQAA-ytweHUAAygAAAQABA9A
+Ny0yNSAyMjo1MDowNSIscmV2aXNpb249Mjk1M11dbHo0AMsBAAA9FQAA-ytweHUAAygAAAQABA9A
 EAIOAAGgASACoA4ADxAADfDKAQIIBAUGBwEP_JAIBAoIBA8NDw4PDwIP_PD-AQDr-SbSARAGDyAQ
 ASABIAHwAAIQAgwQASAPISABMA7www8oD--wxg-4Cg--D4AP9w8NAfAJARAGDC8A8AIPDhABMA9u
 kA8RAiAMUAEPfw8A-wr-oAggD3IgD4ggD0LwAwkgDxMgC-BvAfDHUQAQECBAAAFPAN8PDVABBBAB
@@ -36,7 +36,7 @@ ME8aI08fI08cEwUvIQ8ePxlPGhMHPx8-HkURAPEHRCNEI0QT1BPUE4RMI0wjTBPcE9wTjD4ABEYA
 DAgAkA4wPy0jDyo-LwUA8AIrLygPLSMJYwkjDyofLxMbExIA-xQJcz8DI0YjhiMGYwYjJhMWE3Zz
 PCNMI4wjDGMMIywTHBN8c1oAAgMIAB8NCAD---------------8KUPOw8P85
 :: board.lua
---[[pod_format="raw",created="2024-07-24 18:54:09",modified="2024-07-25 22:46:22",revision=502]]
+--[[pod_format="raw",created="2024-07-24 18:54:09",modified="2024-07-25 22:50:05",revision=508]]
 function draw_hand(s,m)
 	for i=1,#hand1 do
 		if turn%4==0 or i<14 then 
@@ -558,7 +558,7 @@ function hon(x,y,w,h,num)
 	end
 end
 :: eval.lua
---[[pod_format="raw",created="2024-07-23 04:18:20",modified="2024-07-25 22:46:22",revision=786]]
+--[[pod_format="raw",created="2024-07-23 04:18:20",modified="2024-07-25 22:50:05",revision=790]]
 SEAT={1,0,0,0}
 	-- E N W S
 
@@ -792,7 +792,7 @@ Thirteen Terminals   : 160
 Seven Pairs          :  30
 ]]--
 :: main.lua
---[[pod_format="raw",created="2024-07-22 20:50:59",modified="2024-07-25 22:46:22",revision=4450]]
+--[[pod_format="raw",created="2024-07-22 20:50:59",modified="2024-07-25 22:50:05",revision=4461]]
 include("tiles.lua")
 include("players.lua")
 include("eval.lua")
@@ -803,7 +803,8 @@ W=480
 H=270
 
 SELECT=10
-SPEED=4
+SPEED=0.05
+SCAL=1
 
 exhausted=0
 m={}
@@ -880,9 +881,13 @@ wait=0
 wsel=sel
 move=0
 last=0
+timer={}
+timer[1]=time()
+timer[3]=0
 function _update()
 	cls(19)
-	wait=max(0,wait-1)
+	timer[2]=time()-timer[1]
+	wait=max(0,wait-(timer[2]-timer[3]))
 	draw_other_hands(exhausted==1)
 	
 	m=update_mouse()
@@ -1184,9 +1189,10 @@ function debug_score(score)
 	print("pa "..score[10],1,80,7)
 	
 	print("wall "..#wall.." turn "..turn,W-88,0,7)
+	print("wait "..wait,W-40,10,7)
 end
 :: players.lua
---[[pod_format="raw",created="2024-07-23 03:58:46",modified="2024-07-25 22:46:22",revision=762]]
+--[[pod_format="raw",created="2024-07-23 03:58:46",modified="2024-07-25 22:50:05",revision=766]]
 function play_p2()
 	placeholder_player(hand2,pond2)
 end
@@ -1203,7 +1209,7 @@ function placeholder_player(hand,pond)
 	table.remove(wall,1)
 end
 :: tiles.lua
---[[pod_format="raw",created="2024-07-23 01:05:22",modified="2024-07-25 22:46:22",revision=2087]]
+--[[pod_format="raw",created="2024-07-23 01:05:22",modified="2024-07-25 22:50:05",revision=2091]]
 GREEN=3
 RED=24
 BLUE=16
@@ -1803,7 +1809,7 @@ function hon(x,y,w,h,num,rot)
 end
 
 :: util.lua
---[[pod_format="raw",created="2024-07-24 10:58:30",modified="2024-07-25 22:46:22",revision=535]]
+--[[pod_format="raw",created="2024-07-24 10:58:30",modified="2024-07-25 22:50:05",revision=539]]
 function update_mouse()
 	local	mx,my,mb=mouse()
 	local mlb,mrb,mmb=mb&1>0,mb&2>0,mb&4>0
@@ -1811,8 +1817,8 @@ function update_mouse()
 end
 :: .info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA3LTIzIDAzOjI5OjQzIixtb2RpZmllZD0iMjAyNC0w
-Ny0yNSAyMjo0NjoyMiIscnVudGltZT04LHdvcmtzcGFjZXM9e3tsb2NhdGlvbj0ibWFpbi5sdWEj
-Mjg2Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJ0aWxlcy5sdWEjMjkiLHdvcmtzcGFj
+Ny0yNSAyMjo1MDowNSIscnVudGltZT04LHdvcmtzcGFjZXM9e3tsb2NhdGlvbj0ibWFpbi5sdWEj
+Mzk3Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJ0aWxlcy5sdWEjMjkiLHdvcmtzcGFj
 ZV9pbmRleD0xfSx7bG9jYXRpb249InBsYXllcnMubHVhIzE1Iix3b3Jrc3BhY2VfaW5kZXg9MX0s
 e2xvY2F0aW9uPSJldmFsLmx1YSMxMDgiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249InV0
 aWwubHVhIzUiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249ImJvYXJkLmx1YSMxMzciLHdv
