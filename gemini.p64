@@ -1,0 +1,359 @@
+picotron cartridge // www.picotron.net
+version 2
+
+:: gfx/
+:: gfx/.info.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA4LTA1IDIzOjA1OjI1Iixtb2RpZmllZD0iMjAyNC0w
+OC0wNiAxNzowNzozOCJdXWx6NAAEAAAAAwAAADBuaWw=
+:: gfx/0.gfx
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA4LTA1IDIzOjA1OjI2Iixtb2RpZmllZD0iMjAyNC0w
+OC0wNiAxNzowNzozNyIscmV2aXNpb249MzM2XV1sejQAfgAAABIxAADzIXtbMF09e2JtcD1weHUA
+QyAQEATwVgcQB8AX0BfABxAH8FYsZmxhZ3M9MCxwYW5feAgAy3k9MCx6b29tPTh9LD4AH-AxAP--
+-------------------------------------------------------------9dQbT04fX0=
+:: map/
+:: map/.info.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA4LTA1IDIzOjA1OjI1Iixtb2RpZmllZD0iMjAyNC0w
+OC0wNiAxNzowNzozOCJdXWx6NAAEAAAAAwAAADBuaWw=
+:: map/0.map
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA4LTA1IDIzOjA1OjI2Iixtb2RpZmllZD0iMjAyNC0w
+OC0wNiAxNzowNzozNyIscmV2aXNpb249MzMyXV1sejQAaAAAAFgQAADwCHt7Ym1wPXVzZXJkYXRh
+KCJpMTYiLDMyAwAvIjABAP--------------------vxCCIpLGhpZGRlbj1mYWxzZSxwYW5feD0w
+CADSeT0wLHRpbGVfaD0xNgoAEHcKAIB6b29tPTF9fQ==
+:: sfx/
+:: sfx/.info.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA4LTA1IDIzOjA1OjI1Iixtb2RpZmllZD0iMjAyNC0w
+OC0wNiAxNzowNzozOCJdXWx6NAAEAAAAAwAAADBuaWw=
+:: sfx/0.sfx
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA4LTA1IDIzOjA1OjI2Iixtb2RpZmllZD0iMjAyNC0w
+OC0wNiAxNzowNzozNyIscmV2aXNpb249MzMwXV1sejQAoAAAAAsKAAD-MHB4dQADKAAABAAED0AQ
+Ag4AAaABIAKgDgAPEAAN8MoBAgNADw_QBAUGB0AMkAgJCgtADJAPDA8NDw4MQAzw-wEA6-8nqgEQ
+Bg8gEAEgASAB8AACEAIOEAEgDyEgATAPQPDDDygP--DGD-gKD-8PgA-3Dw0B8AkBEAYOMAD-----
+-70f-wEArM-ID0AADxBA--_w8P8BAP-qUP----8p
+:: gemini.lua
+--[[pod_format="raw",created="2024-08-05 23:24:41",modified="2024-08-06 17:07:37",revision=528]]
+TEXT=0
+LINK=1
+HEAD1=2
+HEAD2=3
+HEAD3=4
+LIST=5
+QUOT=6
+PREF=7
+
+th={}
+th.bg=1
+th.fg=6
+th.heading=7
+th.link=16
+th.pre=5
+th.quote=3
+th.err=2
+th.list=5
+
+--[[  Gemini text handling
+	line types are:
+		text
+		link
+		heading
+		list
+		quote
+		preformat toggle
+		
+	Text
+		default type, no prefix, ideally should be word-wrapped
+		
+	Link
+		format:
+=>[<whitespace>]<URL>[<whitespace><USER-FRIENDLY LINK NAME>]
+		where:
+			- <whitespace> any non-zero number of consecutive spaces or tabs '%s+'
+			- square brackets indicate optionalty
+			- <URL> is an URL, either absolute or relative
+
+	Preformat toggle
+		format:
+"```"
+		toggles preformat-state, should not be rendered; other content of line is alt text
+
+	Heading lines
+		format:
+"# "   h1
+"## "  h2
+"### " h3
+
+	List lines
+		format:
+"* "
+
+	Quote lines
+		format:
+">"
+
+
+--]]
+
+function render_gemini(s)
+	local preformat=false
+	local st,pt="",""
+	local ln,str,link="","",""
+	local x,y=0,0
+	local type=TEXT
+	type=check_type(sub(s,1,3))
+	for c=1,#s do
+		st=sub(s,c,true)
+		if ord(st)==10 then
+			x=0
+			if c<#s-4 then
+				type=check_type(""..s[c+1]..s[c+2]..s[c+3])
+				if type==PREF then
+					preformat=not preformat
+				end
+				if type!=PREF and preformat then	
+					type=PREF
+				end
+				if s[c+1]..s[c+2]..s[c+3]!="```" then
+					y=y+10
+				end
+			end
+			ln=""
+		else
+			ln=ln..st
+		end
+		if preformat==false then
+			if type==TEXT then
+				color(th.fg)
+				if st!=" " then
+					w=print(st,x,y)
+					x=x+(w-x)
+				elseif st==" " then
+					w=print(st,x,y)
+					x=x+5
+				else
+				end
+			elseif type==HEAD1 or type==HEAD2 or type==HEAD3 then
+				color(th.heading)
+				if st!=" " and st!="#" then
+					w=print(st,x,y)
+					print(st,x+1,y)
+					x=x+(w-x+1)
+				elseif st==" " and pt!="#" then
+					w=print(st,x,y)
+					x=x+5
+				else
+				end
+			elseif type==QUOT then
+				color(th.quote)
+				if st!=" " and st!=">" then
+					w=print(st,x,y)
+					x=x+(w-x)
+				elseif st==" " and pt!=">" then
+					w=print(st,x,y)
+					x=x+5
+				else
+				end
+			elseif type==LIST then
+				if x<10 then
+					color(th.list)
+				else
+					color(th.fg)
+				end
+				if st!=" " and st!=">" then
+					w=print(st,x+16,y)
+					x=x+(w-x-16)
+				elseif st==" " and pt!=">" then
+					w=print(st,x+16,y)
+					x=x+5
+				else
+				end	
+			elseif type==LINK then
+				if ord(s[c+1])==10 then
+					link,str=string.find(ln..chr(10),"(.-)"..chr(10))
+					color(th.link)
+					print(sub(ln,link,str),0,y)
+				--	print(ln,0,y+12)
+				end
+			else
+				color(th.err)
+				if st!=" " then
+					w=print(st,x,y)
+					x=x+(w-x)
+				elseif st==" " then
+					w=print(st,x,y)
+					x=x+5
+				else
+				end
+			end
+		else
+			--preformat
+			if ord(s[c+1])==10 then
+				link,str=string.find(ln..chr(10),"```"..chr(10))
+				if str==nil then
+					color(th.pre)
+					print(ln,0,y)
+				end
+			--	print(ln,0,y+12)
+			end
+		end
+		if (x+1)//8>=(W-10)//8 and st==" " then 
+			x=0
+			y=y+12
+		end
+		pt=st
+	end
+end
+
+function check_type(s)
+	local ty,o={},TEXT
+	for i=1,3 do
+		ty[i]=sub(s,i,true)
+	end
+	if ty[1]..ty[2]=="=>" then
+		o=LINK
+	elseif ty[1]=="#" then
+		o=HEAD1
+		if ty[2]=="#" then
+			o=HEAD2
+			if ty[3]=="#" then
+				o=HEAD3
+			end
+		end
+	elseif ty[1]..ty[2]..ty[3]=="```" then
+		o=PREF
+	elseif ty[1]..ty[2]=="* " then
+		o=LIST
+	elseif ty[1]==">" then
+		o=QUOT
+	else
+		o=TEXT
+	end
+	return o
+end
+:: main.lua
+--[[pod_format="raw",created="2024-08-05 23:05:26",modified="2024-08-06 17:07:37",revision=495]]
+--[[
+window{
+  width      = 280,
+  height     = 180,
+  resizeable = true,
+  title      = "Gemini"
+}
+--]]
+include("gemini.lua")
+include("web.lua")
+
+W=400
+H=270
+
+LOAD=false
+F=0
+
+url="gemini://geminiprotocol.net/docs/cheatsheet.gmi"
+
+function get_url(ur)
+	local u=string.gsub(ur,"gemini://","gemini/")
+	web:GET("https://portal.mozz.us/"..u.."/?raw=1")
+end	
+
+xMIN=-10
+yMIN=-10
+yoff=-10
+xoff=-10
+yk=yoff
+xk=xoff
+function _init()
+  get_url(url)
+end
+mx,my,mb,mwx,mwy=0,0,0,0,0
+
+function _update()
+	mx,my,mb,mwx,mwy=mouse()
+	if btn(3) then yk=yk+1 end
+	if btn(2) then yk=yk-1 end
+	if btn(1) then xk=xk+1 end
+	if btn(0) then xk=xk-1 end
+	yk=yk-mwy
+	xk=xk+mwx
+	xoff=lerp(xoff,xk,0.3)
+	yoff=lerp(yoff,yk,0.3)
+	if xoff<xMIN then xoff,xk=xMIN,xMIN end
+	if yoff<yMIN then yoff,yk=yMIN,yMIN end
+	web:process_threads()
+	F=F+1
+end	
+
+function _draw()
+	cls(th.bg)
+	camera(xoff*4,yoff*4)
+	web:render()
+	--debug_ord()
+	draw_urlbar(url)
+end
+
+
+function draw_urlbar(ur)
+	local ld,lc="",7
+	if LOAD then ld,lc=chr(144+(F//3)%2*3),16 else ld,lc=">",7 end
+	camera(0,0)
+	rectfill(0,0,479,13,1)
+	rect(0,0,479,13,16)
+	print(ld,4,3,lc)
+	print("  "..ur,4,3,16)
+end	
+
+function debug_ord()
+	for x=0,15 do
+		for y=0,15 do
+			o=x+y*16
+			color(8)
+			print(chr(o),x*16,y*16+2)
+			color(8)
+			print(o,x*16,y*16+10)
+		end
+	end
+end
+
+function lerp(a, b, t)
+	return a + (b - a) * t
+end
+:: web.lua
+--[[pod_format="raw",created="2024-08-05 23:08:36",modified="2024-08-06 17:07:37",revision=341]]
+web = {
+    requested=nil,
+    source="",
+    GET=function(self, site)
+        self.requested = false
+        self.site=site
+        if self.requested == false then
+            self.cor=cocreate(function (site)
+                s=fetch(self.site)
+                self.source=s
+                yield() 
+            end)
+            self.requested=true
+        end
+    end,
+    process_threads=function(self)
+        if self.cor and costatus(self.cor) != 'dead' then
+            coresume(self.cor,self.site)
+            LOAD=true
+        else
+            self.cor=nil
+            LOAD=false
+        end
+    end,
+    view_source=function(self)
+        print(self.source)
+    end,
+    render=function(self)
+    	render_gemini(self.source)
+    end
+}
+:: .info.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA4LTA2IDAxOjI5OjQ5Iixtb2RpZmllZD0iMjAyNC0w
+OC0wNiAxNzowNzozOCIscnVudGltZT04LHdvcmtzcGFjZXM9e3tsb2NhdGlvbj0ibWFpbi5sdWEj
+NTciLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249IndlYi5sdWEjMTkiLHdvcmtzcGFjZV9p
+bmRleD0xfSx7bG9jYXRpb249ImdlbWluaS5sdWEjMTQ2Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xv
+Y2F0aW9uPSJnZngvMC5nZngiLHdvcmtzcGFjZV9pbmRleD0yfSx7bG9jYXRpb249Im1hcC8wLm1h
+cCIsd29ya3NwYWNlX2luZGV4PTN9LHtsb2NhdGlvbj0ic2Z4LzAuc2Z4Iix3b3Jrc3BhY2VfaW5k
+ZXg9NH19XV1sejQABAAAAAMAAAAwbmls
+:: [eoc]
