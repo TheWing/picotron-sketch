@@ -2,31 +2,86 @@ picotron cartridge // www.picotron.net
 version 2
 
 :: gfx/
-:: gfx/.info.pod
-b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA3LTIyIDIwOjUwOjU4Iixtb2RpZmllZD0iMjAyNC0w
-Ny0yNiAwMToxNDo1MSJdXWx6NAAEAAAAAwAAADBuaWw=
 :: gfx/0.gfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA3LTIyIDIwOjUwOjU5Iixtb2RpZmllZD0iMjAyNC0w
-Ny0yNiAwMToxNDo1MCIscmV2aXNpb249Mjk3OV1dbHo0ALcAAAAXMQAA8xV7WzBdPXtibXA9cHh1
-AEMgEBgE8P9xLGZsYWdzPTAscGFuX3gIANd5PTAsem9vbT0xMH0sMwAQGDMALP8yNAAzLjI1NwBC
-LTAuNToAGTc5AF8QEATw8GsACx84MQDwXyAE8P-xMgALHzVjAB4PiQH-NgHcAgM1AADyAg9pAB0P
-MQD-----------------------------------------------------------_sUG09OH19
-:: map/
-:: map/.info.pod
+OS0wMiAyMzoyMzowOSIscmV2aXNpb249MzQwMF1dbHo0AIYNAADLWQAA-wx7WzBdPXtibXA9cHh1
+AEMo4AEAAA4BAAAEAAECABB-QQ8TAQMBDgIABF7_-0wBDgIAP8EAAQIACD8RAAECAAIWDgIAAkcA
+lwE_A-7-dhMOAQIAFAACAB4BAgA-EAEAUgANCAIAHwPTAAQ-TgEOKgAAD4YAFR8RhAAUno4D-v9w
+A84BDlQAD9QACgICAD-hDgGfAAdf-v9SAQ6-AAk-gQABugAOHw62AACd-gIT-v9oE-4EtAAeDrIA
+DkYADwIAEF-_-1gBDgIAEx4AfAAIwgAPeAABb-4HE-7-fUEABx8QZwEKD64AAT5aAQ4CAA9pAQkf
+ERkBCm-_DBP_-3yhAAUeEDsADwIAF48D-v9ZAy4BDgIAERoAeQAPtAAJjf4SA-7-eQEOOwAIsgAE
+AgA-wQ4BAgAJn04T-v9TA44BDgIABT2hAAFLAQyVAI-_GxP_-3cBDpEAAR4QxgAPAgATf54D-v9b
+AQ4CABEWAHAAHRFuAIn_IhP_-3gBDisABJkAAgIAP4EOAXUCDT9sAQ4kARE7EQAO6wBc-v_sAQ5_
+ADoQDgAmAA8CAA_--gcD-v8_A-4JAQ4CABEFDwEMjgA6sAEOJAAfEAQBFN8OAf4LA-7-OAP_DwEO
+CgEMKA4AdwBY-v_0AQ51ABoQlQAPeAAOrxED-v8yA-4TAQ4CABEA1QAKfwA2uAEOHQAB8AA-YQ4B
+AgANf-4VA-5RAQ4CACpP-gsBDgIABH-_VwP_GQEOxgQKCMQAN7oBDsQABBgADwIAD3-_GwP_LQEO
+AgCSf-5BA-4dAQ4CAA8lAB4AATn_-7zcAQ-aAQ5--h8D-isBDgIADE-_LwEOjAMILwEOAgAAf-49
+A-4hAQ7TAQgGzwEVwLMALw4BAgATf-4jA-4fAw4CAAw-TgMOAgAkOG4DDgIAT-MEDgMCAAE-jgMO
+AgAEf-4qA-4nAQ66AQ0DAQEywgEOAgBPAHEOAQIACV-_-4oBDgIAAxSBIgARxAgAIQ4RBgAP2gEO
+nwP_-woD-jEBDgIAChEeWgASxg4AP0EOAQIACb-_NQP_-wQD-jcBDgIAAShhDkwAD6YADq-_OQP_
+-QP_OwEOnQAIP-7-ypkADgCRAk-3A-4bOwUEJGEORgAPkwAKAAkFzx0D-vED-iUB-g0BDpMACG-M
+AQ4hDgECAAWv-kcD-usD-iEDLh8FCiJBDkoAD5UACDD_FwMPA0-lA-4lTQAMApkAX2cD-v9WmgAE
+Iv4NGgxTKAP_-xsUAA9OAAgg-msyCR8RTAAIhg4B-jQD-v8VmgAPMQcBj-5vA-7-UwEORgAHII4D
+qwJBzwP_NQ8AD0gABU--0QEOAgAAAy0Ahf47A-7JA-4zjQAATwcrAQ5DAD-TAQ5BAAUgjgPdAm-D
+A-43Ay5BAAUOhgAJQwBADgFuA9QCQ70D-j0RAA_GAAF9JAH_-54BDkQAABACf0UD-rcD-j3GAAoA
+ewVj-ksD-v9BEgAcDi0Az44D-j8T-rAD-kUBDkcAAyD_IgUAABULOz4BDkMAAZgCRwgD-kOGAAfk
+AAqIACP-nQ8ADWkAAIUOH1RDAAkBhADLrgP__QP_SgP_LAEORgAwQY4D5wBumxP_SwM_YAAHhgB8
+rgP_9gP_TfAGBysAz34D-k4D-pUT-k4DLiIAAwaQAErzA-5QkAB4-hNhjgP_UfcFV-5PE-5RlwAO
+3gABHwFK_xP_U5cAB6MEUP5dA-5JCAATBX4EP1UDTpsABBIgBwAo-2GZAABLABFBaQGfVwP_gwP_
+WQNOjgAGEB8FAH--ZAP_KgEOjAABU24D-lsDkQMEtwkfXOAAByT_IFAABtwAIP4TaQUYZ-0CAAIA
+AFQFF1_aAAxKABIfBwAo-2KcAAeaAAGcAEP-VwNeDgAJGwES-mcHA0AAFSvKBRJheQQf33gACASB
+CQl6AEj_FQEOeABRaQP_YQMHCU-_UQNOggAIN-7-ZUYAIRRxPgACkAoHzAAR7mYBH27MAAQWHUoA
+PikBDpAAUP5hAf4FJgJA-gUBLqIBCd0ABEkADpEAAQ8BAZEAd3MD-k8D-nSAAAg5AA_AAA5-fQP_
+SQP_d3gAFxGBdgAweQP_qwRv-nsDbgEOdgAGQmYD-igLADUXAQ4CABBObQgm-jZnEgPlAU8uA-5_
+xwABBIYAQooj-gOuCTQRAw4CADQz-oHbAADZAAAlAnCGAz4B-jEBKQAZgNgABlIAA6EAYIoDLgP_
+MQUAH4CqAAUyfwE_oAMAVQAfgJ8ACgEpBhyAjgBPxwH_iYYADQAtBxWKggAIoAEQboIAXP45Af6B
+RAAC_QIEfQARmKMGAEEAMf4XgbkAEY89CT_QA155AAdExAP_kQEFB3YAIP5nKQBf-iYD-pR1AAQy
+HAEOCQBEwAP_lXcAEWGuAHmVA-4PA-6WdwAGOQACpQhS-owD-st5AAdvAVj_iQH_IAwFSw4B-lOB
+AAanCAKDAABKACAJA0IDGdQVAzbnAQ6RBQ-EAAMEwQ6L-qoD-q4D-iaNAFlLAf7-Cy0FCH4AMhoB
+DgkAI-9qyAAAHwQk-q0XAB_juAAGGBk6AB8m7wEAGIGlEAA-ED_CAz7BAAIChAAg-tgiACP_J5UE
+AHICQFUB-kO9Ag6JAAqJAQM7AAuFAEGOA-5NsQ1JGwP_oVoHA0ACBHkAI-9tPACvE4H_pwP_AwP_
+nqoABARXAVD_jgP_zYsLAqwAAwIAgP6NA-4iA-4GhQAr-l1yAAU7ASP_Fg4Acw4B-sID-pl8ACES
+cbIAK-9hewAGcQEE2gBc-sgD-st6ABABOwtvAAH_gwNOdQAKQP7KA-5uDEH_EJGuWwMQHzsDH05x
+AAuUzgOuA-6EA-4kOgEIeABNLgOeARETC58HDogAEb5BAROERAEhEHFrFGCKA-4rA14XAA_RAAMG
+8QARvlQIHzmWAAMgjgONBiMRAbQLL-6EjAAEExQOABHeTQA9NwMOkQATZCIAhv4IAwEOAw4B3gIy
+DgNu6QUSBb4FFANyGB4DhAEBqwIm-hNuACCCAxIMGri4AESuA-5VeAEgAwF5Dm0D-hcB-ltIAin_
+D7sAI-9kAwEhEFEYAZ9UAf4ZA-7UAz6EAAYi-gA2ABYjlQAB7gBfUgH_-wJvAAgh7gNAByFGYa0A
+NdsD-lIYDWMAACsAOLsBDl4AEHQECiz_dRwBFjQwABFxWAAQcZIJK-5ziAAl-jUoAGhmA-5EAQ5b
+AJ9uA-5lA-5wAz5bAAUAMwAC0gF8bAP_awP_bYYAFTNOAQXJEiEBrmIJbnED-m8BDlcAAWwBIv_8
+VgAQZnkIL-5nVgADAyoACFgAT-9oAy5VAA5v9gP_ZQEOUAAPEJ4NCwB8BB9dVQADEM4uABGBFwOe
+WQP_kwP_XwEOVgAezrIBElbBBVyOAf5tA9EJBlsAMroBDl0AQFMD-p8BCh8uXwAUl1AD-qUD-lcB
+DgIAIv4yBwAh-8gCBgLrCxCrGQoPVgACV-7-xwEOAgB0jgP_ShP_-x4DBzAAEyw5DEIT-v9hXQZd
+UgP_lAEKAiQOARkLelQT-v9jAQ5eACBDEyoIG0WOAAACAANXCgJ-DYAD-v8ZA-48oX8HaxP_xgP_
+QpwCBSsKAAIAbP5MA-7-HJsMz44D-j0T-swD-j8DTmwACIRIE-7-HwP_PIYBUTsD-tMDNwcPbAAD
+e0UT-v9wAQ7xFRDZTQUGAQsJZQBE-v-IoYMQE3sUAHAOAf4DAf43NgUfTmsAAwybAQIGERzlUhMI
+ZgABShQABAc-bgNuUwAREo6SGAILAgUuABYoUQABFAGsDgH_MQP__wP_KeEAHyerAAYQjtQSAA0F
+T-4nA05fAAUBShQQgTECEQOTEAZtDgteADnFAQ4CABGudgcg-w6GEwuTACkmAU4VBBIBER09CxKD
+nQYKkBYPxAAGAcIAJRoDIgAF4REJwAAVYfEAEhdvBE-_1wEOYwABWf7-yQEOAgBe-v_EAQ5dAAF4
+AQAPAAPrEwB-CTf-MAOTCgQCAGf_--8AAQ4CAAC5BjX-NgN5CAcaAHlSA-7-mgEOAgB5-hUT-v87
+A-wHBgEREP9zBBxCHgCo-k0T-v-NE-7-SBoAAbISUM4T-v9OfQAj-kkOABPNRgATzggAQ2MD-loX
+AENpA-5UGgBDbwP_TSEAQ3YD-kcLAEN8A-5BLABAggP_-_ADIP_ICQAQFgUANP--9CkEIP8G0RsD
+iQAAoQAAFABeAAP_pQFlBA8CADsy-gUBfwIR7gYAGg4PAW-5A-6XAQ4CAIwKnQMDPgEe8zQcDwIA
+yQpDBAMEAR-tBAHbDggBABIVJP-nVAsPAgDTBlUlAIgTn--SE84D-lkBDgIA1DD_cAMSCFrHE14D
+-rURD2IEOQ8CAAMHSQ0PzQA08Qx2Ay4T-v-MAyxmbGFncz0wLHBhbl94PS0xNzgLAOZ5PS00Mix6
+b29tPTF9LOcoiyAYGATw--8yOABEMC4yNTgAPzAuNTkAAVwQEATw8DcAAzQAEjAxAB84MQDwXyAE
+8P-xMgALHzVjAB4PiQH-NgHcAgM1AADyAg9pAB0PMQD---------------------------------
+--------------------------_sUG09OH19
+:: gfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA3LTIyIDIwOjUwOjU4Iixtb2RpZmllZD0iMjAyNC0w
-Ny0yNiAwMToxNDo1MSJdXWx6NAAEAAAAAwAAADBuaWw=
+OS0wMiAyMzoyMzowOSJdXQ==
+:: map/
 :: map/0.map
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA3LTIyIDIwOjUwOjU5Iixtb2RpZmllZD0iMjAyNC0w
-Ny0yNiAwMToxNDo1MCIscmV2aXNpb249Mjk2MF1dbHo0AGkAAABYEAAA8Ah7e2JtcD11c2VyZGF0
+OS0wMiAyMzoyMzowOSIscmV2aXNpb249MzMwNF1dbHo0AGkAAABYEAAA8Ah7e2JtcD11c2VyZGF0
 YSgiaTE2IiwzMgMALyIwAQD--------------------78QgiKSxoaWRkZW49ZmFsc2UscGFuX3g9
 MAgA0nk9MCx0aWxlX2g9MjQKANB3PTE2LHpvb209MX19
-:: sfx/
-:: sfx/.info.pod
+:: map/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA3LTIyIDIwOjUwOjU4Iixtb2RpZmllZD0iMjAyNC0w
-Ny0yNiAwMToxNDo1MSJdXWx6NAAEAAAAAwAAADBuaWw=
+OS0wMiAyMzoyMzowOSJdXQ==
+:: sfx/
 :: sfx/0.sfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA3LTIyIDIwOjUwOjU5Iixtb2RpZmllZD0iMjAyNC0w
-Ny0yNiAwMToxNDo1MCIscmV2aXNpb249Mjk1NV1dbHo0AMsBAAA9FQAA-ytweHUAAygAAAQABA9A
+OS0wMiAyMzoyMzowOSIscmV2aXNpb249MzMwM11dbHo0AMsBAAA9FQAA-ytweHUAAygAAAQABA9A
 EAIOAAGgASACoA4ADxAADfDKAQIIBAUGBwEP_JAIBAoIBA8NDw4PDwIP_PD-AQDr-SbSARAGDyAQ
 ASABIAHwAAIQAgwQASAPISABMA7www8oD--wxg-4Cg--D4AP9w8NAfAJARAGDC8A8AIPDhABMA9u
 kA8RAiAMUAEPfw8A-wr-oAggD3IgD4ggD0LwAwkgDxMgC-BvAfDHUQAQECBAAAFPAN8PDVABBBAB
@@ -35,27 +90,101 @@ KPBwDgANQA83DzgPOQ86DzsPPA89Dz7zHgD3AyQPJQ8mDycPKA8pDyIPI-Moch4AIPOwCAD0DQoO
 ME8aI08fI08cEwUvIQ8ePxlPGhMHPx8-HkURAPEHRCNEI0QT1BPUE4RMI0wjTBPcE9wTjD4ABEYA
 DAgAkA4wPy0jDyo-LwUA8AIrLygPLSMJYwkjDyofLxMbExIA-xQJcz8DI0YjhiMGYwYjJhMWE3Zz
 PCNMI4wjDGMMIywTHBN8c1oAAgMIAB8NCAD---------------8KUPOw8P85
+:: sfx/.info.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA3LTIyIDIwOjUwOjU4Iixtb2RpZmllZD0iMjAyNC0w
+OS0wMiAyMzoyMzowOSJdXQ==
 :: board.lua
---[[pod_format="raw",created="2024-07-24 18:54:09",modified="2024-07-26 01:14:50",revision=510]]
-function draw_hand(s,m)
+--[[pod_format="raw",created="2024-07-24 18:54:09",modified="2024-09-02 23:23:09",revision=1052]]
+-- Everything related to drawing a board
+
+include("tiles.lua") -- we do need to know how to draw tiles
+
+function draw_board(sel,move)
+	draw_other_hands(exhausted==1)
+	draw_ponds(
+		{x=W/2.4,		y=H/1.8,		w=12,	h=12*1.5,r=2},--p1
+		{x=W/3*1.9,	y=H/5*2.8,	w=12,	h=12*1.5,r=3},--p2
+		{x=W/1.77,	y=H/3.5,		w=12,	h=12*1.5,r=2},--p3
+		{x=W/3*1.02,	y=H/5*1.48,	w=12,	h=12*1.5,r=4})--p4
+	draw_opens()
+	draw_hand(sel+1,move)
+end
+
+function draw_hand(s,mov)
+	local mt,hov={},0
+	hov=0
 	for i=1,#hand1 do
 		if turn%4==0 or i<14 then 
 			til=hand1[i]
-			local x,y,w,h,col=0,0,til[5],til[5]*1.5,til[6]
+			local x,y,w,h,col=0,0,til.w,til.w*1.5,til.col
 			local ii=i%(17*2)
 			x=W/5+i*(w+2)
 			if i==14 then x=x+4 end
 			y=H-h*1.5
 			if s==i then 
-				if m==1 then y=y-h/4 end
+				if mov==1 then y=y-h/4 end
 				y=y-h/4 
 			end
-			if i==14 and turn%4>0 then 
-				tile(til[1],til[2],x,y,w,h,col,0)
+			mt=check_mouse(x,y,w,h)
+			if mt.t then 
+				hov=hov+1
 			else
-				tile(til[1],til[2],x,y,w,h,col,1)
+				if i==14 and turn%4>0 then 
+					tile(til.type,til.num,x,y,w,h,col,0)
+				else
+					tile(til.type,til.num,x,y,w,h,col,1)
+				end
 			end
 		end
+	end
+	if hov>0 then 
+		for i=1,#hand1 do
+			if turn%4==0 or i<14 then 
+				til=hand1[i]
+				local x,y,w,h,col=0,0,til.w,til.w*1.5,til.col
+				local ii=i%(17*2)
+				x=W/5+i*(w+2)
+				if i==14 then x=x+4 end
+				y=H-h*1.5
+				if s==i then 
+					if mov==1 then y=y-h/4 end
+					y=y-h/4 
+				end
+				mt=check_mouse(x,y,w,h)
+				if mt.t then
+					if i==14 and turn%4>0 then 
+						tile(til.type,til.num,mt.x,mt.y,mt.w,mt.h,col,0)
+					else
+						tile(til.type,til.num,mt.x,mt.y,mt.w,mt.h,col,1)
+					end
+				end
+			end
+		end
+	end
+end
+
+
+-- check if mouse overlaps with any tiles
+-- requires m=update_mouse() to run in _update(), but fails gracefully
+function check_mouse(x,y,w,h)
+	if m.x!=nil then 
+		local d={}
+		local t=false
+		local nw,nh=0,0
+		if m.x>=x and m.x<=x+w and m.y>=y-4 and m.y<=y+h then
+			d={x=(m.x-(x+w/2)),y=(m.y-(y+h/2))}
+			d.l=sqrt(d.x*d.x)
+			d.r=w
+			nw=lerp(w*2,w,EaseIn(d.l/d.r))
+			x=x-nw/4
+			y=y-(nw*1.5)/4
+			w=nw
+			h=nw*1.5
+			t=true
+		end
+		return {t=t,x=x,y=y,w=w,h=h}
+	else
+		return {false,-1,-1,-1,-1}
 	end
 end
 
@@ -64,118 +193,256 @@ function draw_other_hands(o)
 	if o then form={3,2,3} end
 	for i=1,#hand4 do
 		til=hand4[i]
-		local x,y,w,h,col=0,0,til[5],til[5]*1.5,til[6]
+		local x,y,w,h,col=0,0,til.w,til.w*1.5,til.col
 		local ii=i%(17*2)
 		w=w*(1-(13-i)*0.02)
 		x=18+(13-i)*2
 		y=30+i*(w*0.8)
-		tile(til[1],til[2],x,y,w,h,col,form[1])
+		tile(til.type,til.num,x,y,w,h,col,form[1])
 	end
 	for i=1,#hand3 do
 		til=hand3[i]
-		local x,y,w,h,col=0,0,til[5],til[5]*1.5,til[6]
+		local x,y,w,h,col=0,0,til.w,til.w*1.5,til.col
 		local ii=i%(17*2)
 		w=w*0.7
 		x=W/3.5+i*(w+2)
 		y=10
-		tile(til[1],til[2],x,y,w,w*1.5,col,form[2])
+		tile(til.type,til.num,x,y,w,w*1.5,col,form[2])
 	end
 	for i=1,#hand2 do
 		til=hand2[i]
-		local x,y,w,h,col=0,0,til[5],til[5]*1.5,til[6]
+		local x,y,w,h,col=0,0,til.w,til.w*1.5,til.col
 		local ii=i%(17*2)
 		w=w*(1-(13-i)*0.02)
 		x=W-18-w-(13-i)*2
 		y=30+i*(w*0.8)
-		tile(til[1],til[2],x,y,w,w*1.5,col,form[3])
+		tile(til.type,til.num,x,y,w,w*1.5,col,form[3])
 	end
 end
 
 function draw_opens()
+	local mt,hov={},0
 	for i=1,#open1 do
 		til=open1[i]
-		local x,y,w,col=0,0,til[5],til[6]
+		local x,y,w,col=0,0,10,til.col
 		x=W-i*(w+2)-10
 		y=H-w*1.5-4
-		tile(til[1],til[2],x,y,w,w*1.5,col,2+til[9])
+		mt=check_mouse(x,y,w,w*1.5)
+		if mt.t then 
+			hov=hov+1
+		else
+			tile(til.type,til.num,x,y,w,w*1.5,col,2+til.open)
+		end
 	end
 	for i=1,#open3 do
 		til=open3[i]
-		local x,y,w,col=0,0,10,til[6]
+		local x,y,w,col=0,0,10,til.col
 		x=i*(w+2)+40
 		y=w*1.5-4
-		tile(til[1],til[2],x,y,w,w*1.5,col,2+til[9])
+		mt=check_mouse(x,y,w,w*1.5)
+		if mt.t then 
+			hov=hov+1
+		else
+			tile(til.type,til.num,x,y,w,w*1.5,col,2+til.open)
+		end
 	end
 	for i=1,#open4 do
 		til=open4[i]
-		local x,y,w,col=0,0,10,til[6]
+		local x,y,w,col=0,0,10,til.col
 		y=H-i*(w*1.5+1)-4
 		x=10
-		tile(til[1],til[2],x,y,w,w*1.5,col,3+til[9])
+		mt=check_mouse(x,y,w,w*1.5)
+		if mt.t then 
+			hov=hov+1
+		else
+			tile(til.type,til.num,x,y,w,w*1.5,col,3+til.open)
+		end
 	end
 	for i=1,#open4 do
 		til=open4[i]
 		local x,y,w,col=0,0,10,til[6]
 		y=i*(w*1.5+1)-4
 		x=W-w-10
-		tile(til[1],til[2],x,y,w,w*1.5,col,3+til[9])
+		mt=check_mouse(x,y,w,w*1.5)
+		if mt.t then 
+			hov=hov+1
+		else
+			tile(til.type,til.num,x,y,w,w*1.5,col,3+til.open)
+		end
+	end
+	-- hovers
+	if hov>0 then 
+		for i=1,#open1 do
+			til=open1[i]
+			local x,y,w,col=0,0,10,til.col
+			x=W-i*(w+2)-10
+			y=H-w*1.5-4
+			mt=check_mouse(x,y,w,w*1.5)
+			if mt.t then 
+				tile(til.type,til.num,mt.x,mt.y,mt.w,mt.w*1.5,col,2+til.open)
+			end
+		end
+		for i=1,#open3 do
+			til=open3[i]
+			local x,y,w,col=0,0,10,til.col
+			x=i*(w+2)+40
+			y=w*1.5-4
+			mt=check_mouse(x,y,w,w*1.5)
+			if mt.t then 
+				tile(til.type,til.num,mt.x,mt.y,mt.w,mt.w*1.5,col,2+til.open)
+			end
+		end
+		for i=1,#open4 do
+			til=open4[i]
+			local x,y,w,col=0,0,10,til.col
+			y=H-i*(w*1.5+1)-4
+			x=10
+			mt=check_mouse(x,y,w,w*1.5)
+			if mt.t then 
+				tile(til.type,til.num,mt.x,mt.y,mt.w,mt.w*1.5,col,2+til.open)
+			end
+		end
+		for i=1,#open4 do
+			til=open4[i]
+			local x,y,w,col=0,0,10,til[6]
+			y=i*(w*1.5+1)-4
+			x=W-w-10
+			mt=check_mouse(x,y,w,w*1.5)
+			if mt.t then 
+				tile(til.type,til.num,mt.x,mt.y,mt.w,mt.w*1.5,col,2+til.open)
+			end
+		end
 	end
 end
 
 function draw_wall()
 	for i=1,#wall do
 		til=wall[i]
-		local x,y,w,h,col=0,0,til[5],til[5]*1.5,til[6]
+		local x,y,w,h,col=0,0,til.w,til.w*1.5,til.col
 		local ii=i%(17*2)
 		w=8
 		h=10
 		x=((i+1)//2)*(w+2)
 		y=200+i%2*h/2
-		tile(til[1],til[2],x,y,w,h,col,0)	
+		tile(til.type,til.num,x,y,w,h,col,0)
 	end
 end
 
-function draw_ponds()
+function draw_ponds(p1,p2,p3,p4)
+	local mt,hov={},0
 	for i=1,#pond1 do
 		til=pond1[i]
-		local x,y,w,h,col=0,0,til[5],til[5]*1.5,til[6]
-		w=12
-		h=w*1.5
-		x=W/2.4+((i-1)%6)*(w+2)
-		y=H/1.8+(i-1)//6*(h+3)
-		tile(til[1],til[2],x,y,w,h,col,2)	
+		local x,y,w,h,col=0,0,til.w,til.w*1.5,til.col
+		w=p1.w
+		h=p1.h
+		x=p1.x+((i-1)%6)*(w+2)
+		y=p1.y+(i-1)//6*(h+3)
+		mt=check_mouse(x,y,w,h)
+		if mt.t then 
+			hov=hov+1
+		else
+			tile(til.type,til.num,x,y,w,h,col,p1.r)	
+		end
 	end	
 	for i=1,#pond2 do
 		local ii=#pond2-i
 		til=pond2[ii+1]
-		local x,y,w,h,col=0,0,til[5],til[5]*1.5,til[6]
-		w=12
-		h=w*1.5
-		y=H/5*3-((ii)%6)*(w+2)
-		x=W/3*1.8+(ii)//6*(h+3)
-		tile(til[1],til[2],x,y,w,h,col,3)	
+		local x,y,w,h,col=0,0,til.w,til.w*1.5,til.col
+		w=p2.w
+		h=p2.h
+		y=p2.y-((ii)%6)*(w+2)
+		x=p2.x+(ii)//6*(h+3)
+		mt=check_mouse(x,y,w,h)
+		if mt.t then  
+			hov=hov+1
+		else
+			tile(til.type,til.num,x,y,w,h,col,p2.r)	
+		end
 	end	
 	for i=1,#pond3 do
 		local ii=#pond3-i
 		til=pond3[ii+1]
-		local x,y,w,h,col=0,0,til[5],til[5]*1.5,til[6]
-		w=12
-		h=w*1.5
-		x=W/1.77-((ii)%6)*(w+2)
-		y=H/2.8-(ii)//6*(h+3)
-		tile(til[1],til[2],x,y,w,h,col,2)		
+		local x,y,w,h,col=0,0,til.w,til.w*1.5,til.col
+		w=p3.w
+		h=p3.h
+		x=p3.x-((ii)%6)*(w+2)
+		y=p3.y-(ii)//6*(h+3)
+		mt=check_mouse(x,y,w,h)
+		if mt.t then  
+			hov=hov+1
+		else
+			tile(til.type,til.num,x,y,w,h,col,p3.r)	
+		end		
 	end	
 	for i=1,#pond4 do
 		til=pond4[i]
 		local ii=i-1
-		local x,y,w,h,col=0,0,til[5],til[5]*1.5,til[6]
-		w=12
-		h=w*1.5
-		y=H/5*1.7+((ii)%6)*(w+2)
-		x=W/3*1.1-(ii)//6*(h+3)
-		tile(til[1],til[2],x,y,w,h,col,4)	
-	
-	end	
+		local x,y,w,h,col=0,0,til.w,til.w*1.5,til.col
+		w=p4.w
+		h=p4.h
+		y=p4.y+((ii)%6)*(w+2)
+		x=p4.x-(ii)//6*(h+3)
+		mt=check_mouse(x,y,h,w)
+		if mt.t then  
+			hov=hov+1
+		else
+			tile(til.type,til.num,x,y,w,h,col,p4.r)	
+		end	
+	end
+	-- hovering
+	if hov>0 then 
+		for i=1,#pond1 do
+			til=pond1[i]
+			local x,y,w,h,col=0,0,til.w,til.w*1.5,til.col
+			w=p1.w
+			h=p1.h
+			x=p1.x+((i-1)%6)*(w+2)
+			y=p1.y+(i-1)//6*(h+3)
+			mt=check_mouse(x,y,w,h)
+			if mt.t then 
+				tile(til.type,til.num,mt.x,mt.y,mt.w,mt.h,col,p1.r)	
+			end
+		end	
+		for i=1,#pond2 do
+			local ii=#pond2-i
+			til=pond2[ii+1]
+			local x,y,w,h,col=0,0,til.w,til.w*1.5,til.col
+			w=p2.w
+			h=p2.h
+			y=p2.y-((ii)%6)*(w+2)
+			x=p2.x+(ii)//6*(h+3)
+			mt=check_mouse(x,y,h,w)
+			if mt.t then 
+				tile(til.type,til.num,mt.x,mt.y,mt.w,mt.h,col,p2.r)	
+			end
+		end	
+		for i=1,#pond3 do
+			local ii=#pond3-i
+			til=pond3[ii+1]
+			local x,y,w,h,col=0,0,til.w,til.w*1.5,til.col
+			w=p3.w
+			h=p3.h
+			x=p3.x-((ii)%6)*(w+2)
+			y=p3.y-(ii)//6*(h+3)
+			mt=check_mouse(x,y,w,h)
+			if mt.t then 
+				tile(til.type,til.num,mt.x,mt.y,mt.w,mt.h,col,p3.r)	
+			end
+		end	
+		for i=1,#pond4 do
+			til=pond4[i]
+			local ii=i-1
+			local x,y,w,h,col=0,0,til.w,til.w*1.5,til.col
+			w=p4.w
+			h=p4.h
+			y=p4.y+((ii)%6)*(w+2)
+			x=p4.x-(ii)//6*(h+3)
+			mt=check_mouse(x,y,h,w)
+			if mt.t then 
+				tile(til.type,til.num,mt.x,mt.y,mt.w,mt.h,col,4)	
+			end
+		end	
+	end
 end
 :: designs.lua
 --[[pod_format="raw",created="2024-07-22 22:12:18",modified="2024-07-23 01:05:19",revision=1896]]
@@ -558,9 +825,73 @@ function hon(x,y,w,h,num)
 	end
 end
 :: eval.lua
---[[pod_format="raw",created="2024-07-23 04:18:20",modified="2024-07-26 01:14:50",revision=792]]
+--[[pod_format="raw",created="2024-07-23 04:18:20",modified="2024-09-02 23:23:09",revision=1170]]
+-- Everything related to figuring out what a hand contains
+
+
 SEAT={1,0,0,0}
 	-- E N W S
+	
+function check_pon(t,n,p,m,b,w,d)
+	if t==PIN then
+		if p[n]>1 then
+			return true
+		end
+	end
+	if t==MAN then
+		if m[n]>1 then
+			return true
+		end
+	end
+	if t==BAM then
+		if b[n]>1 then
+			return true
+		end
+	end
+	if t==WIN then
+		if w[n]>1 then
+			return true
+		end
+	end
+	if t==DRA then
+		if d[n]>1 then
+			return true
+		end
+	end
+	return false
+end
+
+function check_chi(t,n,p,m,b,w,d)
+	if t==PIN then
+		return chic(n,p)
+	end
+	if t==MAN then
+		return chic(n,m)
+	end
+	if t==BAM then
+		return chic(n,b)
+	end
+	return false
+end
+
+function chic(n,p)
+	if n>2 then 
+		if p[n-1]>0 and p[n-2]>0 then
+			return true
+		end
+	end
+	if n<8 then
+		if p[n+1]>0 and p[n+2]>0 then
+			return true
+		end
+	end
+	if n>1 and n<9 then
+		if p[n-1]>0 and p[n+1]>0 then
+			return true
+		end
+	end
+	return false
+end
 
 function sum(table)
 	local s=0
@@ -593,30 +924,30 @@ function evaluate(hand)
 	
 	for i=1,#hand do
 		t=hand[i]--    type  number
-		table.insert(h,{t[1],t[2]})
+		table.insert(h,{type=t.type,num=t.num})
 	end
 	
 	for i=1,#h do
 		t=h[i]
-		if t[1]<4 then 
-			nums[t[2]]=nums[t[2]]+1
+		if t.type<4 then 
+			nums[t.num]=nums[t.num]+1
 		end
-		if t[1]==PIN then
-			pins[t[2]]=pins[t[2]]+1
+		if t.type==PIN then
+			pins[t.num]=pins[t.num]+1
 		end
-		if t[1]==BAM then
-			bams[t[2]]=bams[t[2]]+1
+		if t.type==BAM then
+			bams[t.num]=bams[t.num]+1
 		end
-		if t[1]==MAN then
-			mans[t[2]]=mans[t[2]]+1
+		if t.type==MAN then
+			mans[t.num]=mans[t.num]+1
 		end
-		if t[1]==WIN then
-			winds[t[2]]=winds[t[2]]+1
+		if t.type==WIN then
+			winds[t.num]=winds[t.num]+1
 		end
-		if t[1]==DRA then
-			dragons[t[2]]=dragons[t[2]]+1
+		if t.type==DRA then
+			dragons[t.num]=dragons[t.num]+1
 		end
-		if t[2]==1 or t[2]==9 and t[1]<4 then
+		if t.num==1 or t.num==9 and t.type<4 then
 			terminals=terminals+1
 		end
 	end
@@ -732,8 +1063,21 @@ function evaluate(hand)
 	if sum(nums)==0 and sum(honors)==14 then p=p+320 end
 -- Seven pairs
 	if pair==7 and kongs==0 then p=p+30 end
-	--			1   2    3    4   5         6         7       8     9    10   11    12    13    
-	return {pins,bams,mans,p,terminals,sequences,triplets,conceal,suit,pair,kongs,winds,dragons}
+	--			1   		2    		3   	 4   			5     			    6    				     7       8     9    10   11    12    13    
+	return {pin=pins,
+			 bam=bams,
+			 man=mans,
+			 points=p,
+			 terminal=terminals,
+			 sequence=sequences,
+			 triples=triplets,
+			 concealed=conceal,
+			 suit=suit,
+			 pair=pair,
+			 kong=kongs,
+			 wind=winds,
+			 dragon=dragons
+	}
 end
 
 --[[
@@ -791,9 +1135,66 @@ Blessing of Earth    : 155
 Thirteen Terminals   : 160
 Seven Pairs          :  30
 ]]--
+
+
+function debug_score(score)
+	pins=score.pin
+	bams=score.bam
+	mans=score.man
+	local seqs=""
+	for i=1,#score.sequence do
+		local se=""
+		if score.sequence[i][1]==PIN then
+			se="P"
+		elseif score.sequence[i][1]==MAN then
+			se="M"
+		elseif score.sequence[i][1]==BAM then
+			se="B"
+		end
+		seqs=seqs..se..score.sequence[i][2].." "
+	end
+	print("p "..score.points,1,0,7)
+	print("t "..score.terminal,1,10,7)
+	print("s "..#score.sequence.." "..seqs,1,20,7)
+	print("     1 2 3 4 5 6 7 8 9",1,H-60,6)
+	scorn="pin:"
+	for i=1,9 do
+		scorn=scorn.." "..pins[i]
+	end
+	print(scorn,1,H-30,7)
+	scorn="bam:"
+	for i=1,9 do
+		scorn=scorn.." "..bams[i]
+	end
+	print(scorn,1,H-40,7)
+	scorn="man:"
+	for i=1,9 do
+		scorn=scorn.." "..mans[i]
+	end
+	print(scorn,1,H-50,7)
+	scorn="wind:"
+	for i=1,4 do
+		scorn=scorn.." "..score.wind[i]
+	end
+	print(scorn,1,H-20,7)
+	scorn="drag:"
+	for i=1,3 do
+		scorn=scorn.." "..score.dragon[i]
+	end
+	print(scorn,1,H-10,7)
+	print("k "..score.kong,1,30,7)
+	print("w "..sum(score.wind),1,40,7)
+	print("d "..sum(score.dragon),1,50,7)
+	print("tr "..score.triples,1,60,7)
+	print("su "..score.suit,1,70,7)
+	print("pa "..score.pair,1,80,7)
+	
+	print("wall "..#wall.." turn "..turn,W-88,0,7)
+	print("wait "..wait,W-40,10,7)
+end
 :: main.lua
---[[pod_format="raw",created="2024-07-22 20:50:59",modified="2024-07-26 01:14:50",revision=4463]]
-include("tiles.lua")
+--[[pod_format="raw",created="2024-07-22 20:50:59",modified="2024-09-02 23:23:09",revision=4916]]
+
 include("players.lua")
 include("eval.lua")
 include("util.lua")
@@ -803,7 +1204,7 @@ W=480
 H=270
 
 SELECT=10
-SPEED=0.05
+SPEED=0.01
 SCAL=1
 
 exhausted=0
@@ -845,12 +1246,13 @@ local function shuffle(t)
 end
 
 function _init()
+	local it={type=0}
 	w=16
 	h=w*1.5
 	for i=1,5 do
 		for ii=1,9 do
 			it=tile(i,ii,ii*(w+4),(i)*(h+8),w,h,ORANGE,-4)
-			if it[1]>0 then 
+			if it.type>0 then 
 				table.insert(t,it)
 				table.insert(t,it)
 				table.insert(t,it)
@@ -885,24 +1287,26 @@ timer={}
 timer[1]=time()
 timer[3]=0
 function _update()
-	cls(19)
+	cls(0)
+	spr(0,0,0)
 	timer[2]=time()-timer[1]
 	wait=max(0,wait-(timer[2]-timer[3]))
-	draw_other_hands(exhausted==1)
 	
-	m=update_mouse()
+	m=update_mouse()	--needed for hoverings
+	
 	if wsel!=sel then 
 		sfx(move,-1,rnd(8)//1,1) 
 		wsel=sel
 	end
-	draw_ponds()
-	draw_opens()
-	draw_hand(sel+1,move)
+	
+	draw_board(sel,move)
+	
 	if #wall>14 then 
 		exhausted=0
 	else
 		exhausted=1
 	end
+	
 	if exhausted==0 then
 		if btnp(2) then move=1 end
 		if btnp(3) then move=0 end
@@ -927,6 +1331,7 @@ function _update()
 			sel=sel+1 
 		end
 		sel=sel%#hand1
+		
 		evalhand={}
 		if turn%4!=0 then 
 			for i=1,#hand1-1 do
@@ -941,11 +1346,13 @@ function _update()
 			table.insert(evalhand,open1[i])
 		end
 		score=evaluate(evalhand)
-		pins=score[1]
-		bams=score[2]
-		mans=score[3]
-		dras=score[13]
-		wins=score[12]
+		pins=score.pin
+		bams=score.bam
+		mans=score.man
+		dras=score.dragon
+		wins=score.wind
+		chi=false
+		pon=false
 		if (chi and not pon) and btnp(4) then 
 			last_tile=#hand1
 			table.insert(wall,hand1[last_tile])
@@ -959,31 +1366,31 @@ function _update()
 			table.insert(wall,hand1[last_tile])
 			table.remove(hand1,last_tile)
 			if last==1 then 
-				ty=pond2[#pond2][1]
-				nu=pond2[#pond2][2]
-				pond2[#pond2][9]=1
+				ty=pond2[#pond2].type
+				nu=pond2[#pond2].num
+				pond2[#pond2].open=1
 				table.insert(open1,pond2[#pond2])
 				table.remove(pond2,#pond2)
 			end
 			if last==2 then 
-				ty=pond3[#pond3][1]
-				nu=pond3[#pond3][2]
-				pond3[#pond3][9]=1
+				ty=pond3[#pond3].type
+				nu=pond3[#pond3].num
+				pond3[#pond3].open=1
 				table.insert(open1,pond3[#pond3])
 				table.remove(pond3,#pond3)
 			end
 			if last==3 then 
-				ty=pond4[#pond4][1]
-				nu=pond4[#pond4][2]
-				pond4[#pond4][9]=1
+				ty=pond4[#pond4].type
+				nu=pond4[#pond4].num
+				pond4[#pond4].open=1
 				table.insert(open1,pond4[#pond4])
 				table.remove(pond4,#pond4)
 			end
 			for i=1,#hand1 do
 				temp_tile=hand1[i]
 				if temp_tile!=nil then 
-					if temp_tile[1]==ty and temp_tile[2]==nu then
-						hand1[i][9]=0
+					if temp_tile.type==ty and temp_tile.num==nu then
+						hand1[i].open=0
 						table.insert(open1,hand1[i])
 						table.remove(hand1,i)
 					end	
@@ -1025,14 +1432,14 @@ function _update()
 			end
 			last=turn%4
 			if last==1 then
-				d_type=pond2[#pond2][1]
-				d_num=pond2[#pond2][2]
+				d_type=pond2[#pond2].type
+				d_num=pond2[#pond2].num
 			elseif last==2 then
-				d_type=pond3[#pond3][1]
-				d_num=pond3[#pond3][2]
+				d_type=pond3[#pond3].type
+				d_num=pond3[#pond3].num
 			elseif last==3 then
-				d_type=pond4[#pond4][1]
-				d_num=pond4[#pond4][2]
+				d_type=pond4[#pond4].type
+				d_num=pond4[#pond4].num
 			end
 			if last>0 then
 				pon=check_pon(d_type,d_num,pins,mans,bams,wins,dras)
@@ -1040,6 +1447,8 @@ function _update()
 			if last==3 then
 				chi=check_chi(d_type,d_num,pins,mans,bams,wins,dras)
 			end
+			pon=false
+			chi=false
 			if not chi and not pon then 
 				turn=(turn+1)
 			end
@@ -1052,7 +1461,7 @@ function _update()
 			pon=false
 			wait=0
 		end
-		debug_score(score)
+		--debug_score(score)
 	else
 		--game over
 	end
@@ -1062,137 +1471,14 @@ function _update()
 end
 
 
-function check_pon(t,n,p,m,b,w,d)
-	if t==PIN then
-		if p[n]>1 then
-			return true
-		end
-	end
-	if t==MAN then
-		if m[n]>1 then
-			return true
-		end
-	end
-	if t==BAM then
-		if b[n]>1 then
-			return true
-		end
-	end
-	if t==WIN then
-		if w[n]>1 then
-			return true
-		end
-	end
-	if t==DRA then
-		if d[n]>1 then
-			return true
-		end
-	end
-	return false
-end
-
-function check_chi(t,n,p,m,b,w,d)
-	if t==PIN then
-		return chic(n,p)
-	end
-	if t==MAN then
-		return chic(n,m)
-	end
-	if t==BAM then
-		return chic(n,b)
-	end
-	return false
-end
-
-function chic(n,p)
-	if n>2 then 
-		if p[n-1]>0 and p[n-2]>0 then
-			return true
-		end
-	end
-	if n<8 then
-		if p[n+1]>0 and p[n+2]>0 then
-			return true
-		end
-	end
-	if n>1 and n<9 then
-		if p[n-1]>0 and p[n+1]>0 then
-			return true
-		end
-	end
-	return false
-end
 
 
 
 
-function debug_tiles(x,y,s)
-	s=max(s,10)
-	local w,h=s,s*1.5
-	for i=1,5 do
-		for ii=1,9 do
-			tile(i,ii,x+(w+10)*(ii-1),y+(h+6)*(i-1),w,h,ORANGE,1)
-		end
-	end
-end
-
-function debug_score(score)
-	pins=score[1]
-	bams=score[2]
-	mans=score[3]
-	local seqs=""
-	for i=1,#score[6] do
-		local se=""
-		if score[6][i][1]==PIN then
-			se="P"
-		elseif score[6][i][1]==MAN then
-			se="M"
-		elseif score[6][i][1]==BAM then
-			se="B"
-		end
-		seqs=seqs..se..score[6][i][2].." "
-	end
-	print("p "..score[4],1,0,7)
-	print("t "..score[5],1,10,7)
-	print("s "..#score[6].." "..seqs,1,20,7)
-	print("     1 2 3 4 5 6 7 8 9",1,H-60,6)
-	scorn="pin:"
-	for i=1,9 do
-		scorn=scorn.." "..pins[i]
-	end
-	print(scorn,1,H-30,7)
-	scorn="bam:"
-	for i=1,9 do
-		scorn=scorn.." "..bams[i]
-	end
-	print(scorn,1,H-40,7)
-	scorn="man:"
-	for i=1,9 do
-		scorn=scorn.." "..mans[i]
-	end
-	print(scorn,1,H-50,7)
-	scorn="wind:"
-	for i=1,4 do
-		scorn=scorn.." "..score[12][i]
-	end
-	print(scorn,1,H-20,7)
-	scorn="drag:"
-	for i=1,3 do
-		scorn=scorn.." "..score[13][i]
-	end
-	print(scorn,1,H-10,7)
-	print("k "..score[11],1,30,7)
-	print("w "..sum(score[12]),1,40,7)
-	print("d "..sum(score[13]),1,50,7)
-	print("tr "..score[7],1,60,7)
-	print("su "..score[9],1,70,7)
-	print("pa "..score[10],1,80,7)
-	
-	print("wall "..#wall.." turn "..turn,W-88,0,7)
-	print("wait "..wait,W-40,10,7)
-end
 :: players.lua
---[[pod_format="raw",created="2024-07-23 03:58:46",modified="2024-07-26 01:14:50",revision=768]]
+--[[pod_format="raw",created="2024-07-23 03:58:46",modified="2024-09-02 23:23:09",revision=1128]]
+-- This will eventually contain opponent code?
+
 function play_p2()
 	placeholder_player(hand2,pond2)
 end
@@ -1209,38 +1495,49 @@ function placeholder_player(hand,pond)
 	table.remove(wall,1)
 end
 :: tiles.lua
---[[pod_format="raw",created="2024-07-23 01:05:22",modified="2024-07-26 01:14:50",revision=2093]]
-GREEN=3
-RED=24
-BLUE=16
-WHITE=7
-ORANGE=9
-GRAY=15
-RADIUS=3
+--[[pod_format="raw",created="2024-07-23 01:05:22",modified="2024-09-02 23:23:09",revision=2515]]
+-- Tile drawing functions
+
+-- Tile looks
+GREEN=3	-- 
+RED=24		-- These are used for tile faces
+BLUE=16	-- 
+WHITE=7	-- Tile face light color
+GRAY=15	-- Tile face shadow color
+ORANGE=9	-- Tile back color
+RADIUS=3	-- Tile corner radius
+--
+
+-- Tile type enumeration
 PIN=1
 BAM=2
 MAN=3
 WIN=4
 DRA=5
-
+--
 
 function tile(type,num,x,y,w,h,col,show)
+	local hovered=0
+	local rot=0
 	--base
-	if type>MAN then
+	if type>MAN then	-- check if tile type&number combo is valid
 		if type==WIN and num>4 then
-			return {-1,-1,x,y,w,h,col,-1,0,0}
+			return {type=-1,num=-1,x=x,y=y,w=w,h=h,col=col,show=-1,hover=0,open=0}
 		elseif type==DRA and num>3 then
-			return {-1,-1,x,y,w,h,col,-1,0,0}
+			return {type=-1,num=-1,x=x,y=y,w=w,h=h,col=col,show=-1,hover=0,open=0}
+		--elseif type==FLO and num>?? then -- TODO adding flower/noble?
 		end
 	end
-	if show>0 then
-		if m[1]>=x and m[1]<=x+w and m[2]>=y-4 and m[2]<=y+h then
-			x=x-w/2
-			y=y-h/2
-			w=w*2
-			h=h*2
-			if show>2 then show=2 end
-		end
+	if show>0 then		--positive show means the tile is face up
+		-- Mouse over tile?
+	end
+	draw_tile(type,num,x,y,w,h,col,show)
+	return {type=type,num=num,x=x,y=y,w=w,col=col,show=show,hover=hovered,open=0}
+end
+
+function draw_tile(type,num,x,y,w,h,col,show)
+	if show>0 then 
+		-- Tile base face up
 		if show==1 then 
 			pill(x,y-h/8*2,w,h,RADIUS,col)
 			pill(x,y-h/8,w,h,RADIUS,WHITE)
@@ -1261,24 +1558,29 @@ function tile(type,num,x,y,w,h,col,show)
 			pill(x,y+h/8,h,w,RADIUS,GRAY)
 			pill(x,y,h,w,RADIUS,WHITE)
 		end
+		
 		rot=0
 		if show==3 then 
 			rot=1
 		elseif show==4 then
 			rot=3 
 		end
+		
 		if type==PIN then 
 			pin(x,y,w,h,num,rot)
 		elseif type==BAM then 
 			bam(x,y,w,h,num,rot)
 		elseif type==MAN then 
 			man(x,y,w,h,num,rot)
-		elseif type==WIN then
+		elseif type==WIN then	-- winds and dragons use hon() but with different numbers
 			hon(x,y,w,h,num,rot)
-		elseif type==DRA then
+		elseif type==DRA then	-- basically honors 0-3 are winds, 4-6 are dragons
 			hon(x,y,w,h,num+4,rot)
+		--elseif type==FLO then -- TODO add flowers/nobles??
 		end
-	else
+	else	-- negative show-values mean the tile is facing down
+	
+		-- Tile base face down
 		if show==0 then
 			pill(x,y,w,h,RADIUS,GRAY)
 			pill(x,y-h/8,w,h,RADIUS,GRAY)
@@ -1303,10 +1605,8 @@ function tile(type,num,x,y,w,h,col,show)
 			pill(x,y,w,h,RADIUS,GRAY)
 			pill(x+w/2,y,w/2,h,RADIUS,col)
 			pill(x+w/2-w/8,y,w/2,h,RADIUS,col)
-		
 		end
 	end
-	return {type,num,x,y,w,col,show,0,0}
 end
 
 ------ BASE -------
@@ -1325,9 +1625,13 @@ function pill(x,y,w,h,d,col)
 	end
 end
 
+--------------------------------------
+-- "90deg Rotatable" draw-functions --
+--------------------------------------
+-- These basically take a center, offset, and a 0-3 for rotation
 function rline(x1,y1,ox1,oy1,ox2,oy2,col,rot)
 	local x,y,xx,yy=x1+ox1,y1+oy1,x1+ox2,y1+oy2
-	rot=rot or 0
+	rot=rot%4 or 0
 	if rot==1 then 
 		x,y=x1+oy1,y1-ox1
 		xx,yy=x1+oy2,y1-ox2
@@ -1337,10 +1641,9 @@ function rline(x1,y1,ox1,oy1,ox2,oy2,col,rot)
 	end
 	line(x,y,xx,yy,col)
 end
-
 function rpset(xx,yy,ox,oy,col,rot)
 	local x,y=xx+ox,yy+oy
-	rot=rot or 0
+	rot=rot%4 or 0
 	if rot==1 then 
 		x,y=xx+oy,yy-ox
 	elseif rot==3 then 
@@ -1348,10 +1651,9 @@ function rpset(xx,yy,ox,oy,col,rot)
 	end
 	pset(x,y,col)
 end
-
 function rcircfill(xx,yy,ox,oy,r,col,rot)
 	local x,y=xx+ox,yy+oy
-	rot=rot or 0
+	rot=rot%4 or 0
 	if rot==1 then 
 		x,y=xx+oy,yy-ox
 	elseif rot==3 then 
@@ -1361,7 +1663,7 @@ function rcircfill(xx,yy,ox,oy,r,col,rot)
 end
 function rcirc(xx,yy,ox,oy,r,col,rot)
 	local x,y=xx+ox,yy+oy
-	rot=rot or 0
+	rot=rot%4 or 0
 	if rot==1 then 
 		x,y=xx+oy,yy-ox
 	elseif rot==3 then 
@@ -1371,7 +1673,7 @@ function rcirc(xx,yy,ox,oy,r,col,rot)
 end
 function rrect(x1,y1,ox1,oy1,ox2,oy2,col,rot)
 	local x,y,xx,yy=x1+ox1,y1+oy1,x1+ox2,y1+oy2
-	rot=rot or 0
+	rot=rot%4 or 0
 	if rot==1 then 
 		x,y=x1+oy1,y1-ox1
 		xx,yy=x1+oy2,y1-ox2
@@ -1383,7 +1685,7 @@ function rrect(x1,y1,ox1,oy1,ox2,oy2,col,rot)
 end	
 function rrectfill(x1,y1,ox1,oy1,ox2,oy2,col,rot)
 	local x,y,xx,yy=x1+ox1,y1+oy1,x1+ox2,y1+oy2
-	rot=rot or 0
+	rot=rot%4 or 0
 	if rot==1 then 
 		x,y=x1+oy1,y1-ox1
 		xx,yy=x1+oy2,y1-ox2
@@ -1419,9 +1721,6 @@ function pin_c(xx,yy,ox,oy,s,col,rot)
 end
 
 function pin(x,y,w,h,num,rot)
-	if num>0 and num<10 then
-		--pill(x,y,w,h,RADIUS,WHITE) --base
-	end
 	if rot%2==0 then 
 		x,y=x+w/2,y+h/2
 	else
@@ -1483,7 +1782,6 @@ function pin(x,y,w,h,num,rot)
 		pin_c(x,y,w/6*5-w/16-w/2,h/6*4.5-h/2,w/6,GREEN,rot)
 	end
 end
---sideways pin
 
 ------- BAMBOO -------
 
@@ -1556,9 +1854,6 @@ function bam_c(xx,yy,ox,oy,w,h,a,col,rot)
 end
 
 function bam(x,y,w,h,num,rot)
-	if num>0 and num<10 then
-		--pill(x,y,w,h,RADIUS,WHITE) --base
-	end
 	if num==1 then
 		bam_o(x,y,w/2,h/2,w/2.5,h/2,rot)
 	elseif num==2 then
@@ -1616,10 +1911,7 @@ function bam(x,y,w,h,num,rot)
 	end
 end
 
-
-
 ------- MAN -------
-
 function man_b(xx,yy,ox,oy,w,h,rot)
 	oy=oy-h/2
 	local x,y=xx+ox,yy+oy
@@ -1666,7 +1958,6 @@ function man(x,y,w,h,num,rot)
 		h=h/4
 	end
 	if num>0 and num<10 then
-		--pill(x,y,w,h,RADIUS,WHITE) --base
 		man_b(x,y,0,h/1*2-1,w,h*0.8,rot)
 	end
 	if num==1 then
@@ -1726,11 +2017,7 @@ end
 -- 1-4 winds
 -- 5-7 dragons
 
-
 function hon(x,y,w,h,num,rot)
-	if num>0 and num<8 then
-		--pill(x,y,w,h,RADIUS,WHITE) --base
-	end
 	if num<5 then
 		y=y+1
 	end
@@ -1808,21 +2095,52 @@ function hon(x,y,w,h,num,rot)
 	end
 end
 
+function debug_tiles(x,y,s)
+	s=max(s,10)
+	local w,h=s,s*1.5
+	for i=1,5 do
+		for ii=1,9 do
+			tile(i,ii,x+(w+10)*(ii-1),y+(h+6)*(i-1),w,h,ORANGE,1)
+		end
+	end
+end
 :: util.lua
---[[pod_format="raw",created="2024-07-24 10:58:30",modified="2024-07-26 01:14:50",revision=541]]
+--[[pod_format="raw",created="2024-07-24 10:58:30",modified="2024-09-02 23:23:09",revision=924]]
 function update_mouse()
 	local	mx,my,mb=mouse()
 	local mlb,mrb,mmb=mb&1>0,mb&2>0,mb&4>0
-	return {mx,my,mlb,mrb,mmb}
+	return {x=mx,y=my,lb=mlb,rb=mrb,mb=mmb}
+end
+
+
+
+function lerp(a, b, t)
+	return a + (b - a) * t
+end
+
+function EaseIn(t)
+    return t * t
+end
+
+function eflip(t)
+	return 1-t
+end	
+
+function EaseOut(t)
+	return eflip(eflip(t)*eflip(t))
+end
+
+function EaseInOut(t)
+	return lerp(EaseIn(t),EaseOut(t),t)
 end
 :: .info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA3LTIzIDAzOjI5OjQzIixtb2RpZmllZD0iMjAyNC0w
-Ny0yNiAwMToxNDo1MSIscnVudGltZT04LHdvcmtzcGFjZXM9e3tsb2NhdGlvbj0ibWFpbi5sdWEj
-Mzk3Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJ0aWxlcy5sdWEjMjkiLHdvcmtzcGFj
-ZV9pbmRleD0xfSx7bG9jYXRpb249InBsYXllcnMubHVhIzE1Iix3b3Jrc3BhY2VfaW5kZXg9MX0s
-e2xvY2F0aW9uPSJldmFsLmx1YSMxMDgiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249InV0
-aWwubHVhIzUiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249ImJvYXJkLmx1YSMxMzciLHdv
-cmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249ImdmeC8wLmdmeCIsd29ya3NwYWNlX2luZGV4PTJ9
-LHtsb2NhdGlvbj0ibWFwLzAubWFwIix3b3Jrc3BhY2VfaW5kZXg9M30se2xvY2F0aW9uPSJzZngv
-MC5zZngiLHdvcmtzcGFjZV9pbmRleD00fX1dXWx6NAAEAAAAAwAAADBuaWw=
+OS0wMiAyMzoyMzowOSIscnVudGltZT0xMCx3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
+Izk0Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJ1dGlsLmx1YSM3Iix3b3Jrc3BhY2Vf
+aW5kZXg9MX0se2xvY2F0aW9uPSJwbGF5ZXJzLmx1YSMxIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xv
+Y2F0aW9uPSJldmFsLmx1YSM5OSIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0iYm9hcmQu
+bHVhIzcxIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJ0aWxlcy5sdWEjMzQiLHdvcmtz
+cGFjZV9pbmRleD0xfSx7bG9jYXRpb249ImdmeC8wLmdmeCIsd29ya3NwYWNlX2luZGV4PTJ9LHts
+b2NhdGlvbj0ibWFwLzAubWFwIix3b3Jrc3BhY2VfaW5kZXg9M30se2xvY2F0aW9uPSJzZngvMC5z
+ZngiLHdvcmtzcGFjZV9pbmRleD00fX1dXQ==
 :: [eoc]
