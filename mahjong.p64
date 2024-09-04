@@ -4,7 +4,7 @@ version 2
 :: gfx/
 :: gfx/0.gfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA3LTIyIDIwOjUwOjU5Iixtb2RpZmllZD0iMjAyNC0w
-OS0wMiAyMzoyMzowOSIscmV2aXNpb249MzQwMF1dbHo0AIYNAADLWQAA-wx7WzBdPXtibXA9cHh1
+OS0wMyAyMjozNDowNSIscmV2aXNpb249MzY3N11dbHo0AGoRAADlcAAA-wx7WzBdPXtibXA9cHh1
 AEMo4AEAAA4BAAAEAAECABB-QQ8TAQMBDgIABF7_-0wBDgIAP8EAAQIACD8RAAECAAIWDgIAAkcA
 lwE_A-7-dhMOAQIAFAACAB4BAgA-EAEAUgANCAIAHwPTAAQ-TgEOKgAAD4YAFR8RhAAUno4D-v9w
 A84BDlQAD9QACgICAD-hDgGfAAdf-v9SAQ6-AAk-gQABugAOHw62AACd-gIT-v9oE-4EtAAeDrIA
@@ -62,44 +62,70 @@ A-wHBgEREP9zBBxCHgCo-k0T-v-NE-7-SBoAAbISUM4T-v9OfQAj-kkOABPNRgATzggAQ2MD-loX
 AENpA-5UGgBDbwP_TSEAQ3YD-kcLAEN8A-5BLABAggP_-_ADIP_ICQAQFgUANP--9CkEIP8G0RsD
 iQAAoQAAFABeAAP_pQFlBA8CADsy-gUBfwIR7gYAGg4PAW-5A-6XAQ4CAIwKnQMDPgEe8zQcDwIA
 yQpDBAMEAR-tBAHbDggBABIVJP-nVAsPAgDTBlUlAIgTn--SE84D-lkBDgIA1DD_cAMSCFrHE14D
--rURD2IEOQ8CAAMHSQ0PzQA08Qx2Ay4T-v-MAyxmbGFncz0wLHBhbl94PS0xNzgLAOZ5PS00Mix6
-b29tPTF9LOcoiyAYGATw--8yOABEMC4yNTgAPzAuNTkAAVwQEATw8DcAAzQAEjAxAB84MQDwXyAE
-8P-xMgALHzVjAB4PiQH-NgHcAgM1AADyAg9pAB0PMQD---------------------------------
---------------------------_sUG09OH19
+-rURD2IEOQ8CAAMHSQ0PzQA08Q52Ay4T-v-MAyxmbGFncz0wLHBhbl94PS00MS43NQ0A-wB5PS03
+LjUsem9vbT0xfSzqKP--------_3L-8sjyhXL-8m5ydUL-8gkSf--84KbBUPjickD-QSAALIAA_G
+JxkPRQADD34nEBIZeic-PwEObycgEVZoJy-_GWAnHBQbWicPdgcBD1EnBhNfSicNvAQPQCcEFB06
+JwrLFw8vJwgUHScnP2cBDmIADiH_axQnOWsBDgIAL-5-AicDFB-8JgtTGh_D7CYBADUVHkPpAA63
+ACH_Ic4mCyoAL-4wviYEFiG6JgN1IQgFBA_sJgIWIqImAxMlBmQAD5ImAB8jkCYCDG0ALv8wgCYd
+iXUmCnAAKP_WawAA4xYEXiYv-h0mAQgv-iNCJgA-iwEO3AECL-6TJiYBP48BDl0AAgCEACP-iA0A
+ABsAFpfTACD_neYlDsIABfQYGyfFJQcrADf_-5gpAB8lsCUIA4AnBX4AFCkNABuRkiUu-iFcACb_
+J3klAWQoDkcAE61ZJQ8-AAUGQiUKIgAVKCIADyUlBwNzAC-_vRIlDRi2CyUEkxgfvPYkAB0n6iQF
+ZAAB2QMG1yQR928CBUsACrskFievJAPWACb_y5okFieWJAReABj2gyQWlXgkBD4AFvNhJBYnXSQE
+PgAWvEgkH7k9JAEERgAZvSYkGycgJAQmACXaAwkkEXv_IwMjAjP_-5tlADLbAQ4SABWjNQAj-5oz
+AB8nuyMCBUMAEQgOAAFGABmDoCMFSQARByIABEwAB4QjASIAM-7-nB0AE9NsIyX_IAUBBFUjGblK
+IwI4ABbxLSMRJSkjBDgAE-QQIxa5BSMCMgAT9_wiFiXqIgNiAyj__tMiH7nGIgcBZAAh-imaAAQd
+IhgkqiIEUQARKIgEB5IiHSWGIgVMAAxuIh8kaiInI-4hfQAHVCIfJUoiBSH_IX8ABTIiFiQuIgKc
+ABUoGSIUJg8iIv4hFwBBZQP_WvUhE6nYASb-0NQhIv5aEAAEvCEi-ll1IRZZnCEEEwAWWIQhIv5Y
+NgACZiES0w0ABEshBB0AIf9o5AUACwAg9gP7JCb-z-AgIv5WGgAC2CASwQ0AC7cgBCQAAp8gErsN
+AAJ8IDP---heICD_-3gcE0qxGxPOGyBm-qoT-v959h8i-qbZHxOk1B8i-qO5HxZTqx8i-p_QHxRS
+ih8S6VAAAWEfT-7--zRHHwVB-v--dscJMf--eAMfQv7--zKJDjP--6jBHgIUAAWbHkL_--9kfB43
+--9mVR5H-v--MDUeMv--igseNv--XOgdEf8BABL1nR0y--9uex0TiNUcRjsD-oFEHRZ7NR0WdSod
+E28LAAMzAS--zicdQCT-VyMdE54YHSL-pJ0cIv_q6xsi-7DvGiL-tvEZJP_8_xgm-8MRGC--ylAX
+J2sgEBAE8PA5ABMwNAASMDEAHzgxAPBfIATw--EyAAsfNWMAHg_JAf82NC0wLucCTzAuMjVpAB4P
+MQD-----------------------------------------------------------_sUG09OH19
 :: gfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA3LTIyIDIwOjUwOjU4Iixtb2RpZmllZD0iMjAyNC0w
-OS0wMiAyMzoyMzowOSJdXQ==
+OS0wMyAyMjozNDowNSJdXQ==
 :: map/
 :: map/0.map
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA3LTIyIDIwOjUwOjU5Iixtb2RpZmllZD0iMjAyNC0w
-OS0wMiAyMzoyMzowOSIscmV2aXNpb249MzMwNF1dbHo0AGkAAABYEAAA8Ah7e2JtcD11c2VyZGF0
+OS0wMyAyMjozNDowNSIscmV2aXNpb249MzU4MV1dbHo0AGoAAABaEAAA8Ah7e2JtcD11c2VyZGF0
 YSgiaTE2IiwzMgMALyIwAQD--------------------78QgiKSxoaWRkZW49ZmFsc2UscGFuX3g9
-MAgA0nk9MCx0aWxlX2g9MjQKANB3PTE2LHpvb209MX19
+MAgA03k9MCx0aWxlX2g9MjcLAOB3PTQ4MCx6b29tPTF9fQ==
 :: map/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA3LTIyIDIwOjUwOjU4Iixtb2RpZmllZD0iMjAyNC0w
-OS0wMiAyMzoyMzowOSJdXQ==
+OS0wMyAyMjozNDowNSJdXQ==
 :: sfx/
 :: sfx/0.sfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA3LTIyIDIwOjUwOjU5Iixtb2RpZmllZD0iMjAyNC0w
-OS0wMiAyMzoyMzowOSIscmV2aXNpb249MzMwM11dbHo0AMsBAAA9FQAA-ytweHUAAygAAAQABA9A
-EAIOAAGgASACoA4ADxAADfDKAQIIBAUGBwEP_JAIBAoIBA8NDw4PDwIP_PD-AQDr-SbSARAGDyAQ
-ASABIAHwAAIQAgwQASAPISABMA7www8oD--wxg-4Cg--D4AP9w8NAfAJARAGDC8A8AIPDhABMA9u
-kA8RAiAMUAEPfw8A-wr-oAggD3IgD4ggD0LwAwkgDxMgC-BvAfDHUQAQECBAAAFPAN8PDVABBBAB
-AiAPYPCjPQACD70ACg8vAP------Ix--AQCs_iXIDgANCDAPMA8xDzMfNQ80DzMPMf--KHHzKHzz
-KPBwDgANQA83DzgPOQ86DzsPPA89Dz7zHgD3AyQPJQ8mDycPKA8pDyIPI-Moch4AIPOwCAD0DQoO
-ME8aI08fI08cEwUvIQ8ePxlPGhMHPx8-HkURAPEHRCNEI0QT1BPUE4RMI0wjTBPcE9wTjD4ABEYA
-DAgAkA4wPy0jDyo-LwUA8AIrLygPLSMJYwkjDyofLxMbExIA-xQJcz8DI0YjhiMGYwYjJhMWE3Zz
-PCNMI4wjDGMMIywTHBN8c1oAAgMIAB8NCAD---------------8KUPOw8P85
+OS0wMyAyMjozNDowNSIscmV2aXNpb249MzU4MV1dbHo0AHUDAAA1FwAA-zRweHUAAygAAAQABA9A
+EAIOAAGgASACoA4ADxAADfDKCAQIBAUGBwEGkAgJBAgEDw0PDg8PAAagCgVQBqALBkACBvD-AQDr
+-SaqARAGDyAQASABIAHwAAIQAgwQASAPISABMA7www8oD--wxg-4Cg--D4AP9w8NAfAJARAGDC8A
+8AIPDhABMA9ukA8RAiAMUAEPfw8A_Ar-oAggD3IgD4ggD0LwAwkgDxMgA-BvAfDHUQD-A3APUw9G
+D1gPXw9tD28Pdg9lgGEAAhAgUAABXwDfDw1QAQQQAQIgD2Dwo00ABqBwD2wPYQ9jD2Vw4AAaDlAA
+MA8eEFIAMAQgDlIApBAEDxgAATABDRAhAOAFD_IAESABD-cgDzaQAyEAFRchAPoKCSAPDyAPW-BP
+DxIPbgXwBQ8VD1UG8KsCAIgAgGwPZQ9hD2TAfgAfFM4AAQR7ABMHWgDADx-gCSAPDiAPZfCPdwG6
+CPAFDxIPfw8d8K1aAG5iD2Efc8AlAQ_1AQoPLwD-----th--AQCsEMiWCPAMCDAPMA8xDzMfNQ80
+DzMPMf--KHH3KHz3KPBwHwD7A0APNw84DzkPOg87DzwPPQ8_9x8A_AMkDyUPJg8nDygPKQ8iDyP3
+KHIfACD3sAkA9A0KDjBPGidPHydPHBcLLyEPHj8ZTxoXAz8fPx5LEQDzB0QnRCdEF9QX1BeETCdM
+J0wX3BfcF4w_APUNIw8mLyUHLyQHLyMHLyEHLAcPHgMdLxcPHisHLBQAoy8eBysHIwdkByQCADmk
+ByQCADNsBywCADmsBywCAANnAAA-ANQvGQcvFwcvFQcrBy8lXADSAy0PFy8WDxUnDyEvH2kAHSQC
+ADG0JzQIAB0sAgA2vCc8ZwAGFAFwPy0nDyo-LwUA8AIrLygPLScFZwUnDyofLxcZFxIA8xQFdz8D
+J0YnhicGZwYnJhcWF3Z3PCdMJ4wnDGcMJywXHBd8d0oAcTUnDyo5Jwg1AAFGACQIGUQASmcPMTZF
+ACtnBkYAIWcMRwDzGUAvMg8xJXhnDykoLysHFS80LzIfMWn3AeZnZgf2AfcB7GdsB-wB9wEtAPkg
+NA8yLzF5dxkXERcPMlEHBS8rCC8pDyj3AOZ3FhcWF2YHhvcA7HccFxwXbAeM9wARAh8CCAD-----
+----------8CUPew8P85
 :: sfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA3LTIyIDIwOjUwOjU4Iixtb2RpZmllZD0iMjAyNC0w
-OS0wMiAyMzoyMzowOSJdXQ==
+OS0wMyAyMjozNDowNSJdXQ==
 :: board.lua
---[[pod_format="raw",created="2024-07-24 18:54:09",modified="2024-09-02 23:23:09",revision=1052]]
+--[[pod_format="raw",created="2024-07-24 18:54:09",modified="2024-09-03 22:34:05",revision=1333]]
 -- Everything related to drawing a board
 
 include("tiles.lua") -- we do need to know how to draw tiles
 
 function draw_board(sel,move)
+	spr(1,0,0)
 	draw_other_hands(exhausted==1)
 	draw_ponds(
 		{x=W/2.4,		y=H/1.8,		w=12,	h=12*1.5,r=2},--p1
@@ -825,7 +851,7 @@ function hon(x,y,w,h,num)
 	end
 end
 :: eval.lua
---[[pod_format="raw",created="2024-07-23 04:18:20",modified="2024-09-02 23:23:09",revision=1170]]
+--[[pod_format="raw",created="2024-07-23 04:18:20",modified="2024-09-03 22:34:05",revision=1445]]
 -- Everything related to figuring out what a hand contains
 
 
@@ -1193,7 +1219,7 @@ function debug_score(score)
 	print("wait "..wait,W-40,10,7)
 end
 :: main.lua
---[[pod_format="raw",created="2024-07-22 20:50:59",modified="2024-09-02 23:23:09",revision=4916]]
+--[[pod_format="raw",created="2024-07-22 20:50:59",modified="2024-09-03 22:34:05",revision=5202]]
 
 include("players.lua")
 include("eval.lua")
@@ -1246,6 +1272,7 @@ local function shuffle(t)
 end
 
 function _init()
+	music(0,nil,0b1110)
 	local it={type=0}
 	w=16
 	h=w*1.5
@@ -1288,7 +1315,6 @@ timer[1]=time()
 timer[3]=0
 function _update()
 	cls(0)
-	spr(0,0,0)
 	timer[2]=time()-timer[1]
 	wait=max(0,wait-(timer[2]-timer[3]))
 	
@@ -1476,7 +1502,7 @@ end
 
 
 :: players.lua
---[[pod_format="raw",created="2024-07-23 03:58:46",modified="2024-09-02 23:23:09",revision=1128]]
+--[[pod_format="raw",created="2024-07-23 03:58:46",modified="2024-09-03 22:34:05",revision=1404]]
 -- This will eventually contain opponent code?
 
 function play_p2()
@@ -1495,7 +1521,7 @@ function placeholder_player(hand,pond)
 	table.remove(wall,1)
 end
 :: tiles.lua
---[[pod_format="raw",created="2024-07-23 01:05:22",modified="2024-09-02 23:23:09",revision=2515]]
+--[[pod_format="raw",created="2024-07-23 01:05:22",modified="2024-09-03 22:34:05",revision=3063]]
 -- Tile drawing functions
 
 -- Tile looks
@@ -1531,8 +1557,30 @@ function tile(type,num,x,y,w,h,col,show)
 	if show>0 then		--positive show means the tile is face up
 		-- Mouse over tile?
 	end
+	draw_shadow(x-1,y,w+2,h,show)
 	draw_tile(type,num,x,y,w,h,col,show)
 	return {type=type,num=num,x=x,y=y,w=w,col=col,show=show,hover=hovered,open=0}
+end
+
+function draw_shadow(x,y,w,h,show)
+	local sx,sy,sw,sh=0,0,0,0
+	local i,rot=0,1
+	if show==4 or show==3 then 
+	h,w=w,h
+	rot=1.5
+	end
+	sx=x
+	sy=y+h/4*3
+	sw=sx+w
+	sh=sy+h/3
+	
+	poke(0x550b,0x33)
+	fillp(0b0101101001011010.1)
+	for i=1,2 do
+		rectfill(sx+i,sy,sw-i,sh,0x0100.1)
+		rectfill(sx,sy+i,sw,sh-i,0x0100.1)
+	end
+	fillp(0x0000)
 end
 
 function draw_tile(type,num,x,y,w,h,col,show)
@@ -2105,7 +2153,7 @@ function debug_tiles(x,y,s)
 	end
 end
 :: util.lua
---[[pod_format="raw",created="2024-07-24 10:58:30",modified="2024-09-02 23:23:09",revision=924]]
+--[[pod_format="raw",created="2024-07-24 10:58:30",modified="2024-09-03 22:34:05",revision=1200]]
 function update_mouse()
 	local	mx,my,mb=mouse()
 	local mlb,mrb,mmb=mb&1>0,mb&2>0,mb&4>0
@@ -2135,12 +2183,12 @@ function EaseInOut(t)
 end
 :: .info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA3LTIzIDAzOjI5OjQzIixtb2RpZmllZD0iMjAyNC0w
-OS0wMiAyMzoyMzowOSIscnVudGltZT0xMCx3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
-Izk0Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJ1dGlsLmx1YSM3Iix3b3Jrc3BhY2Vf
-aW5kZXg9MX0se2xvY2F0aW9uPSJwbGF5ZXJzLmx1YSMxIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xv
+OS0wMyAyMjozNDowNSIscnVudGltZT0xMCx3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
+IzUzIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJ1dGlsLmx1YSM3Iix3b3Jrc3BhY2Vf
+aW5kZXg9MX0se2xvY2F0aW9uPSJwbGF5ZXJzLmx1YSM2Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xv
 Y2F0aW9uPSJldmFsLmx1YSM5OSIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0iYm9hcmQu
-bHVhIzcxIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJ0aWxlcy5sdWEjMzQiLHdvcmtz
-cGFjZV9pbmRleD0xfSx7bG9jYXRpb249ImdmeC8wLmdmeCIsd29ya3NwYWNlX2luZGV4PTJ9LHts
-b2NhdGlvbj0ibWFwLzAubWFwIix3b3Jrc3BhY2VfaW5kZXg9M30se2xvY2F0aW9uPSJzZngvMC5z
-ZngiLHdvcmtzcGFjZV9pbmRleD00fX1dXQ==
+bHVhIzYiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249InRpbGVzLmx1YSM0OSIsd29ya3Nw
+YWNlX2luZGV4PTF9LHtsb2NhdGlvbj0iZ2Z4LzAuZ2Z4Iix3b3Jrc3BhY2VfaW5kZXg9Mn0se2xv
+Y2F0aW9uPSJtYXAvMC5tYXAiLHdvcmtzcGFjZV9pbmRleD0zfSx7bG9jYXRpb249InNmeC8wLnNm
+eCIsd29ya3NwYWNlX2luZGV4PTR9fV1d
 :: [eoc]
