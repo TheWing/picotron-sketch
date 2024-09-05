@@ -1,0 +1,924 @@
+picotron cartridge // www.picotron.net
+version 2
+
+:: gfx/
+:: gfx/0.gfx
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTAzIDIyOjM1OjEwIixtb2RpZmllZD0iMjAyNC0w
+OS0wNSAyMToyODoyOCIscmV2aXNpb249NzY5XV1sejQAVwQAAKA3AADzFHtbMF09e2JtcD1weHUA
+QyAICATwMCxmbGFncz0wLHBhbl94CADIeT0wLHpvb209OH0sMQCfEAQQPxUgXhAeAgAcT14gPhBp
+AByfIB8VQC5ALlAeAgAFHyC6AC1ZUB5ALkAEAF9QXhBeAFcAL1EwLkAuYKQAHxAFASwxMB8VpgCQ
+LjA_MD4gHgAeBAAUEAIAYm4AbkAeUGkAD1kAHGMAXxUQXhA9ACJQTsIAAg4ADrAADw0BJgZbAA4C
+AA8RASMBuAAApgAE_QAMCAAP0AIgAFoBHRCaAC4wProAABYADxMBLA1pAB9OdAEtIPALJQJ-8CYe
+UB7wCzwADg7-Aw8xAK7wAANPFRAORxAOBzYQDgcGJQUAIQUeBgAvDgBMAB2PAH8Vd3Z1fnA4AB7Q
+TxUgNwYOECYHBQ4QFXsAIBAeBgARIIcAHxBPABzwAYBvFQAOB0YADgZFAA4GBT4FADEOBxYHACIG
+FQcALwUOVQAcn3B-FXZ1fnZ1fjgAHaBvFQBWDgBVDgA_UgEQJnsAIQAlBgADiQAPZgEffV8VAA4Q
+HiAEAA9JAB5DDxUAHhgFlC4ALgAeAA4AHgYAD08AHjYQDxW0AQ8GAA4P_QAg-wmPFUYFHgcmFR4X
+BiUeJyUeFx4VHgc_BY5HABwfAKgAEw_AAiczAA8V2gEfDggAGw_bAiQP9AMeD6AALR8AaQIhEE5X
+AhowBAAPrgUcVggEEB8V7wIIBAAv8ACuAigB7wTfJxAOFyYQDgY1IE7wAB0EHwD4BC-wAIsCIwLt
+BCAQJwUArzYFDhBFDhBO8AN2AiwRBggAFSUCBW82AA5VAG6bBR0E9gQfcGMCJScWBfIEAQMFIUYF
+DwUvboBTAB4FrQQKBAAO-QEPSwARLTAOBAA-TvABSQAcoPABLxUQPhAOIB4EAE9QHmAugAceRQA-
+FRCdCgUEAB8uYwMgSzBOEB4CAB8_RwAdNAJPFagDARAKD6QDIBAgUQkVUJwDTzAu8ARCABwlHxUI
+AQkEAA_fAR5sHxUQHgAuBAAvIC4xAjIfUC8CHF8QEATw8DEA---6fwwMBL8VoA4CAAEPRwAc8QTf
+FXceFh5HDgUONh4XDhUOVh4lBADzD0YOFQ4VDjYOJQ4VDiYORQ4FDhYOVQ4FDgYOdS6FHmUAHzGs
+ABYgpg4CAPIFNj4mDiYOZg42LjYOZg4mDiY_Ng4aAA-9ACR1MC4wDiBOIAQAABAADgcBD1EAFjVA
+DkBTADEQbhAMAAQEAA9VACthHkAOIF4QVQAACAAAEAAAAgAPVQAqYkAeMA4QXqoAAAgAABAAD1UA
+KgjvAAGqAANSAQ9VACRg3xV2HhZ_OQIvVg4GAA4fflsCKLQGPgY_Bg4WHiYeFgYAE24EAAgUAAEG
+AAIsAA9xAh4--xWAUwEeL6UOAgABD0kEHg8xAP--------------------------------------
+------9uUG09OH19
+:: gfx/.info.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTA0IDIwOjIyOjA1Iixtb2RpZmllZD0iMjAyNC0w
+OS0wNSAyMToyODoyOSJdXQ==
+:: map/
+:: map/0.map
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTAzIDIyOjM1OjEwIixtb2RpZmllZD0iMjAyNC0w
+OS0wNSAyMToyODoyOCIscmV2aXNpb249NzY1XV1sejQA6AAAAAgGAADxAnt7em9vbT0xLHBhbl95
+PTE2CQDyG3g9LTksaGlkZGVuPWZhbHNlLG5hbWU9ImdhbWVwbGF5Iix0aWxlX2g9OAkA-xt3PTgs
+Ym1wPXVzZXJkYXRhKCJpMTYiLDIwLDE4LCIwMDE5MDAxMDAwMTEEAAwfMigADBMyTAAABAAvODAB
+AA4vMWEoAAsvMWFQAEdvMjAwMDIxBAAMHzIoAAwH8AAEAQBvMTMwMDE0BAAcJTUwAQAqMTlUAD8x
+YjABAB4jMWQIABo5BAAPUAD---9kbzIzMDAyNAQAHAMQBKAxOTAwMTkiKX19
+:: map/1.map
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTAzIDIzOjI2OjA1Iixtb2RpZmllZD0iMjAyNC0w
+OS0wMyAyMzoyNjoxMCIscmV2aXNpb249MV1dbHo0AF8AAABOEAAA8Ah7e2JtcD11c2VyZGF0YSgi
+aTE2IiwzMgMALyIwAQD--------------------7oSIpLHBhbl94PTYIAPIAeT0tNzQsdGlsZV9o
+PTE2CgDgdz04LHpvb209MC41fX0=
+:: map/.info.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTA0IDIwOjIyOjA1Iixtb2RpZmllZD0iMjAyNC0w
+OS0wNSAyMToyODoyOSJdXQ==
+:: sfx/
+:: sfx/0.sfx
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTAzIDIyOjM2OjEwIixtb2RpZmllZD0iMjAyNC0w
+OS0wNSAyMToyODoyOCIscmV2aXNpb249Nzg0XV1sejQASQQAAK0OAAD-QnB4dQADKAAABAAED0AQ
+Ag4AAaABIAKgDgAPEAAN8MoPDQ8MUAagCARAAQaQCAkECAQPDQ8ODw8ABqAKBVAGoAsGQAIGkA0P
+EQ8SDTAEDw7w-wEA6-8mggEQBg8gEAEgASAB8AACEAIMEAEgDyEgATAO8MMPKA--8MYP_AoP-w_A
+D-cPDQHwCQEQBgwvAAEvD7wwAAGkcA9tD28Pdg9lwDgALAYQOQAjyaAPAI4REAEwD8jwpEUAUm4P
+bw9wRQAnDw5_AKAOEAEPHhAPIQ8YOwD6AfDwww8SD27wBg8VD1UG8K1EAHFsD2UPYQ9kRAAXFEQA
+BokAE5-CAHoGDxIPf-CuPwBuYg9hH3PA-gAPLQEKDy8A-----7Yf-wEArPUMyA4ACEAPPv--LwH3
+Lwz3L-BwDgAKQA8w9y8CEADxGQ8DCzAXH0kfTE9R9yeB9yeM9yUgDz4AA-AsDwMPDwAJ8CoOAA1A
+97AsAPYQCQ4wTxonTx8nTxwXBS8hDx4vGQdPGhcELx8HLx4HRRQA4AQnRidGF3YHRhc2ByYHCgDg
+TCdMJ0wXfAdMFzwHLAcKAARSAPUOJA8mLyUHLyQHLyMHLyEHLAcPHgQfGC8XDx4lBywVAKMvHgcl
+ByQHZgcmAgA5pgcmAgAzbAcsAgA5rAcsAgAEaQAAQADULxkHLxcHLxUHJQcvJV0AwgQvGA8XLxYP
+FScPIcsAPSUHJgIAMbYnNggAHSwCADW8JzxpAAgsAXA-LScPKj8vBQDwAisvKA8tJwhnCCcPKh8v
+FxoXEgD0FAh3PwMnQieCJwJnAiciFxIXcnc8J0wnjCcMZwwnLBccF3x3SwBxOCcPKjonCzYAAUcA
+JAsaRQBKZw8xMkYAK2cCRwAiZwxIAPQZQC8yDzEoe2cPKSsvKwcYLzQvMh8xavcB4mdiB-IB9wHs
+Z2wH-AH3AS4A9CA0DzIvMXp3GhcRFw8yUQcILysLLykPKPcA4ncSFxIXYgeC9wDsdxwXHBdsB4z3
+AK0A8hs0JwQ-HScDJQcVBx8bFxkXFBcUFwQTFxMXFRcVBwkCZzYnRic2BxYHFhcCABImCAAwBxZn
+uABiPAccBxwXAgASLAgANAccZ1wA4icYFwgfLBcdFx8rFxoHDAFgCB0XHRcaDwAwpxIXAgFVEhcS
+BwIQAQEOABanTQAVDBkBAQ4AAmQBExC4ARQBwAFwBkB3HxgXG7wA8gMVFxUXNDc7Fz8fFx8k9wQW
+FzaxAEAXNjc2DABS9wQcFzxPAEAXPDc8DAAUt0QA8xIvSAcDBy9HBykHL0UHLQc-QzczFz9KFz9P
+9wIvAQcKByoCAOM6NzoXOhc69wIsBwwHLAIAAk0AJTyXTQD-CEMHCAcoBygHLQctBzg3OBc5Fz9M
+9wIqSAAZGAHpACv-uREADxkABkz---8DHAAAZAQbTCgADkEADhEADwgACx--AQD-rVD-----tA==
+:: sfx/1.sfx
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTA0IDE1OjE0OjM4Iixtb2RpZmllZD0iMjAyNC0w
+OS0wNCAxNToxOTowOCIscmV2aXNpb249MjddXWx6NAB5AwAALhcAAP8wcHh1AAMoAAAEAAQPQBAC
+DgABoAEgAqAOAA8QAA3wyggEQAEGkAgJBAgEDw0PDg8PAAagCgVQBqALBkACBvD-AQDr-SaqARAG
+DyAQASABIAHwAAIQAgwQASAPISABMA7www8oD--wxg-4Cg--D4AP9w8NAfAJARAGDC8A8AIPDhAB
+MA9ukA8RAiAMUAEPfw8A_Ar-oAggD3IgD4ggD0LwAwkgDxMgB-BvAfDHUQD-A3APUw9GD1gPXw9t
+D28Pdg9lgGEAAhAgUAABXwDfDw1QAQQQAQIgD2Dwo00ABqBwD2wPYQ9jD2Vw4AAaDlAAMA8eEFIA
+MAQgDlIAwRAEDxgAATABIAEF4CAA4AUP4gARIAEP9yAPNpAHIAASFyAA_g0P9uAJIA8PIA9b8E8P
+Eg9uBfAFDxUPVQbwqwIAhwCAbA9lD2EPZMB9AB8UzQABBHoAEAdaAGAPGBABDx9cAGAOIA9l8I93
+AboI8AUPEg9-Dx3wrVsAbmIPYR9zwCUBD7UBCg8vAP----_2H-8BAKz6JcgOAA0IMA8wDzEPMx81
+DzQPMw8x--8ocfMofPMo8HAOAA1ADzcPOA85DzoPOw88Dz0PPvMeAPcDJA8lDyYPJw8oDykPIg8j
+8yhyHgAg87AIAPQNCg4wTxojTx8jTxwTCy8hDx4-GU8aEwc-Hz8eSxEA8wdEI0QjRBPUE9QThEwj
+TCNME9wT3BOMPgD1DicPJi8lAy8kAy8jAy8hAywDDx4HHxgvFw8eKwMsFQCjLx4DKwMnA2QDJAIA
+OaQDJAIAM2wDLAIAOawDLAIAA2gAAD8A1C8ZAy8XAy8VAysDLyVcAOIHLxgPFy8WDxUjDyEvH2oA
+HSQCADG0IzQIAB0sAgA2vCM8aAAGFgFwPy0jDyo-LwUA8AIrLygPLSMFYwUjDyofLxMZExIA8xQF
+cz8DI0YjhiMGYwYjJhMWE3ZzPCNMI4wjDGMMIywTHBN8c0oAcTUjDyo5Iwg1AAFGACQIGUQASmMP
+MTZFACtjBkYAIWMMRwDzGUAvMg8xJXhjDykoLysDFS80LzIfMWnzAeZjZgP2AfMB7GNsA-wB8wEt
+APggNA8yLzF5cxkTERMPMlEDBS8rCC8pDyjzAOZzFhMWE2YDhvMA7HMcExwTbAOM8wASAg8IAP--
+-------------wNQ87Dw-zk=
+:: sfx/.info.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTA0IDIwOjIyOjA1Iixtb2RpZmllZD0iMjAyNC0w
+OS0wNSAyMToyODoyOSJdXQ==
+:: dice.lua
+--[[pod_format="raw",created="2024-09-04 07:48:31",modified="2024-09-05 21:28:28",revision=1154]]
+DC=6
+DB=21
+dice={x=8,y=1,top=6,bottom=1,up=5,down=2,left=3,right=4}
+puck={x=0,y=0}
+
+function move_dice(dir,force)
+	local d=dice
+	local b=board
+	local possible=true
+	local fx,fy=d.x,d.y
+	local dx,dy=puck.x,puck.y
+	-- check if we can move	
+	if not force then
+		-- where are we moving?
+		if dir%4==0 then 
+			fx=d.x-1
+		elseif dir%4==1 then 
+			fx=d.x+1
+		elseif dir%4==2 then 
+			fy=d.y-1
+		elseif dir%4==3 then 
+			fy=d.y+1
+		end
+		if fx==dx and fy==dy then	
+			possible=check_puck(dir,fx,fy)
+		end
+		local ct=b[d.y][d.x]
+		-- trying to move outside?
+		if fx>8 or fx<1 or fy>8 or fy<1 then 
+			possible=false
+		else
+			local ft=b[fy][fx]
+			-- trying to move into a wall
+			if ft==BLOCK or ft==FOLLOW then 
+				possible=false
+			end
+			-- trying to move on goal but 1 won't be up?
+			if ft==GOAL then
+				if dir%4==0 and d.right!=1 then 
+					possible=false
+				end
+				if dir%4==3 and d.up!=1 then
+					possible=false
+				end
+				if possible then
+					VICTORY=true
+					sfx(2,nil,5) 
+					music(5)
+				else
+					sfx(1)
+				end
+		
+			end
+			-- are we on an arrow?
+			if ct==UP or ct==DOWN or ct==LEFT or ct==RIGHT then 
+				-- does the direction not match?
+				if (ct==UP and dir!=2) or (ct==DOWN and dir!=3) or (ct==LEFT and dir!=0) or (ct==RIGHT and dir!=1) then
+					possible=false
+				else
+					board[d.y][d.x]=DIR[dir%4+1]
+					if d.x==1 and DIR[dir%4+1]==LEFT then
+						board[d.y][d.x]=UP
+					end
+					if d.x==8 and DIR[dir%4+1]==RIGHT then
+						board[d.y][d.x]=DOWN
+					end
+					if d.y==1 and DIR[dir%4+1]==UP then
+						board[d.y][d.x]=RIGHT
+					end
+					if d.y==8 and DIR[dir%4+1]==DOWN then
+						board[d.y][d.x]=LEFT
+					end
+				end
+			end	
+		end
+	end
+	if possible then
+		-- actually move
+		if dir%4==2 then --up
+			d=rot_up(d)
+		elseif dir%4==1 then --right
+			d=rot_right(d)
+		elseif dir%4==3 then --down
+			d=rot_down(d)
+		elseif dir%4==0 then --left
+			d=rot_left(d)
+		end
+	end
+	return d
+end
+function check_puck(dir,fx,fy)
+	local d=puck
+	local b=board
+	local possible=true
+	local dx,xy=dice.x,dice.y
+	if dir%4==0 then 
+			fx=d.x-1
+		elseif dir%4==1 then 
+			fx=d.x+1
+		elseif dir%4==2 then 
+			fy=d.y-1
+		elseif dir%4==3 then 
+			fy=d.y+1
+		end
+		local ct=b[d.y][d.x]
+		-- trying to move outside?
+		if fx>8 or fx<1 or fy>8 or fy<1 then 
+			possible=false
+		else
+			local ft=b[fy][fx]
+			-- trying to move into a wall
+			if ft==BLOCK then 
+				possible=false
+			end
+			if fx==dx and fy==dy then	
+				possible=false
+			end
+		end
+	return possible
+end
+function move_puck(dir,force)
+	local d=puck
+	local b=board
+	local possible=true
+	local fx,fy=d.x,d.y
+	local dx,xy=dice.x,dice.y
+	-- check if we can move	
+	if not force then
+		-- where are we moving?
+		possible=check_puck(dir,fx,fy)
+	end
+	if possible then
+		-- actually move
+		if dir%4==2 then --up
+			d.y=d.y-1
+		elseif dir%4==1 then --right
+			d.x=d.x+1
+		elseif dir%4==3 then --down
+			d.y=d.y+1
+		elseif dir%4==0 then --left
+			d.x=d.x-1
+		end
+	end
+	
+	return d
+end
+
+
+function rot_up(d)
+	local t=d
+	d.y=d.y-1
+	d.top,d.down,d.bottom,d.up=t.down,t.bottom,t.up,t.top
+	return d
+end
+function rot_down(d)
+	local t=d
+	d.y=d.y+1
+	d.top,d.down,d.bottom,d.up=t.up,t.top,t.down,t.bottom
+	return d
+end
+function rot_left(d)
+	local t=d
+	d.x=d.x-1
+	d.top,d.left,d.bottom,d.right=t.right,t.top,t.left,t.bottom
+	return d
+end
+function rot_right(d)
+	local t=d
+	d.x=d.x+1
+	d.top,d.left,d.bottom,d.right=t.left,t.bottom,t.right,t.top
+	return d
+end
+
+
+function draw_roll(d,xx,yy,dir)
+	local x,y=xx,yy
+	local f=SFRAME-FRAME
+	local w,h=12,12
+	x=x-w*5+5+d.x*w-4
+	y=y-h*4+5+d.y*h-1
+	
+	if f==1 then 
+		if dir%4==0 then		--left
+			x=x+w
+			draw_hori_frame2(x,y,DC,DB)
+		elseif dir%4==1 then	--right
+			draw_hori_frame1(x,y,DC,DB)
+		elseif dir%4==2 then	--up
+			y=y+h
+			draw_vert_frame1(x,y,DC,DB)
+		elseif dir%4==3 then	--down
+			draw_vert_frame2(x,y,DC,DB)
+		end
+	end
+	if f==2 then 
+		if dir%4==0 then		--left
+			x=x+w
+			draw_hori_frame1(x,y,DC,DB)
+		elseif dir%4==1 then	--right
+			draw_hori_frame2(x,y,DC,DB)
+		elseif dir%4==2 then	--up
+			y=y+h
+			draw_vert_frame2(x,y,DC,DB)
+		elseif dir%4==3 then	--down
+			draw_vert_frame1(x,y,DC,DB)
+		end
+	end
+	--pset(x,y,8)
+	--print(f,x,y,8)
+end	
+
+function draw_hori_frame1(x,y,c,c2)
+	y=y-1
+	rectfill(x,y-8,x+6,y+12,c)
+	rectfill(x+7,y-9,x+12,y+11,c)
+	line(x,y-8,x+12,y-9,c2)
+	line(x,y+2,x+12,y+1,c2)
+	line(x-1,y-8,x-1,y+2,c2)
+	line(x,y+2,x,y+12,c2)
+	line(x,y+12,x+13,y+11,c2)
+	line(x+13,y+11,x+13,y-9,c2)
+end
+function draw_hori_frame2(x,y,c,c2)
+	--fill
+	line(x-4,y-8,x+3,y-8,c)
+	line(x-6,y-7,x+5,y-7,c)
+	line(x-8,y-6,x+7,y-6,c)
+	rectfill(x-9,y-5,x+7,y+7,c)
+	line(x-3,y+10,x+2,y+10,c)
+	line(x-5,y+9,x+4,y+9,c)
+	line(x-7,y+8,x+6,y+8,c)
+	--outline
+	line(x-1,y-9,x-1,y+2,c2)
+	line(x-9,y-5,x-9,y+7,c2)
+	line(x+7,y-6,x+7,y+7,c2)
+	line(x-2,y-9,x+1,y-9,c2)
+	line(x-1,y-9,x-8,y-6,c2)
+	line(x,y-9,x+7,y-6,c2)
+	line(x,y+3,x+7,y+6,c2)
+	line(x-2,y+3,x-9,y+6,c2)
+	line(x,y+11,x-9,y+7,c2)
+	line(x-1,y+11,x+6,y+8,c2)
+end
+function draw_vert_frame1(x,y,c,c2)
+	rectfill(x+2,y-12,x+19,y-8,c)
+	rectfill(x+1,y-9,x+18,y-4,c)
+	rectfill(x,y-5,x+17,y-1,c)
+	line(x+2,y,x+17,y,c)
+	line(x+2,y-13,x+15,y-13,c)
+	line(x+4,y+1,x+17,y+1,c2)
+	line(x+2,y-14,x+15,y-14,c2)
+	line(x+2,y-12,x,y-3,c2)
+	line(x+2,y-14,x+2,y-12,c2)
+	line(x,y-3,x,y-1,c2)
+	line(x,y-1,x+5,y+1,c2)
+	line(x+5,y+1,x+5,y-3,c2)
+	line(x+6,y-4,x+6,y-7,c2)
+	line(x+7,y-8,x+7,y-11,c2)
+	line(x+7,y-12,x+2,y-14,c2)
+	line(x+7,y-12,x+19,y-12,c2)
+	line(x+17,y-13,x+16,y-13,c2)
+	line(x+19,y-12,x+19,y-8,c2)
+	line(x+18,y-7,x+18,y-4,c2)
+	line(x+17,y-3,x+17,y,c2)
+end
+function draw_vert_frame2(x,y,c,c2)
+	rectfill(x+4,y-10,x+16,y+4,c)
+	line(x+4,y+5,x+15,y+5,c)
+	line(x+1,y-4,x+1,y+2,c)
+	line(x+2,y-6,x+2,y+4,c)
+	line(x+3,y-8,x+3,y+6,c)
+	line(x+17,y-8,x+17,y+2,c)
+	line(x+18,y-6,x+18,y,c)
+	line(x+19,y-4,x+17,y,c)
+	
+	line(x,y,x,y-2,c2)
+	line(x,y-1,x+3,y+6,c2)
+	line(x+3,y+6,x+15,y+6,c2)
+	line(x+15,y+5,x+19,y-3,c2)
+	line(x+19,y-4,x+7,y-4,c2)
+	line(x+3,y+5,x+7,y-3,c2)
+	line(x,y-1,x+4,y-10,c2)
+	line(x+4,y-10,x+16,y-10,c2)
+	line(x+4,y-9,x+7,y-4,c2)
+	line(x+19,y-4,x+16,y-10,c2)
+end
+
+function draw_dice(d,xx,yy)
+	local x,y=xx,yy
+	local w,h=12,12
+	x=x-w*5+5+d.x*w+7+JUMP
+	y=y-h*4+5+d.y*h-2-JUMP
+	draw_left(d.left,x,y,w,h,DC,DB)
+	draw_down(d.down,x,y,w,h,DC,DB)
+	draw_top(d.top,x,y,w,h,DC,DB)
+end
+
+function draw_puck(d,xx,yy)
+	local x,y=xx,yy
+	local w,h=12,12
+	x=x-w*6+5+d.x*w+8
+	y=y-h*4+5+d.y*h-2
+	spr(64+8,x,y)
+end
+
+function draw_left(n,x,y,w,h,c,c2)
+	local i=0
+	x=x-w/2
+	y=y-h/2
+	w=w*(6/12)
+	for i=0,w do
+		if i==w then 
+			line(x-i,y+i,x-i,y+h+i,c2)
+		else
+			line(x-i,y+i,x-i,y+h+i,c)
+		end
+	end
+	for i=0,w do
+		pset(x-i,y+i,c2)
+		pset(x-i,y+h+i,c2)
+	end
+	x=x-w
+	y=y+h
+	if n==1 then
+		x=x+3
+		y=y-3
+		ovalfill(x-1,y-2,x+1,y+2,c2)	
+	elseif n==2 then
+		if dice.top==3 or dice.top==4 then
+			line(x+2,y-4,x+2,y-6,c2)
+			line(x+4,y,x+4,y-2,c2)
+		else
+			line(x+4,y-6,x+4,y-8,c2)
+			line(x+2,y+2,x+2,y,c2)
+		end
+	elseif n==3 then
+		if dice.top==5 or dice.top==2 then
+			line(x+2,y-4,x+2,y-6,c2)
+			line(x+3,y-2,x+3,y-4,c2)
+			line(x+4,y,x+4,y-2,c2)
+		else
+			line(x+4,y-6,x+4,y-8,c2)
+			line(x+3,y-2,x+3,y-4,c2)
+			line(x+2,y+2,x+2,y,c2)
+		end
+	elseif n==4 then
+		line(x+2,y-4,x+2,y-6,c2)
+		line(x+4,y,x+4,y-2,c2)
+		line(x+4,y-6,x+4,y-8,c2)
+		line(x+2,y+2,x+2,y,c2)
+	elseif n==5 then
+		line(x+2,y-4,x+2,y-6,c2)
+		line(x+4,y,x+4,y-2,c2)
+		line(x+4,y-6,x+4,y-8,c2)
+		line(x+2,y+2,x+2,y,c2)
+		line(x+3,y-2,x+3,y-4,c2)
+	elseif n==6 then
+		if dice.top==5 or dice.top==2 then
+		line(x+2,y-5,x+2,y-6,c2)
+		line(x+2,y-1,x+2,y-3,c2)
+		line(x+2,y+2,x+2,y+1,c2)
+		
+		line(x+4,y-1,x+4,y-2,c2)
+		line(x+4,y-4,x+4,y-6,c2)
+		line(x+4,y-7,x+4,y-8,c2)
+		else
+			line(x+1,y-3,x+1,y-5,c2)
+			line(x+3,y-5,x+3,y-7,c2)
+			line(x+5,y-7,x+5,y-9,c2)
+			line(x+1,y+3,x+1,y+1,c2)
+			line(x+3,y+1,x+3,y-1,c2)
+			line(x+5,y-1,x+5,y-3,c2)
+		end
+	end
+end
+function draw_down(n,x,y,w,h,c,c2)
+	local i=0
+	x=x-w/2
+	y=y+h/2
+	h=h*(6/12)
+	for i=0,h do
+		if i==h then 
+			line(x-i,y+i,x+w-i,y+i,c2)
+		else
+			line(x-i,y+i,x+w-i,y+i,c)
+		end
+	end
+	for i=0,h do
+		pset(x-i,y+i,c2)
+		pset(x+w-i,y+i,c2)
+	end
+	if n==1 then
+		x=x+3
+		y=y+3
+		ovalfill(x-2,y-1,x+2,y+1,c2)
+	elseif n==2 then
+		if dice.top==6 or dice.top==1 then
+			line(x+4,y+4,x+6,y+4,c2)
+			line(x,y+2,x+2,y+2,c2)
+		else
+			line(x-2,y+4,x,y+4,c2)
+			line(x+6,y+2,x+8,y+2,c2)
+		end
+	elseif n==3 then
+		if dice.top==6 or dice.top==1 then
+			line(x+4,y+4,x+6,y+4,c2)
+			line(x+2,y+3,x+4,y+3,c2)
+			line(x,y+2,x+2,y+2,c2)
+		else
+			line(x-2,y+4,x,y+4,c2)
+			line(x+2,y+3,x+4,y+3,c2)
+			line(x+6,y+2,x+8,y+2,c2)
+		end
+	elseif n==4 then
+		line(x+4,y+4,x+6,y+4,c2)
+		line(x,y+2,x+2,y+2,c2)
+		line(x-2,y+4,x,y+4,c2)
+		line(x+6,y+2,x+8,y+2,c2)
+	elseif n==5 then
+		line(x+4,y+4,x+6,y+4,c2)
+		line(x,y+2,x+2,y+2,c2)
+		line(x-2,y+4,x,y+4,c2)
+		line(x+2,y+3,x+4,y+3,c2)
+		line(x+6,y+2,x+8,y+2,c2)
+	elseif n==6 then
+		if dice.top==5 or dice.top==2 then
+			line(x+5,y+4,x+6,y+4,c2)
+			line(x,y+2,x+1,y+2,c2)
+			line(x-2,y+4,x-1,y+4,c2)
+			line(x+7,y+2,x+8,y+2,c2)
+			line(x+1,y+4,x+3,y+4,c2)
+			line(x+3,y+2,x+5,y+2,c2)
+		else
+			line(x-2,y+5,x,y+5,c2)
+			line(x,y+3,x+2,y+3,c2)
+			line(x+2,y+1,x+4,y+1,c2)
+			x=x+5
+			line(x-2,y+5,x,y+5,c2)
+			line(x,y+3,x+2,y+3,c2)
+			line(x+2,y+1,x+4,y+1,c2)
+		end
+	end
+end
+
+function draw_top(n,x,y,w,h,c,c2)
+	rectfill(x-w/2,y-h/2,x+w/2,y+h/2,c)
+	rect(x-w/2,y-h/2,x+w/2,y+h/2,c2)
+	if n==1 then
+		circfill(x,y,2,c2)
+	elseif n==2 then
+		if dice.up==4 or dice.up==3 then
+			rectfill(x-4,y+4,x-2,y+2,c2)
+			rectfill(x+4,y-4,x+2,y-2,c2)
+		else
+			rectfill(x-4,y-4,x-2,y-2,c2)
+			rectfill(x+4,y+4,x+2,y+2,c2)
+		end
+	elseif n==3 then
+		if dice.up==5 or dice.up==2 then
+			rectfill(x-4,y+4,x-2,y+2,c2)
+			rectfill(x+4,y-4,x+2,y-2,c2)
+		else
+			rectfill(x-4,y-4,x-2,y-2,c2)
+			rectfill(x+4,y+4,x+2,y+2,c2)
+		end
+		rectfill(x-1,y-1,x+1,y+1,c2)
+	elseif n==4 then
+		rectfill(x-4,y-4,x-2,y-2,c2)
+		rectfill(x+4,y+4,x+2,y+2,c2)
+		rectfill(x-4,y+4,x-2,y+2,c2)
+		rectfill(x+4,y-4,x+2,y-2,c2)
+	elseif n==5 then
+		rectfill(x-4,y-4,x-2,y-2,c2)
+		rectfill(x+4,y+4,x+2,y+2,c2)
+		rectfill(x-4,y+4,x-2,y+2,c2)
+		rectfill(x+4,y-4,x+2,y-2,c2)
+		rectfill(x-1,y-1,x+1,y+1,c2)
+	elseif n==6 then
+		if dice.up==4 or dice.up==3 then
+			rectfill(x-4,y-4,x-2,y-3,c2)
+			rectfill(x+4,y-4,x+2,y-3,c2)
+			rectfill(x+4,y-1,x+2,y+1,c2)
+			rectfill(x-4,y-1,x-2,y+1,c2)
+			rectfill(x+4,y+4,x+2,y+3,c2)
+			rectfill(x-4,y+4,x-2,y+3,c2)
+		else
+			rectfill(x-4,y-4,x-3,y-2,c2)
+			rectfill(x+4,y+4,x+3,y+2,c2)
+			rectfill(x-4,y+4,x-3,y+2,c2)
+			rectfill(x+4,y-4,x+3,y-2,c2)
+			rectfill(x-1,y-4,x+1,y-2,c2)
+			rectfill(x-1,y+4,x+1,y+2,c2)
+		end
+	end
+end
+:: gameplay.lua
+--[[pod_format="raw",created="2024-09-03 23:23:06",modified="2024-09-05 21:28:28",revision=875]]
+
+
+function draw_clock(t,x,y)
+	local m,s=0,0
+	s=math.floor(t)
+	m=s//60
+	s=s%60
+	if #tostring(s)==1 then 
+		s="0"..s
+	end
+	if #tostring(m)==1 then 
+		m="0"..m
+	end
+	spr(22,x-24,y)
+	spr(23,x-16,y)
+	spr(30,x-8,y)
+	spr(31,x-24,y+8)
+	spr(38,x-16,y+8)
+	spr(39,x-8,y+8)
+	tile_print(m..":"..s,x,y)
+end
+
+function draw_stage(t,x,y)
+	local s=math.floor(t)
+	local oy=0
+	if #tostring(s)==1 then 
+		s="0"..s
+	end
+	for i=40,47 do
+		if (i-40)%8>=4 then
+			oy=1
+		else
+			oy=0
+		end
+		spr(i,x-32+((i-40)%4)*8,y+8*oy)
+	end
+	tile_print(s,x,y)
+end
+	
+
+function draw_background(x,y,t)
+	local xx,yy=x,y
+	x=x-TW/2
+	y=y-TH/2
+	cls()
+	rectfill(x-1,y-1,x+TW,y+TH,7)
+	t=max(t,0)
+	draw_clock(tostring(t),xx-8*5,yy-TH/2+8)
+	rect(xx-12*5+12,yy-12*4+15,xx+12*3+12,yy+12*4+15,5)
+	map(0,0,x,y)
+	draw_stage(LEVEL,xx+8*6,yy-TH/2+8)
+end
+
+function draw_level(l,x,y)
+	local w,h=8*12,8*12
+	x=x-12*5+1
+	y=y-12*4+3
+	local xx,yy=0,0
+	for xx=1,8 do
+		for yy=1,8 do
+			spr(l[yy][xx]+64,x+12*xx,y+12*yy)
+		end	
+	end
+end		
+
+function tile_number(num,x,y)
+	palt()
+	spr(num+1,x,y)
+end
+function tile_colon(x,y)
+	palt()
+	spr(11,x,y)
+end
+
+function tile_print(text,x,y)
+	local xx,yy=x,y
+	for i=1,#text do
+		local c = text:sub(i,i)
+		local n = tonumber(c)
+		if n==nil then 
+			if c==":" then
+				tile_colon(xx,yy)
+			end
+		else
+			tile_number(n,xx,yy)
+		end
+		xx=xx+8
+	end	
+end
+:: levels.lua
+--[[pod_format="raw",created="2024-09-03 23:24:37",modified="2024-09-05 21:28:28",revision=797]]
+board={}
+AIR=0
+BLOCK=1
+SPRING=2
+GOAL=3
+UP=4
+LEFT=5
+RIGHT=6
+DOWN=7
+FOLLOW=8
+HOLE=9
+--	 left right up down
+--	  0   1     2    3
+DIR={UP,DOWN,RIGHT,LEFT}
+
+LEVEL=1
+
+levels={
+{{0,0,0,0,0,0,0,0},--1
+ {0,1,0,0,0,8,0,0},
+ {0,0,0,0,0,2,0,0},
+ {0,0,1,0,0,0,0,0},
+ {0,0,0,0,0,0,0,0},
+ {0,0,0,0,1,0,0,0},
+ {0,0,0,0,0,0,1,0},
+ {3,0,0,0,0,0,0,0}},
+ 
+{{1,0,0,0,0,0,0,0},--2
+ {0,0,0,0,0,0,0,0},
+ {0,0,0,1,0,8,0,0},
+ {0,0,0,0,2,0,0,0},
+ {0,1,0,0,0,1,0,0},
+ {0,0,0,0,0,0,0,0},
+ {0,0,0,1,0,0,0,0},
+ {3,0,0,0,0,0,0,1}},
+ 
+{{1,0,0,9,0,0,0,0},--3
+ {0,0,0,0,0,0,0,0},
+ {0,0,0,0,0,8,0,0},
+ {1,0,0,0,0,0,0,0},
+ {0,0,0,1,0,0,0,9},
+ {0,0,0,0,0,0,0,0},
+ {0,1,0,0,0,0,0,0},
+ {3,0,0,0,1,0,0,1}},
+ 
+{{0,0,0,0,0,0,0,0},--4
+ {0,0,0,0,0,8,0,0},
+ {0,1,0,0,0,9,0,0},
+ {0,0,7,0,0,0,0,0},
+ {0,0,0,2,0,0,0,0},
+ {1,0,0,0,5,0,0,0},
+ {0,0,0,0,0,1,0,0},
+ {3,0,1,0,0,0,0,0}},
+
+{{1,0,0,0,0,0,0,0},--5
+ {0,0,9,0,0,0,1,0},
+ {0,0,0,0,0,8,0,0},
+ {1,0,0,0,2,0,0,0},
+ {0,0,0,1,0,0,0,0},
+ {0,0,0,0,0,0,9,0},
+ {0,9,0,0,0,0,0,0},
+ {3,0,0,0,1,0,0,1}},
+
+{{1,0,0,0,0,0,0,0},--6
+ {0,0,0,0,0,0,0,0},
+ {1,0,0,0,2,8,0,0},
+ {0,0,0,9,0,0,0,0},
+ {0,0,4,0,0,0,0,0},
+ {0,1,0,0,1,0,0,9},
+ {0,0,0,0,0,0,0,0},
+ {3,0,1,0,0,0,0,1}},
+
+{{1,0,0,0,0,0,0,0},--7
+ {0,0,0,0,0,0,0,0},
+ {0,1,0,0,0,8,0,0},
+ {7,0,0,0,0,0,0,0},
+ {0,0,1,0,0,1,0,0},
+ {0,0,0,0,9,0,0,0},
+ {1,0,0,0,0,4,0,0},
+ {3,0,1,0,0,0,0,1}},
+
+}
+--[[
+
+{{0,0,0,0,0,0,0,0},--
+ {0,0,0,0,0,0,0,0},
+ {0,0,0,0,0,0,0,0},
+ {0,0,0,0,0,0,0,0},
+ {0,0,0,0,0,0,0,0},
+ {0,0,0,0,0,0,0,0},
+ {0,0,0,0,0,0,0,0},
+ {3,0,0,0,0,0,0,0}},
+--]]
+
+function init_board()
+	local b={}
+	b={	{0,0,0,0,0,0,0,0},
+		{0,0,0,0,0,0,0,0},
+		{0,0,0,0,0,0,0,0},
+		{0,0,0,0,0,0,0,0},
+		{0,0,0,0,0,0,0,0},
+		{0,0,0,0,0,0,0,0},
+		{0,0,0,0,0,0,0,0},
+		{0,0,0,0,0,0,0,0}}
+	return b
+end
+
+function load_level(num)
+	local b={}
+	local x,y=0,0
+	if num<=0 then 
+		b=init_board()
+	else
+		b=levels[num]
+	end
+	for x=1,8 do
+		for y=1,8 do	
+			if b[y][x]==8 then
+				puck.x=x
+				puck.y=y
+				b[y][x]=0
+			end
+		end
+	end	
+	return b
+end	
+
+
+:: main.lua
+--[[pod_format="raw",created="2024-09-03 22:35:10",modified="2024-09-05 21:28:28",revision=969]]
+VID=1
+W=480/VID
+H=270/VID
+TW=20*8
+TH=18*8
+t=0
+VICTORY=false
+JUMP=0
+F=0
+SPEED=4
+FRAME=0
+SFRAME=0
+ROLLDIR=0
+
+include("gameplay.lua")
+include("levels.lua")
+include("dice.lua")
+
+function _init()
+	board=load_level(LEVEL)
+	music(1)
+	if VID==2 then
+		vid(3)
+	elseif VID==1 then	
+		vid(0)
+	elseif VID==3 then
+		vid(4)
+	end
+end
+start=time()
+function _update()		
+	F=F+1
+	local x,y=W/2,H/2--W/2+cos(t)*10,H/2+sin(t)*10
+	draw_background(x,y,t)
+	draw_level(board,x,y)
+	draw_puck(puck,x,y)
+	if FRAME==SFRAME then 
+		draw_dice(dice,x,y)
+	else
+		draw_roll(dice,x,y,ROLLDIR)
+	end
+	if F%SPEED==0 then 
+		FRAME=FRAME+1
+	end
+	SFRAME=max(SFRAME,FRAME)
+	if VICTORY then
+		fprint("STAGE CLEAR!",W/2,H/6,DB,7)
+		JUMP=flr(abs(sin(time())*8))
+		if btnp(4) then
+		start=time()
+			LEVEL=LEVEL+1
+			board=load_level(LEVEL)
+			for i=0,40 do
+				dice=move_dice(flr(rnd(4)),true)
+			end
+			dice.x=8
+			dice.y=1
+			VICTORY=false
+			JUMP=0
+			music(1)
+		end
+	else	
+		t=time()-start
+		input()
+	end
+	--debug_buttons()
+end
+
+function fprint(t,x,y,c1,c2)
+	local w=print(t,0,-20)
+	x=x-w/2
+	rectfill(x-2,y-1,x+w-2,y+7,c2)
+	rect(x-2-1,y-1-1,x+w-2+1,y+7+1,c1)
+	print(t,x,y,c1)
+end
+
+function input()
+	local i=0
+	local od={x=dice.x,y=dice.y}
+	for i=0,3 do
+		if btnp(i) then
+			dice=move_dice(i,false)
+			if not (od.x==dice.x and od.y==dice.y) then
+				SFRAME=FRAME+2
+				ROLLDIR=i
+				sfx(0)
+			end
+			puck=move_puck(i,false)
+		end
+	end
+end
+
+function debug_buttons()
+	local i,x,y=0,0,0
+	for i=0,7 do
+		x=i*8
+		y=10
+		if btnp(i) then 
+			rectfill(x,y,x+8,y+8,8)
+		else
+			rect(x,y,x+8,y+8,8)
+		end
+	end
+end	
+:: .info.pod
+b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA5LTA0IDA5OjIyOjAwIixtb2RpZmllZD0iMjAyNC0w
+OS0wNSAyMToyODoyOSIscnVudGltZT0xMCx3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
+IzEiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249ImdhbWVwbGF5Lmx1YSM0NCIsd29ya3Nw
+YWNlX2luZGV4PTF9LHtsb2NhdGlvbj0ibGV2ZWxzLmx1YSMxMjEiLHdvcmtzcGFjZV9pbmRleD0x
+fSx7bG9jYXRpb249ImRpY2UubHVhIzQ3Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJn
+ZngvMC5nZngiLHdvcmtzcGFjZV9pbmRleD0yfSx7bG9jYXRpb249Im1hcC8wLm1hcCIsd29ya3Nw
+YWNlX2luZGV4PTN9LHtsb2NhdGlvbj0ic2Z4LzAuc2Z4Iix3b3Jrc3BhY2VfaW5kZXg9NH19XV0=
+:: [eoc]
