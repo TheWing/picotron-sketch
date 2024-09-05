@@ -4,7 +4,7 @@ version 2
 :: gfx/
 :: gfx/0.gfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA3LTIyIDIwOjUwOjU5Iixtb2RpZmllZD0iMjAyNC0w
-OS0wMyAyMjozNDowNSIscmV2aXNpb249MzY3N11dbHo0AGoRAADlcAAA-wx7WzBdPXtibXA9cHh1
+OS0wNSAyMTozMjoyNCIscmV2aXNpb249MzY4M11dbHo0AGoRAADlcAAA-wx7WzBdPXtibXA9cHh1
 AEMo4AEAAA4BAAAEAAECABB-QQ8TAQMBDgIABF7_-0wBDgIAP8EAAQIACD8RAAECAAIWDgIAAkcA
 lwE_A-7-dhMOAQIAFAACAB4BAgA-EAEAUgANCAIAHwPTAAQ-TgEOKgAAD4YAFR8RhAAUno4D-v9w
 A84BDlQAD9QACgICAD-hDgGfAAdf-v9SAQ6-AAk-gQABugAOHw62AACd-gIT-v9oE-4EtAAeDrIA
@@ -85,20 +85,20 @@ J2sgEBAE8PA5ABMwNAASMDEAHzgxAPBfIATw--EyAAsfNWMAHg_JAf82NC0wLucCTzAuMjVpAB4P
 MQD-----------------------------------------------------------_sUG09OH19
 :: gfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA3LTIyIDIwOjUwOjU4Iixtb2RpZmllZD0iMjAyNC0w
-OS0wMyAyMjozNDowNSJdXQ==
+OS0wNSAyMTozMjoyNCJdXQ==
 :: map/
 :: map/0.map
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA3LTIyIDIwOjUwOjU5Iixtb2RpZmllZD0iMjAyNC0w
-OS0wMyAyMjozNDowNSIscmV2aXNpb249MzU4MV1dbHo0AGoAAABaEAAA8Ah7e2JtcD11c2VyZGF0
+OS0wNSAyMTozMjoyNCIscmV2aXNpb249MzU4N11dbHo0AGoAAABaEAAA8Ah7e2JtcD11c2VyZGF0
 YSgiaTE2IiwzMgMALyIwAQD--------------------78QgiKSxoaWRkZW49ZmFsc2UscGFuX3g9
 MAgA03k9MCx0aWxlX2g9MjcLAOB3PTQ4MCx6b29tPTF9fQ==
 :: map/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA3LTIyIDIwOjUwOjU4Iixtb2RpZmllZD0iMjAyNC0w
-OS0wMyAyMjozNDowNSJdXQ==
+OS0wNSAyMTozMjoyNSJdXQ==
 :: sfx/
 :: sfx/0.sfx
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA3LTIyIDIwOjUwOjU5Iixtb2RpZmllZD0iMjAyNC0w
-OS0wMyAyMjozNDowNSIscmV2aXNpb249MzU4MV1dbHo0AHUDAAA1FwAA-zRweHUAAygAAAQABA9A
+OS0wNSAyMTozMjoyNCIscmV2aXNpb249MzU4N11dbHo0AHUDAAA1FwAA-zRweHUAAygAAAQABA9A
 EAIOAAGgASACoA4ADxAADfDKCAQIBAUGBwEGkAgJBAgEDw0PDg8PAAagCgVQBqALBkACBvD-AQDr
 -SaqARAGDyAQASABIAHwAAIQAgwQASAPISABMA7www8oD--wxg-4Cg--D4AP9w8NAfAJARAGDC8A
 8AIPDhABMA9ukA8RAiAMUAEPfw8A_Ar-oAggD3IgD4ggD0LwAwkgDxMgA-BvAfDHUQD-A3APUw9G
@@ -117,9 +117,9 @@ NA8yLzF5dxkXERcPMlEHBS8rCC8pDyj3AOZ3FhcWF2YHhvcA7HccFxwXbAeM9wARAh8CCAD-----
 ----------8CUPew8P85
 :: sfx/.info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA3LTIyIDIwOjUwOjU4Iixtb2RpZmllZD0iMjAyNC0w
-OS0wMyAyMjozNDowNSJdXQ==
+OS0wNSAyMTozMjoyNSJdXQ==
 :: board.lua
---[[pod_format="raw",created="2024-07-24 18:54:09",modified="2024-09-03 22:34:05",revision=1333]]
+--[[pod_format="raw",created="2024-07-24 18:54:09",modified="2024-09-05 21:32:24",revision=1340]]
 -- Everything related to drawing a board
 
 include("tiles.lua") -- we do need to know how to draw tiles
@@ -851,7 +851,7 @@ function hon(x,y,w,h,num)
 	end
 end
 :: eval.lua
---[[pod_format="raw",created="2024-07-23 04:18:20",modified="2024-09-03 22:34:05",revision=1445]]
+--[[pod_format="raw",created="2024-07-23 04:18:20",modified="2024-09-05 21:32:24",revision=1452]]
 -- Everything related to figuring out what a hand contains
 
 
@@ -1219,7 +1219,7 @@ function debug_score(score)
 	print("wait "..wait,W-40,10,7)
 end
 :: main.lua
---[[pod_format="raw",created="2024-07-22 20:50:59",modified="2024-09-03 22:34:05",revision=5202]]
+--[[pod_format="raw",created="2024-07-22 20:50:59",modified="2024-09-05 21:32:24",revision=5211]]
 
 include("players.lua")
 include("eval.lua")
@@ -1272,7 +1272,6 @@ local function shuffle(t)
 end
 
 function _init()
-	music(0,nil,0b1110)
 	local it={type=0}
 	w=16
 	h=w*1.5
@@ -1377,8 +1376,10 @@ function _update()
 		mans=score.man
 		dras=score.dragon
 		wins=score.wind
-		chi=false
-		pon=false
+		chi=false			-- chi & pon disabled right now due to the hands
+		pon=false			-- not handling them properly.. these would
+							-- really need proper evaluation so that we know
+							-- how & where to apply chi; pon is simpler though
 		if (chi and not pon) and btnp(4) then 
 			last_tile=#hand1
 			table.insert(wall,hand1[last_tile])
@@ -1502,7 +1503,7 @@ end
 
 
 :: players.lua
---[[pod_format="raw",created="2024-07-23 03:58:46",modified="2024-09-03 22:34:05",revision=1404]]
+--[[pod_format="raw",created="2024-07-23 03:58:46",modified="2024-09-05 21:32:24",revision=1411]]
 -- This will eventually contain opponent code?
 
 function play_p2()
@@ -1521,7 +1522,7 @@ function placeholder_player(hand,pond)
 	table.remove(wall,1)
 end
 :: tiles.lua
---[[pod_format="raw",created="2024-07-23 01:05:22",modified="2024-09-03 22:34:05",revision=3063]]
+--[[pod_format="raw",created="2024-07-23 01:05:22",modified="2024-09-05 21:32:24",revision=3071]]
 -- Tile drawing functions
 
 -- Tile looks
@@ -2153,7 +2154,7 @@ function debug_tiles(x,y,s)
 	end
 end
 :: util.lua
---[[pod_format="raw",created="2024-07-24 10:58:30",modified="2024-09-03 22:34:05",revision=1200]]
+--[[pod_format="raw",created="2024-07-24 10:58:30",modified="2024-09-05 21:32:24",revision=1207]]
 function update_mouse()
 	local	mx,my,mb=mouse()
 	local mlb,mrb,mmb=mb&1>0,mb&2>0,mb&4>0
@@ -2183,12 +2184,12 @@ function EaseInOut(t)
 end
 :: .info.pod
 b64$LS1bW3BvZCxjcmVhdGVkPSIyMDI0LTA3LTIzIDAzOjI5OjQzIixtb2RpZmllZD0iMjAyNC0w
-OS0wMyAyMjozNDowNSIscnVudGltZT0xMCx3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
-IzUzIix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJ1dGlsLmx1YSM3Iix3b3Jrc3BhY2Vf
-aW5kZXg9MX0se2xvY2F0aW9uPSJwbGF5ZXJzLmx1YSM2Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xv
-Y2F0aW9uPSJldmFsLmx1YSM5OSIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0iYm9hcmQu
-bHVhIzYiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249InRpbGVzLmx1YSM0OSIsd29ya3Nw
-YWNlX2luZGV4PTF9LHtsb2NhdGlvbj0iZ2Z4LzAuZ2Z4Iix3b3Jrc3BhY2VfaW5kZXg9Mn0se2xv
-Y2F0aW9uPSJtYXAvMC5tYXAiLHdvcmtzcGFjZV9pbmRleD0zfSx7bG9jYXRpb249InNmeC8wLnNm
-eCIsd29ya3NwYWNlX2luZGV4PTR9fV1d
+OS0wNSAyMTozMjoyNSIscnVudGltZT0xMCx3b3Jrc3BhY2VzPXt7bG9jYXRpb249Im1haW4ubHVh
+IzE2MCIsd29ya3NwYWNlX2luZGV4PTF9LHtsb2NhdGlvbj0idXRpbC5sdWEjNyIsd29ya3NwYWNl
+X2luZGV4PTF9LHtsb2NhdGlvbj0icGxheWVycy5sdWEjNiIsd29ya3NwYWNlX2luZGV4PTF9LHts
+b2NhdGlvbj0iZXZhbC5sdWEjOTkiLHdvcmtzcGFjZV9pbmRleD0xfSx7bG9jYXRpb249ImJvYXJk
+Lmx1YSM2Iix3b3Jrc3BhY2VfaW5kZXg9MX0se2xvY2F0aW9uPSJ0aWxlcy5sdWEjNDkiLHdvcmtz
+cGFjZV9pbmRleD0xfSx7bG9jYXRpb249ImdmeC8wLmdmeCIsd29ya3NwYWNlX2luZGV4PTJ9LHts
+b2NhdGlvbj0ibWFwLzAubWFwIix3b3Jrc3BhY2VfaW5kZXg9M30se2xvY2F0aW9uPSJzZngvMC5z
+ZngiLHdvcmtzcGFjZV9pbmRleD00fX1dXQ==
 :: [eoc]
